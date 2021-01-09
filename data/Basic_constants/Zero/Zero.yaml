@@ -4,10 +4,15 @@ Definition: >
   The neutral element of addition in the ring of [[Integers#0|integers]].
 
 Comments: >
+- >
   Objectively:
   It is the best of all numbers.{{Citation needed|date=January 2021}}
   
-  Yet another comment.
+- >
+  Second comment.
+  Yet another sentence of second comment.
+
+  Second paragraph of second comment
 
 Formulas: >  
 
@@ -40,16 +45,7 @@ Parameters:
 
 Numbers:
 - int: 0
-- - test
-  - - blub
-    - >
-      lkjsafd
-      asdf
-      asdfas
-      
-      asdf
-      sadf
-      
+     
      
 #Important: 
 #- Keep numbers at the end.
