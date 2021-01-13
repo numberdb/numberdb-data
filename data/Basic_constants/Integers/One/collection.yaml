@@ -1,0 +1,41 @@
+ID: {{include|id.yaml}} 
+
+Title: One
+
+Definition: >
+  The neutral element of multiplication in the ring of [[Integers#1|integers]].
+
+Comments: >
+- >
+  Successor of [[One|one]].
+
+Formulas: >  
+
+Programs: 
+- language: Sage
+  code: |
+    numbers = [1]
+
+References:
+
+Links:
+- title: "Wikipedia: 1"
+  url: https://en.wikipedia.org/wiki/1
+
+Similar tables:
+- relation: contained in
+  table: [[Integers#1|Integers]]
+  
+Keywords: |
+  neutral element
+  
+Tags: |
+  integer
+
+Parameters:
+
+Data properties:
+- type: Z
+
+Numbers:
+- 1

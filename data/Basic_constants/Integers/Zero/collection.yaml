@@ -1,0 +1,39 @@
+ID: {{include|id.yaml}} 
+
+Title: Zero
+
+Definition: >
+  The neutral element of addition in the ring of [[Integers#0|integers]].
+
+Comments: >
+
+Formulas: >  
+
+Programs: 
+- language: Sage
+  code: |
+    numbers = [0]
+
+References:
+
+Links:
+- title: "Wikipedia: 0"
+  url: https://en.wikipedia.org/wiki/0
+
+Similar tables:
+- relation: contained in
+  table: [[Integers#0|Integers]]
+  
+Keywords: |
+  neutral element
+  
+Tags: |
+  integer
+
+Parameters:
+
+Data properties:
+- type: Z
+
+Numbers:
+- 0

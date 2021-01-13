@@ -1,0 +1,61 @@
+ID: {{include|id.yaml}} 
+
+Title: Integers
+
+Definition: >
+  
+  
+Comments: >
+- >
+  The integers form a ring with their usual addition and multiplication.
+
+Formulas: >  
+
+Programs: 
+- language: Sage
+  code: |
+    numbers = [-10..10]
+
+References:
+
+Links:
+- title: "Wikipedia: Integer"
+  url: https://en.wikipedia.org/wiki/Integer
+
+Similar tables:
+  
+Keywords: |
+  
+Tags: |
+  ring  
+
+Parameters:
+- n:
+  type: Z
+
+Data properties:
+- type: Z
+- complete: no
+
+Numbers:
+-10: -10
+-9: -9
+-8: -8
+-7: -7
+-6: -6
+-5: -5
+-4: -4
+-3: -3
+-2: -2
+-1: -1
+0: 0
+1: 1
+2: 2
+3: 3
+4: 4
+5: 5
+6: 6
+7: 7
+8: 8
+9: 9
+10: 10

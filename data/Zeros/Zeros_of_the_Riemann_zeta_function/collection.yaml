@@ -1,0 +1,61 @@
+ID: {{input|id.yaml}} 
+
+Title: Zeros of the Riemann zeta function 
+
+Definition: >
+  The list contains the imaginary parts of the zeros of the 
+  Riemann zeta function that lie in the upper half plane, 
+  ordered increasingly.
+   
+Comments:
+- > 
+  The Riemann zeta function $\zeta(s)$ is the meromorphic continuation 
+  of the Dirichlet series $s \to \sum_{n=0}^\infty n^{-s}, \Re(s) > 0$.
+  
+- >
+  Its so-called trivial zeros are the negative even integers, which are
+  therefore not listed.
+
+  All known non-trivial zeros lie on the line $\Re s = 1/2$.
+  Their imaginary parts are symmetric about 0; 
+  whereby it is enough to know the positive ones.
+
+Formulas: >  
+
+Programs: 
+
+References:
+- Pl15: 
+    bib: David J. Platt, Math. Comp. 84 (2015), 1521-1535.
+    doi: 10.1090/S0025-5718-2014-02884-6 
+    mr: 3315519
+
+Links:
+- Wiki:
+    title: "Wikipedia: Riemann zeta function"
+    url: https://en.wikipedia.org/wiki/Riemann_zeta_function
+- LMFDB:
+    title: "LMFDB: Zeta zeros"
+    url: https://www.lmfdb.org/zeros/zeta/
+
+Similar tables:
+  
+Keywords: |
+  
+Tags: |
+  ring  
+
+Parameters:
+- n:
+  type: Z_{>=1}
+
+Data properties:
+- type: RR
+- complete: no
+- absolute precision: 2.5e-31
+- sources:
+  - [Pl15]
+  - [LMFDB]
+
+Numbers:
+{{input|numbers.yaml}}
