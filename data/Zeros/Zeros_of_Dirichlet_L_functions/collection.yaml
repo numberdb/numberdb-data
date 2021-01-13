@@ -1,0 +1,96 @@
+ID: {{include|id.yaml}} 
+
+Title: Zeros of Dirichlet L-series
+
+Definition: >
+  The list contains the first few imaginary parts of zeros of
+  the first few Dirichlet L-functions on the critical line.
+  
+  
+Comments:
+- > 
+  Let $\chi$ be a Dirichlet character.
+  The associated L-function $\zeta(\chi,s)$ is the 
+  meromorphic continuation of the Dirichlet series 
+  $s \to \sum_{n=0}^\infty \chi(n) n^{-s}, \Re(s) > 0$.
+  
+- >
+  Its so-called trivial zeros lie on the negative $x$-axis, which are
+  therefore not listed.
+
+  All known non-trivial zeros lie on the line $\Re s = 1/2$.
+  If $\chi$ is real, their imaginary parts are symmetric about 0, 
+  in which case we only list the positive ones.
+
+Formulas: >  
+
+Programs: 
+
+References:
+- Pl11: 
+    bib: David J. Platt, "Computing degree 1 L-functions rigorously", PhD thesis, University of Bristol, 2011.
+
+Links:
+- Wiki:
+    title: "Wikipedia: Dirichlet L-function"
+    url: https://en.wikipedia.org/wiki/Dirichlet_L-function
+- LMFDB:
+    title: "LMFDB: Zeta zeros"
+    https://www.lmfdb.org/L/degree1/
+- ConreyLabel:
+    title: "LMFDB knowl: Conrey label"
+    url: https://www.lmfdb.org/knowledge/show/character.dirichlet.conrey
+
+Similar tables:
+  
+Keywords: |
+  
+Tags: |
+
+Parameters:
+- q:
+    name: conductor of $\chi$
+    type: Z_{>0}
+- n:
+    name: [ConreyLabel|Conrey index] of $\chi$
+    type: Z_{>0}
+- k:
+    name: Index of the zero
+    type: Z_\ {0}
+
+Data properties:
+- type: RR
+- complete: no
+- relative-precision: 1e-29
+- sources:
+  - [Pl11]
+  - [LMFDB]
+
+Numbers:
+- 3,2:
+    both signs: yes
+    numbers: {{include|numbers_3_2.yaml}}
+    link: https://www.lmfdb.org/Character/Dirichlet/3/2
+    comment: $\chi = \chi_3(2,.)$
+- 4,3:
+    both signs: yes
+    numbers: {{include|numbers_4_3.yaml}}
+    link: https://www.lmfdb.org/Character/Dirichlet/4/3
+    comment: $\chi = \chi_4(3,.)$
+- 5,2:
+    both signs: no
+    numbers: {{include|numbers_5_2.yaml}}
+    link: https://www.lmfdb.org/Character/Dirichlet/5/2
+    comment: $\chi = \chi_5(2,.)$
+- 5,3:
+    both signs: no
+    numbers: {{include|numbers_5_3.yaml}}
+    link: https://www.lmfdb.org/Character/Dirichlet/5/3
+    comment: $\chi = \chi_5(3,.)$
+- 5,4:
+    both signs: yes
+    numbers: {{include|numbers_5_4.yaml}}
+    link: https://www.lmfdb.org/Character/Dirichlet/5/4
+    comment: $\chi = \chi_5(4,.)$
+    
+    

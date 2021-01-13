@@ -1,4 +1,4 @@
-ID: {{input|id.yaml}} 
+ID: {{include|id.yaml}} 
 
 Title: Zeros of the Riemann zeta function 
 
@@ -43,11 +43,10 @@ Similar tables:
 Keywords: |
   
 Tags: |
-  ring  
 
 Parameters:
 - n:
-  type: Z_{>=1}
+    type: Z_{>=1}
 
 Data properties:
 - type: RR
@@ -58,4 +57,4 @@ Data properties:
   - [LMFDB]
 
 Numbers:
-{{input|numbers.yaml}}
+{{include|numbers.yaml}}
