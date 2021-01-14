@@ -1,0 +1,96 @@
+ID: INPUT{id.yaml} 
+
+Title: Diagonal Ramsey numbers
+
+Definition: >
+  The $n$'th diagonal Ramsey number is the least positive integer $R(n,n)$
+  such that any blue-red edge coloring of the complete graph on $R(n,n)$
+  vertices has a monochromatic $n$-clique.  
+  
+Parameters:
+  n:
+    type: Z
+    constraint: $n \geq 0$
+    
+Comments: 
+- >
+  Ramsey's theorem states that $R(n,n)$ exists.
+- >
+  $R(n,n) \leq \binom{2n-2}{n-1}$ CITE{ES}.
+- >
+  $R(n,n) \leq (1+o(n)) 4^{n-1}/\sqrt{\pi n}$ CITE{ES}.
+- > 
+  $R(n,n) \leq (1+o(n)) 4^{n} n^{-O(1)\log (n)/\log\log n}$ CITE{Con}.
+- >
+  $R(n,n) \geq (1+o(n)) 2^{n/2} n / (\sqrt{2}e)$ CITE{Erd}.
+- >
+  $R(n,n) \geq (1+o(n)) 2^{n/2} \sqrt{2} n / (e)$ CITE{Spe}.
+
+Formulas: 
+  
+Programs: 
+
+References:
+  Con:
+    bib: >
+      David Conlon, "A new upper bound for diagonal Ramsey numbers", 
+      Annals of Mathematics, 170 (2), 941–960, (2009).
+    arXiv: math/0607788v1
+    doi: 10.4007/annals.2009.170.941 
+    MR: 2552114
+  Erd:
+    bib: >
+      Paul Erdős, "Some remarks on the theory of graphs", 
+      Bull. Amer. Math. Soc., 53 (4), 292–294, (1947). 
+    doi:  10.1090/S0002-9904-1947-08785-1
+  ES:
+    bib: >
+      Paul Erdős and George Szekeres, "A combinatorial problem in geometry", 
+      Compositio Mathematica 2, 463-470, (1935).
+    doi: 10.1007/978-0-8176-4842-8_3
+  Rad: 
+    bib: >
+      Stanisław Radziszowski, "Small Ramsey Numbers", 
+      Dynamic Surveys, Electronic Journal of Combinatorics, (2011).
+    doi: 10.37236/21    
+  Spe:
+    bib: >
+      Joel Spencer, "Ramsey's theorem - a new lower bound", 
+      J. Combin. Theory Ser. A, 18, 108–115, (1975).
+    doi: 10.1016/0097-3165(75)90071-0
+
+Links:
+  OEIS:
+    tible: "OEIS: Ramsey numbers R(n,k)"
+    url: https://oeis.org/A059442
+  Wiki:
+    title: "Wikipedia: Ramsey's theorem"
+    url: https://en.wikipedia.org/wiki/Ramsey's_theorem
+
+Similar tables:
+  
+Keywords: |
+  
+Tags: |
+  Ramsey theory
+  combinatorics
+  extremal combinatorics
+  sequence
+
+Data properties:
+  type: ZI
+  sources:
+  - CITE{Rad}
+  - CITE{Wiki}
+
+Numbers:
+  1: [1, 1]
+  2: [2, 2]
+  3: [6, 6]
+  4: [18, 18]
+  5: [43, 48]
+  6: [102, 165]
+  7: [205, 540]
+  8: [282, 1870]
+  9: [565, 6588]
+  10: [798, 23556]
