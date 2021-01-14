@@ -1,13 +1,15 @@
-ID: {{include|id.yaml}} 
+ID: INPUT{id.yaml} 
 
 Title: Zero
 
 Definition: >
-  The neutral element of addition in the ring of [[Integers#0|integers]].
+  The neutral element of addition in the ring of CITE{Integers#0}[integers].
 
-Comments: >
+Parameters:
 
-Formulas: >  
+Comments: 
+
+Formulas: 
 
 Programs: 
 - language: Sage
@@ -17,12 +19,13 @@ Programs:
 References:
 
 Links:
-- title: "Wikipedia: 0"
-  url: https://en.wikipedia.org/wiki/0
+  Wiki:
+    title: "Wikipedia: 0"
+    url: https://en.wikipedia.org/wiki/0
 
 Similar tables:
 - relation: contained in
-  table: [[Integers#0|Integers]]
+  table: HREF{Integers#0}[integers]
   
 Keywords: |
   neutral element
@@ -30,10 +33,8 @@ Keywords: |
 Tags: |
   integer
 
-Parameters:
-
 Data properties:
-- type: Z
+  type: Z
 
 Numbers:
 - 0

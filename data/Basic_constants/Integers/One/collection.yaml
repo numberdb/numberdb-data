@@ -1,15 +1,18 @@
-ID: {{include|id.yaml}} 
+ID: INPUT{id.yaml} 
 
 Title: One
 
 Definition: >
-  The neutral element of multiplication in the ring of [[Integers#1|integers]].
+  The neutral element of multiplication in the ring of 
+  HREF{Integers#1}[integers].
 
-Comments: >
+Parameters:
+
+Comments: 
 - >
-  Successor of [[One|one]].
+  Successor of HREF{One}[one].
 
-Formulas: >  
+Formulas: 
 
 Programs: 
 - language: Sage
@@ -19,12 +22,13 @@ Programs:
 References:
 
 Links:
-- title: "Wikipedia: 1"
-  url: https://en.wikipedia.org/wiki/1
+  Wiki:
+    title: "Wikipedia: 1"
+    url: https://en.wikipedia.org/wiki/1
 
 Similar tables:
 - relation: contained in
-  table: [[Integers#1|Integers]]
+  table: HREF{Integers#1}[integers]
   
 Keywords: |
   neutral element
@@ -32,10 +36,8 @@ Keywords: |
 Tags: |
   integer
 
-Parameters:
-
 Data properties:
-- type: Z
+  type: Z
 
 Numbers:
 - 1

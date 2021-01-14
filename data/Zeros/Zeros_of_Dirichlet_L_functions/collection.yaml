@@ -1,11 +1,31 @@
-ID: {{include|id.yaml}} 
+ID: INPUT{id.yaml}
 
-Title: Zeros of Dirichlet L-series
+Title: >
+  Zeros of Dirichlet L-series
 
 Definition: >
   The list contains the first few imaginary parts of zeros of
-  the first few Dirichlet L-functions on the critical line.
-  
+  the first few Dirichlet L-functions $L(\chi,s)$ on the critical line.
+
+Parameters:
+  q:
+    title: conductor of $\chi$
+    type: Z
+    constraint: $q \geq 1$
+  n:
+    title: HREF{CL}[Conrey index] of $\chi$
+    type: Z
+    constraint: $1 \leq n \leq \max(q-1,1)$
+    comments: >
+      The pair $(q,n)$ uniquely determines the Dirichlet character $\chi$.
+  k:
+    title: Index of the zero
+    type: Z
+    constraint: $k \neq 0$
+    comments: >
+      The positive imaginary parts are labelled $k = 1, 2, 3, \ldots$, 
+      the negative ones are labelled $k = -1, -2, -3, \ldots$,
+      and the index $k = 0$ is skipped.
   
 Comments:
 - > 
@@ -22,22 +42,24 @@ Comments:
   If $\chi$ is real, their imaginary parts are symmetric about 0, 
   in which case we only list the positive ones.
 
-Formulas: >  
+Formulas: 
 
 Programs: 
 
 References:
-- Pl11: 
-    bib: David J. Platt, "Computing degree 1 L-functions rigorously", PhD thesis, University of Bristol, 2011.
+  Pl11: 
+    bib: >
+      David J. Platt, "Computing degree 1 L-functions rigorously", 
+      PhD thesis, University of Bristol, 2011.
 
 Links:
-- Wiki:
+  Wiki:
     title: "Wikipedia: Dirichlet L-function"
     url: https://en.wikipedia.org/wiki/Dirichlet_L-function
-- LMFDB:
-    title: "LMFDB: Zeta zeros"
-    https://www.lmfdb.org/L/degree1/
-- ConreyLabel:
+  LMFDB:
+    title: "LMFDB: Degree-1 L-functions"
+    url: https://www.lmfdb.org/L/degree1/
+  CL:
     title: "LMFDB knowl: Conrey label"
     url: https://www.lmfdb.org/knowledge/show/character.dirichlet.conrey
 
@@ -46,51 +68,46 @@ Similar tables:
 Keywords: |
   
 Tags: |
-
-Parameters:
-- q:
-    name: conductor of $\chi$
-    type: Z_{>0}
-- n:
-    name: [ConreyLabel|Conrey index] of $\chi$
-    type: Z_{>0}
-- k:
-    name: Index of the zero
-    type: Z_\ {0}
+  zero
+  L-function
 
 Data properties:
-- type: RR
-- complete: no
-- relative-precision: 1e-29
-- sources:
-  - [Pl11]
-  - [LMFDB]
+  type: R
+  complete: no
+  relative precision: 1e-28
+  sources:
+  - CITE{Pl11}
+  - CITE{LMFDB}
+  
+Display properties:
+  layout: nested lists
+  group parameters:
+  - [q, n]
+  - k 
 
 Numbers:
-- 3,2:
+  1,1:
+    equals: HREF{Zeros_of_the_Riemann_zeta_function}
+    comment: $\chi = 1$
+  3,2:
     both signs: yes
-    numbers: {{include|numbers_3_2.yaml}}
-    link: https://www.lmfdb.org/Character/Dirichlet/3/2
-    comment: $\chi = \chi_3(2,.)$
-- 4,3:
+    numbers: INPUT{numbers_3_2.yaml}
+    url: https://www.lmfdb.org/Character/Dirichlet/3/2
+  4,3:
     both signs: yes
-    numbers: {{include|numbers_4_3.yaml}}
-    link: https://www.lmfdb.org/Character/Dirichlet/4/3
-    comment: $\chi = \chi_4(3,.)$
-- 5,2:
+    numbers: INPUT{numbers_4_3.yaml}
+    url: https://www.lmfdb.org/Character/Dirichlet/4/3
+  5,2:
     both signs: no
-    numbers: {{include|numbers_5_2.yaml}}
-    link: https://www.lmfdb.org/Character/Dirichlet/5/2
-    comment: $\chi = \chi_5(2,.)$
-- 5,3:
+    numbers: INPUT{numbers_5_2.yaml}
+    url: https://www.lmfdb.org/Character/Dirichlet/5/2
+  5,3:
     both signs: no
-    numbers: {{include|numbers_5_3.yaml}}
-    link: https://www.lmfdb.org/Character/Dirichlet/5/3
-    comment: $\chi = \chi_5(3,.)$
-- 5,4:
+    numbers: INPUT{include|numbers_5_3.yaml}
+    url: https://www.lmfdb.org/Character/Dirichlet/5/3
+  5,4:
     both signs: yes
-    numbers: {{include|numbers_5_4.yaml}}
-    link: https://www.lmfdb.org/Character/Dirichlet/5/4
-    comment: $\chi = \chi_5(4,.)$
-    
+    numbers: INPUT{numbers_5_4.yaml}
+    url: https://www.lmfdb.org/Character/Dirichlet/5/4
+
     

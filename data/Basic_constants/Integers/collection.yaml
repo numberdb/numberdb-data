@@ -1,16 +1,23 @@
-ID: {{include|id.yaml}} 
+ID: INPUT{id.yaml}
 
-Title: Integers
+Title: >
+  Integers
 
 Definition: >
+
+Parameters:
+  n:
+    type: Z
   
-  
-Comments: >
+Comments: 
 - >
-  The integers form a ring with their usual addition and multiplication.
+  The integers form a ring with their usual addition and 
+  multiplication.
 
-Formulas: >  
-
+Formulas: 
+- >
+  $X(n) = n$
+  
 Programs: 
 - language: Sage
   code: |
@@ -19,43 +26,45 @@ Programs:
 References:
 
 Links:
-- title: "Wikipedia: Integer"
-  url: https://en.wikipedia.org/wiki/Integer
+  Wiki:
+    title: "Wikipedia: Integer"
+    url: https://en.wikipedia.org/wiki/Integer
 
 Similar tables:
   
 Keywords: |
   
 Tags: |
-  ring  
-
-Parameters:
-- n:
-  type: Z
+  ring
+  Abelian group  
 
 Data properties:
-- type: Z
-- complete: no
+  type: Z
+  complete: no
 
 Numbers:
--10: -10
--9: -9
--8: -8
--7: -7
--6: -6
--5: -5
--4: -4
--3: -3
--2: -2
--1: -1
-0: 0
-1: 1
-2: 2
-3: 3
-4: 4
-5: 5
-6: 6
-7: 7
-8: 8
-9: 9
-10: 10
+  -10: -10
+  -9: -9
+  -8: -8
+  -7: -7
+  -6: -6
+  -5: -5
+  -4: -4
+  -3: -3
+  -2: -2
+  -1: -1
+  0: 
+    number: 0
+    equals: HREF{Zero}
+  1: 
+    number: 1
+    equals: HREF{One}
+  2: 2
+  3: 3
+  4: 4
+  5: 5
+  6: 6
+  7: 7
+  8: 8
+  9: 9
+  10: 10

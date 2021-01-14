@@ -1,0 +1,65 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Exponent of matrix multiplication complexity
+
+Definition: >
+  $\omega$ is the smallest real number such that any two 
+  $n\times n$ matrices can be multiplied in 
+  $O(n^(\omega+\eps))$ field operations for any $\eps > 0$.
+  
+Parameters:
+   
+Comments:
+- > 
+  The trivial matrix multiplication algorithm runs in $O(n^3)$,
+  which proves $2 \leq \omega \leq 3$.
+
+  This trivial upper bound was improved upon many times CITE{WikiCC}.
+  
+  Strassen CITE{St} proved $\omega \leq \log_2(7) \leq 2.8074$.
+
+  Alman and Vassilevska--Williams CITE{AVW} proved the most recent 
+  bound #\omega \leq 3728596$.
+ 
+Formulas: 
+
+Programs: 
+
+References:
+  AVW: 
+    bib: >
+      Josh Alman and Virginia Vassilevska Williams,
+      "A Refined Laser Method and Faster Matrix Multiplication", 
+      32nd Annual ACM-SIAM Symposium on Discrete Algorithms (SODA 2021)
+    arxiv: 2010.05846 [cs.DS] 
+  St:
+    bib: >
+      Volker Strassen, "Gaussian elimination is not optimal", 
+      Numerische Mathematik. 13 (4): 354-356. 
+    doi: 10.1007/BF02165411
+
+Links:
+  Wiki:
+    title: "Wikipedia: Matrix multiplication algorithm"
+    url: https://en.wikipedia.org/wiki/Matrix_multiplication_algorithm
+  WikiCC:
+    title: "Wikipedia: Matrix multiplication/computational complexity"
+    url: https://en.wikipedia.org/wiki/Matrix_multiplication#Computational_complexity
+
+Similar tables:
+  
+Keywords: |
+  
+Tags: |
+  complexity
+  algorithms
+  matrix multiplication
+
+Data properties:
+  type: RI
+  sources:
+  - CITE{AVW}
+
+Numbers:
+- [2,2.3728596]
