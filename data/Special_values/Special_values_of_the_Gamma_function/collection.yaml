@@ -1,0 +1,94 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Values of the Gamma function at rational numbers.
+
+Definition: >
+  The list contains values of the Gamma function $\Gamma(s)$ 
+  at rational number $s = a/b$.
+  
+  For $\Re s > 0$, $Gamma(s)$ is defined as the Mellin transform of 
+  $e^{-t}$, that is, $Gamma(s) = \int_0^\infty t^s e^{-t}\, (dt/t)$.
+  $\Gamma$ extends to a meromorphic function on $\CC$ via
+  analytic continuation. 
+
+Parameters:
+  b:
+    type: Z
+    constraints: $b \geq 1$ 
+  a:
+    type: Z
+    constraint: $\gcd(a,b)=1$
+         
+Comments:
+  C1: >
+    The analytic continuation of $\Gamma$ can be deduced from CITE{F1}. 
+  
+Formulas: 
+  F1: >
+    $\Gamma(s+1) = s\Gamma(s)$ for all $s\in\CC$.
+  F2: >
+    $\Gamma(n) = (n-1)!$ for positive integers $n$.
+  F3: >
+    $\Gamma(s)\Gamma(1-s) = \pi / \sin(\pi s)$ (Euler's reflection formula).
+  
+Programs: 
+  P1:
+    language: Sage
+    code: |
+      numbers = [RBF(gamma(a/b)) for b,a in CartesianProduct([1,20],[-20,20]) 
+                                            if gcd(a,b) == 1]
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Gamma function"
+    url: https://en.wikipedia.org/wiki/Gamma_function
+
+Similar tables:
+  
+Keywords: |
+  
+Tags: |
+  zero
+  L-function
+
+Data properties:
+  type: R
+  complete: no
+
+Numbers: INPUT{numbers.yaml}
+  1: 
+    equals: HREF{Factorial} via CITE{F2}
+    type: Z
+    comment: Note the parameter shift 
+  2: INPUT{numbers_2.yaml}
+  3: INPUT{numbers_3.yaml}
+  4: INPUT{numbers_4.yaml}
+  5: INPUT{numbers_5.yaml}
+  6: INPUT{numbers_6.yaml}
+  7: INPUT{numbers_7.yaml}
+  8: INPUT{numbers_8.yaml}
+  9: INPUT{numbers_9.yaml}
+  10: INPUT{numbers_10.yaml}
+  11: INPUT{numbers_11.yaml}
+  12: INPUT{numbers_12.yaml}
+  13: INPUT{numbers_13.yaml}
+  14: INPUT{numbers_14.yaml}
+  15: INPUT{numbers_15.yaml}
+  16: INPUT{numbers_16.yaml}
+  17: INPUT{numbers_17.yaml}
+  18: INPUT{numbers_18.yaml}
+  19: INPUT{numbers_19.yaml}
+  20: INPUT{numbers_20.yaml}
+  21: INPUT{numbers_21.yaml}
+  22: INPUT{numbers_22.yaml}
+  23: INPUT{numbers_23.yaml}
+  24: INPUT{numbers_24.yaml}
+  25: INPUT{numbers_25.yaml}
+  26: INPUT{numbers_26.yaml}
+  27: INPUT{numbers_27.yaml}
+  28: INPUT{numbers_28.yaml}
+  29: INPUT{numbers_29.yaml}
+  30: INPUT{numbers_30.yaml}
