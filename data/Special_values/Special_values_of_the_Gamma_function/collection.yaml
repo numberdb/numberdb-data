@@ -1,15 +1,15 @@
 ID: INPUT{id.yaml}
 
 Title: >
-  Values of the Gamma function at rational numbers.
+  Values of the Gamma function at rational numbers
 
 Definition: >
   The list contains values of the Gamma function $\Gamma(s)$ 
   at rational number $s = a/b$.
   
-  For $\Re s > 0$, $Gamma(s)$ is defined as the Mellin transform of 
-  $e^{-t}$, that is, $Gamma(s) = \int_0^\infty t^s e^{-t}\, (dt/t)$.
-  $\Gamma$ extends to a meromorphic function on $\CC$ via
+  For $\Re(s) > 0$, $\Gamma(s)$ is defined as the Mellin transform of 
+  $e^{-t}$, that is, $\Gamma(s) = \int_0^\infty t^s e^{-t}\, (dt/t)$.
+  $\Gamma$ extends to a meromorphic function on $\mathbb{C}$ via
   analytic continuation. 
 
 Parameters:
@@ -18,7 +18,7 @@ Parameters:
     constraints: $b \geq 1$ 
   a:
     type: Z
-    constraint: $\gcd(a,b)=1$
+    constraints: $\gcd(a,b)=1$
          
 Comments:
   C1: >
@@ -26,7 +26,7 @@ Comments:
   
 Formulas: 
   F1: >
-    $\Gamma(s+1) = s\Gamma(s)$ for all $s\in\CC$.
+    $\Gamma(s+1) = s\Gamma(s)$ for all $s\in\mathbb{C}$.
   F2: >
     $\Gamma(n) = (n-1)!$ for positive integers $n$.
   F3: >
@@ -36,7 +36,7 @@ Programs:
   P1:
     language: Sage
     code: |
-      numbers = [RBF(gamma(a/b)) for b,a in CartesianProduct([1,20],[-20,20]) 
+      numbers = [RBF(gamma(a/b)) for b,a in cartesian_product(([1..20],[-20..20])) 
                                             if gcd(a,b) == 1]
 
 References:
@@ -48,21 +48,22 @@ Links:
 
 Similar tables:
   
-Keywords: |
+Keywords:
   
-Tags: |
-  zero
-  L-function
+Tags:
+- special values
 
 Data properties:
   type: R
   complete: no
 
-Numbers: INPUT{numbers.yaml}
+Numbers:
   1: 
     equals: HREF{Factorial} via CITE{F2}
     type: Z
     comment: Note the parameter shift 
+
+TODO:
   2: INPUT{numbers_2.yaml}
   3: INPUT{numbers_3.yaml}
   4: INPUT{numbers_4.yaml}

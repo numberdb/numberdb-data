@@ -3,7 +3,7 @@ ID: INPUT{id.yaml}
 Title: Zero
 
 Definition: >
-  The neutral element of addition in the ring of CITE{Integers#0}[integers].
+  The neutral element of addition in the ring of HREF{Integers#0}[integers].
 
 Parameters:
 
@@ -27,11 +27,11 @@ Similar tables:
 - relation: contained in
   table: HREF{Integers#0}[integers]
   
-Keywords: |
-  neutral element
+Keywords:
+- neutral element
   
-Tags: |
-  integer
+Tags:
+- integer
 
 Data properties:
   type: Z

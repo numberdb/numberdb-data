@@ -10,7 +10,7 @@ Parameters:
 
 Comments: 
 - >
-  Successor of HREF{One}[one].
+  Successor of HREF{Zero}[zero].
 
 Formulas: 
 
@@ -30,11 +30,11 @@ Similar tables:
 - relation: contained in
   table: HREF{Integers#1}[integers]
   
-Keywords: |
-  neutral element
+Keywords:
+- neutral element
   
-Tags: |
-  integer
+Tags:
+- integer
 
 Data properties:
   type: Z

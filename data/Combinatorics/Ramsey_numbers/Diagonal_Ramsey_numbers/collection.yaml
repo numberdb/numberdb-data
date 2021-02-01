@@ -10,7 +10,7 @@ Definition: >
 Parameters:
   n:
     type: Z
-    constraint: $n \geq 0$
+    constraints: $n \geq 0$
     
 Comments: 
 - >
@@ -61,7 +61,7 @@ References:
 
 Links:
   OEIS:
-    tible: "OEIS: Ramsey numbers R(n,k)"
+    title: "OEIS: Ramsey numbers R(n,k)"
     url: https://oeis.org/A059442
   Wiki:
     title: "Wikipedia: Ramsey's theorem"
@@ -69,13 +69,13 @@ Links:
 
 Similar tables:
   
-Keywords: |
+Keywords:
   
-Tags: |
-  Ramsey theory
-  combinatorics
-  extremal combinatorics
-  sequence
+Tags:
+- Ramsey theory
+- combinatorics
+- extremal combinatorics
+- sequence
 
 Data properties:
   type: ZI
@@ -84,13 +84,13 @@ Data properties:
   - CITE{Wiki}
 
 Numbers:
-  1: [1, 1]
-  2: [2, 2]
-  3: [6, 6]
-  4: [18, 18]
-  5: [43, 48]
-  6: [102, 165]
-  7: [205, 540]
-  8: [282, 1870]
-  9: [565, 6588]
-  10: [798, 23556]
+  1: "[1, 1]"
+  2: "[2, 2]"
+  3: "[6, 6]"
+  4: "[18, 18]"
+  5: "[43, 48]"
+  6: "[102, 165]"
+  7: "[205, 540]"
+  8: "[282, 1870]"
+  9: "[565, 6588]"
+  10: "[798, 23556]"

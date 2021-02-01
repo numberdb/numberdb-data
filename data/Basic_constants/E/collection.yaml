@@ -1,6 +1,6 @@
 ID: INPUT{id.yaml} 
 
-Title: E
+Title: Euler's constant e
 
 Definition: >
   Euler's constant $e$ can be defined as the unique positive real number
@@ -32,12 +32,12 @@ Links:
 
 Similar tables:
   
-Keywords: |
+Keywords: 
   
-Tags: |
-  transcendental
-  irrational
-  exponential function  
+Tags:
+- transcendental
+- irrational
+- exponential function  
 
 Data properties:
   type: RB

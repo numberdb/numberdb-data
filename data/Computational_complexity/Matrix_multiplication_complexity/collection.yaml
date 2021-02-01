@@ -6,7 +6,7 @@ Title: >
 Definition: >
   $\omega$ is the smallest real number such that any two 
   $n\times n$ matrices can be multiplied in 
-  $O(n^(\omega+\eps))$ field operations for any $\eps > 0$.
+  $O(n^{\omega+\varepsilon})$ field operations for any $\varepsilon > 0$.
   
 Parameters:
    
@@ -20,7 +20,7 @@ Comments:
   Strassen CITE{St} proved $\omega \leq \log_2(7) \leq 2.8074$.
 
   Alman and Vassilevska--Williams CITE{AVW} proved the most recent 
-  bound #\omega \leq 3728596$.
+  bound $\omega \leq 2.3728596$.
  
 Formulas: 
 
@@ -49,12 +49,12 @@ Links:
 
 Similar tables:
   
-Keywords: |
+Keywords:
   
-Tags: |
-  complexity
-  algorithms
-  matrix multiplication
+Tags:
+- complexity
+- algorithms
+- matrix multiplication
 
 Data properties:
   type: RI
@@ -62,4 +62,4 @@ Data properties:
   - CITE{AVW}
 
 Numbers:
-- [2,2.3728596]
+- "[2,2.3728596]"

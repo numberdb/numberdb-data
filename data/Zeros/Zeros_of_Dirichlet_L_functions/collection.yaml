@@ -11,17 +11,17 @@ Parameters:
   q:
     title: conductor of $\chi$
     type: Z
-    constraint: $q \geq 1$
+    constraints: $q \geq 1$
   n:
-    title: HREF{CL}[Conrey index] of $\chi$
+    title: HREF{#CL}[Conrey index] of $\chi$
     type: Z
-    constraint: $1 \leq n \leq \max(q-1,1)$
+    constraints: $1 \leq n \leq \max(q-1,1)$
     comments: >
       The pair $(q,n)$ uniquely determines the Dirichlet character $\chi$.
   k:
     title: Index of the zero
     type: Z
-    constraint: $k \neq 0$
+    constraints: $k \neq 0$
     comments: >
       The positive imaginary parts are labelled $k = 1, 2, 3, \ldots$, 
       the negative ones are labelled $k = -1, -2, -3, \ldots$,
@@ -32,13 +32,13 @@ Comments:
   Let $\chi$ be a Dirichlet character.
   The associated L-function $\zeta(\chi,s)$ is the 
   meromorphic continuation of the Dirichlet series 
-  $s \to \sum_{n=0}^\infty \chi(n) n^{-s}, \Re(s) > 0$.
+  $\sum_{n=0}^\infty \chi(n) n^{-s}, \Re(s) > 0$.
   
 - >
   Its so-called trivial zeros lie on the negative $x$-axis, which are
   therefore not listed.
 
-  All known non-trivial zeros lie on the line $\Re s = 1/2$.
+  All known non-trivial zeros lie on the line $\Re(s) = 1/2$.
   If $\chi$ is real, their imaginary parts are symmetric about 0, 
   in which case we only list the positive ones.
 
@@ -65,11 +65,12 @@ Links:
 
 Similar tables:
   
-Keywords: |
-  
-Tags: |
-  zero
-  L-function
+Keywords:
+- GRH
+
+Tags:
+- zero
+- L-function
 
 Data properties:
   type: R
@@ -83,7 +84,7 @@ Display properties:
   layout: nested lists
   group parameters:
   - [q, n]
-  - k 
+  - [k] 
 
 Numbers:
   1,1:
@@ -103,7 +104,7 @@ Numbers:
     url: https://www.lmfdb.org/Character/Dirichlet/5/2
   5,3:
     both signs: no
-    numbers: INPUT{include|numbers_5_3.yaml}
+    numbers: INPUT{numbers_5_3.yaml}
     url: https://www.lmfdb.org/Character/Dirichlet/5/3
   5,4:
     both signs: yes
