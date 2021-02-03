@@ -4,28 +4,43 @@ Title: Fine-structure constant
 
 Definition: >
   The fine-structure constant $\alpha$ is the dimensionless physical
-  constant defines as $\alpha = e^2/(2 \varepsilon_0 c h), where
-  $e$ is the elementary charge, $c$ the speed of light in vacuum,
+  constant defined as $\alpha = e^2/(2 \varepsilon_0 c h)$,
+  where
+  $e$ is the elementary charge, 
+  $\varepsilon_0$ the electric constant,
+  $c$ the speed of light in vacuum,
   and $h$ the Planck constant.
   
 Parameters:
   expression:
     title: Transformation of constant
-    type: Sym
+    type: Symbolic
     show-in-parameter-list: no
     
-Comments: 
-
+Comments:
+  non-constant: >
+    $\alpha$ may not be constant CITE{WikiNC}.
+  
 Formulas: 
 
 Programs: 
 
 References:
+  Som:
+    bib: >
+      Arnold Sommerfeld, "Zur Quantentheorie der Spektrallinien",
+      Annalen der Physik Ser. 4, Bd. 51 (1916). 
 
 Links:
   Wiki:
     title: "Wikipedia: Fine-structure_constant"
     url: https://en.wikipedia.org/wiki/Fine-structure_constant
+  WikiNC:
+    title: "Wikipedia: Is_the_fine-structure_constant_actually_constant?"
+    url: https://en.wikipedia.org/wiki/Fine-structure_constant#Is_the_fine-structure_constant_actually_constant?
+  WikiMeas:
+    title: "Wikipedia: History_of_measurements"
+    url: https://en.wikipedia.org/wiki/Fine-structure_constant#History_of_measurements
 
 Similar tables:
   
@@ -38,11 +53,19 @@ Tags:
 
 Data properties:
   type: RI
+  sources:
+  - CITE{WikiMeas}
+  reliability: >
+    The given real intervals are chosen to contain 
+    all measurements up to three standard uncertainties
+    that are displayed in CITE{WikiMeas} in the years 2000-2020.
+    Also note CITE{non-constant}.
 
 Numbers:
   alpha:
-    param-latex: $alpha$
-    number: [137.0359990, 137.0359997]
+    param-latex: $\alpha$
+    number: "[137.0359990, 137.0359997]"
   alpha-inv:
-    param-latex: $alpha^{-1}$
-    number: [0.00729735253, 0.00729735259]
+    param-latex: $\alpha^{-1}$
+    number: "[0.00729735253, 0.00729735259]"
+    
