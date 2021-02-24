@@ -13,12 +13,9 @@ Definition: >
   analytic continuation. 
 
 Parameters:
-  b:
-    type: Z
-    constraints: $b \geq 1$ 
-  a:
-    type: Z
-    constraints: $\gcd(a,b)=1$
+  s:
+    type: Q
+    constraints: $s \not \in \mathbb{Z}_{\leq 0}$
          
 Comments:
   comment-analytic-continuation: >
@@ -36,7 +33,7 @@ Programs:
   program-sage:
     language: Sage
     code: |
-      numbers = {a,b: RBF(gamma(a/b))) 
+      numbers = {a/b: gamma(RIF(a/b)) 
                       for b,a in cartesian_product(([1..30],[-30..30])) 
                       if gcd(a,b) == 1}
 
@@ -58,38 +55,4 @@ Data properties:
   type: R
   complete: no
 
-Numbers:
-  1: 
-    equals: HREF{Factorial} via CITE{formula-factorial}
-    type: Z
-    comment: Note the parameter shift 
-    numbers: INPUT{numbers_1.yaml}
-  2: INPUT{numbers_2.yaml}
-  3: INPUT{numbers_3.yaml}
-  4: INPUT{numbers_4.yaml}
-  5: INPUT{numbers_5.yaml}
-  6: INPUT{numbers_6.yaml}
-  7: INPUT{numbers_7.yaml}
-  8: INPUT{numbers_8.yaml}
-  9: INPUT{numbers_9.yaml}
-  10: INPUT{numbers_10.yaml}
-  11: INPUT{numbers_11.yaml}
-  12: INPUT{numbers_12.yaml}
-  13: INPUT{numbers_13.yaml}
-  14: INPUT{numbers_14.yaml}
-  15: INPUT{numbers_15.yaml}
-  16: INPUT{numbers_16.yaml}
-  17: INPUT{numbers_17.yaml}
-  18: INPUT{numbers_18.yaml}
-  19: INPUT{numbers_19.yaml}
-  20: INPUT{numbers_20.yaml}
-  21: INPUT{numbers_21.yaml}
-  22: INPUT{numbers_22.yaml}
-  23: INPUT{numbers_23.yaml}
-  24: INPUT{numbers_24.yaml}
-  25: INPUT{numbers_25.yaml}
-  26: INPUT{numbers_26.yaml}
-  27: INPUT{numbers_27.yaml}
-  28: INPUT{numbers_28.yaml}
-  29: INPUT{numbers_29.yaml}
-  30: INPUT{numbers_30.yaml}
+Numbers: INPUT{numbers.yaml}
