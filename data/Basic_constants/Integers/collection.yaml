@@ -10,18 +10,17 @@ Parameters:
     type: Z
   
 Comments: 
-- >
-  The integers form a ring with their usual addition and 
-  multiplication.
+  comment-ring: >
+    The integers form a ring with their usual addition and 
+    multiplication.
 
 Formulas: 
-- >
-  $X(n) = n$
   
 Programs: 
-- language: Sage
-  code: |
-    numbers = [-10..10]
+  program-sage:
+    language: Sage
+    code: |
+      numbers = [-10..10]
 
 References:
 

@@ -9,15 +9,16 @@ Definition: >
 Parameters:
 
 Comments: 
-- >
-  Successor of HREF{Zero}[zero].
+  comment-successor: >
+    Successor of HREF{Zero}[zero].
 
 Formulas: 
 
 Programs: 
-- language: Sage
-  code: |
-    numbers = [1]
+  program-sage:
+    language: Sage
+    code: |
+      numbers = [1]
 
 References:
 

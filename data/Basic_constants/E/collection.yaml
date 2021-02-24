@@ -11,17 +11,18 @@ Parameters:
 Comments: 
 
 Formulas: 
-- >
-  $e = \sum_{n\geq 0} 1/n!$.
-- >
-  $e = \lim_{n\to\infty} (1+1/n)^n$.
-- >
-  $\int_1^e 1/x\, dx = 1$.
+  formula-series: >
+    $e = \sum_{n\geq 0} 1/n!$.
+  formula-limit: >
+    $e = \lim_{n\to\infty} (1+1/n)^n$.
+  formula-integral: >
+    $\int_1^e 1/x\, dx = 1$.
 
 Programs: 
-- language: Sage
-  code: |
-    numbers = [RBF(e)]
+  program-sage: 
+    language: Sage
+    code: |
+      numbers = [RBF(e)]
 
 References:
 

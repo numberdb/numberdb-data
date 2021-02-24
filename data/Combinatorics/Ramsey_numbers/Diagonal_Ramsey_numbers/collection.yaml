@@ -13,18 +13,18 @@ Parameters:
     constraints: $n \geq 0$
     
 Comments: 
-- >
-  Ramsey's theorem states that $R(n,n)$ exists.
-- >
-  $R(n,n) \leq \binom{2n-2}{n-1}$ CITE{ES}.
-- >
-  $R(n,n) \leq (1+o(n)) 4^{n-1}/\sqrt{\pi n}$ CITE{ES}.
-- > 
-  $R(n,n) \leq (1+o(n)) 4^{n} n^{-O(1)\log (n)/\log\log n}$ CITE{Con}.
-- >
-  $R(n,n) \geq (1+o(n)) 2^{n/2} n / (\sqrt{2}e)$ CITE{Erd}.
-- >
-  $R(n,n) \geq (1+o(n)) 2^{n/2} \sqrt{2} n / (e)$ CITE{Spe}.
+  comment-Ramsey-theorem: >
+    Ramsey's theorem states that $R(n,n)$ exists.
+  comment-upper-bound-ErSz: >
+    $R(n,n) \leq \binom{2n-2}{n-1}$ CITE{ErSz}.
+  comment-upper-bound-ErSz-2: >
+    $R(n,n) \leq (1+o(n)) 4^{n-1}/\sqrt{\pi n}$ CITE{ErSz}.
+  comment-upper-bound-Con: >
+    $R(n,n) \leq (1+o(n)) 4^{n} n^{-O(1)\log (n)/\log\log n}$ CITE{Con}.
+  comment-lower-bound-Erd: >
+    $R(n,n) \geq (1+o(n)) 2^{n/2} n / (\sqrt{2}e)$ CITE{Erd}.
+  comment-lower-bound-Spe: >
+    $R(n,n) \geq (1+o(n)) 2^{n/2} \sqrt{2} n / (e)$ CITE{Spe}.
 
 Formulas: 
   
@@ -43,7 +43,7 @@ References:
       Paul Erdős, "Some remarks on the theory of graphs", 
       Bull. Amer. Math. Soc., 53 (4), 292–294, (1947). 
     doi:  10.1090/S0002-9904-1947-08785-1
-  ES:
+  ErSz:
     bib: >
       Paul Erdős and George Szekeres, "A combinatorial problem in geometry", 
       Compositio Mathematica 2, 463-470, (1935).

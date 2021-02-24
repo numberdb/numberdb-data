@@ -11,16 +11,17 @@ Definition: >
 Parameters:
    
 Comments:
-- > 
-  The trivial matrix multiplication algorithm runs in $O(n^3)$,
-  which proves $2 \leq \omega \leq 3$.
+  comment-trivial-algorithm: >
+    The trivial matrix multiplication algorithm runs in $O(n^3)$,
+    which proves $2 \leq \omega \leq 3$.
 
-  This trivial upper bound was improved upon many times CITE{WikiCC}.
+  comment-non-trivial-bounds: >
+    This trivial upper bound was improved upon many times CITE{WikiCC}.
   
-  Strassen CITE{St} proved $\omega \leq \log_2(7) \leq 2.8074$.
+    Strassen CITE{Str} proved $\omega \leq \log_2(7) \leq 2.8074$.
 
-  Alman and Vassilevska--Williams CITE{AVW} proved the most recent 
-  bound $\omega \leq 2.3728596$.
+    Alman and Vassilevska--Williams CITE{AVW} proved the most recent 
+    bound $\omega \leq 2.3728596$.
  
 Formulas: 
 
@@ -33,10 +34,10 @@ References:
       "A Refined Laser Method and Faster Matrix Multiplication", 
       32nd Annual ACM-SIAM Symposium on Discrete Algorithms (SODA 2021)
     arXiv: 2010.05846 [cs.DS] 
-  St:
+  Str:
     bib: >
       Volker Strassen, "Gaussian elimination is not optimal", 
-      Numerische Mathematik. 13 (4): 354-356. 
+      Numerische Mathematik. 13 (4): 354-356, 1969. 
     doi: 10.1007/BF02165411
 
 Links:

@@ -12,9 +12,10 @@ Comments:
 Formulas: 
 
 Programs: 
-- language: Sage
-  code: |
-    numbers = [0]
+  program-sage:
+    language: Sage
+    code: |
+      numbers = [0]
 
 References:
 

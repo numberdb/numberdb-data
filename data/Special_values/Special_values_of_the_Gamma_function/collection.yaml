@@ -21,23 +21,24 @@ Parameters:
     constraints: $\gcd(a,b)=1$
          
 Comments:
-  C1: >
-    The analytic continuation of $\Gamma$ can be deduced from CITE{F1}. 
+  comment-analytic-continuation: >
+    The analytic continuation of $\Gamma$ can be deduced from CITE{formula-functional-equation}. 
   
 Formulas: 
-  F1: >
+  formula-functional-equation: >
     $\Gamma(s+1) = s\Gamma(s)$ for all $s\in\mathbb{C}$.
-  F2: >
+  formula-factorial: >
     $\Gamma(n) = (n-1)!$ for positive integers $n$.
-  F3: >
+  formula-Euler-reflection: >
     $\Gamma(s)\Gamma(1-s) = \pi / \sin(\pi s)$ (Euler's reflection formula).
   
 Programs: 
-  P1:
+  program-sage:
     language: Sage
     code: |
-      numbers = [RBF(gamma(a/b)) for b,a in cartesian_product(([1..20],[-20..20])) 
-                                            if gcd(a,b) == 1]
+      numbers = {a,b: RBF(gamma(a/b))) 
+                      for b,a in cartesian_product(([1..30],[-30..30])) 
+                      if gcd(a,b) == 1}
 
 References:
 
@@ -59,11 +60,10 @@ Data properties:
 
 Numbers:
   1: 
-    equals: HREF{Factorial} via CITE{F2}
+    equals: HREF{Factorial} via CITE{formula-factorial}
     type: Z
     comment: Note the parameter shift 
-
-TODO:
+    numbers: INPUT{numbers_1.yaml}
   2: INPUT{numbers_2.yaml}
   3: INPUT{numbers_3.yaml}
   4: INPUT{numbers_4.yaml}

@@ -18,7 +18,7 @@ Parameters:
     show-in-parameter-list: no
     
 Comments:
-  non-constant: >
+  comment-non-constant: >
     $\alpha$ may not be constant CITE{WikiNC}.
   
 Formulas: 
@@ -26,7 +26,7 @@ Formulas:
 Programs: 
 
 References:
-  Som:
+  Som16:
     bib: >
       Arnold Sommerfeld, "Zur Quantentheorie der Spektrallinien",
       Annalen der Physik Ser. 4, Bd. 51 (1916). 
@@ -52,20 +52,20 @@ Tags:
 - dimensionless
 
 Data properties:
-  type: RI
+  type: RB
   sources:
   - CITE{WikiMeas}
   reliability: >
     The given real intervals are chosen to contain 
-    all measurements up to three standard uncertainties
-    that are displayed in CITE{WikiMeas} in the years 2000-2020.
-    Also note CITE{non-constant}.
+    all measurements up to five standard uncertainties
+    that are displayed in CITE{WikiMeas} in the years 2014-2020.
+    Also note CITE{comment-non-constant}.
 
 Numbers:
   alpha:
     param-latex: $\alpha$
-    number: "[137.0359990, 137.0359997]"
+    number: 0.0072973525675 +/- 1.09e-11
   alpha-inv:
     param-latex: $\alpha^{-1}$
-    number: "[0.00729735253, 0.00729735259]"
-    
+    number: 137.035999113 +/- 2.03e-7
+

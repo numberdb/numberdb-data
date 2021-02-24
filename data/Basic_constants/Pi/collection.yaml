@@ -10,13 +10,14 @@ Parameters:
 Comments: 
 
 Formulas: 
-- >
-  $2\pi$ equals the perimeter of the unit circle.
+  formula-perimeter: >
+    $2\pi$ equals the perimeter of the unit circle.
 
 Programs: 
-- language: Sage
-  code: |
-    numbers = [RBF(pi)]
+  program-sage:
+    language: Sage
+    code: |
+      numbers = [RBF(pi)]
 
 References:
 

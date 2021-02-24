@@ -17,25 +17,25 @@ Parameters:
       and the index $n = 0$ is skipped.
    
 Comments:
-- > 
-  The Riemann zeta function $\zeta(s)$
-  is the meromorphic continuation of the Dirichlet series 
-  $\sum_{n=0}^\infty n^{-s}, \Re(s) > 1$.
+  comment-Riemann-zeta-definition: >
+    The Riemann zeta function $\zeta(s)$
+    is the meromorphic continuation of the Dirichlet series 
+    $\sum_{n=0}^\infty n^{-s}, \Re(s) > 1$.
   
-- >
-  Its so-called trivial zeros are the negative even integers, 
-  which are therefore not listed.
+  comment-non-trivial-zeros: >
+    Its so-called trivial zeros are the negative even integers, 
+    which are therefore not listed.
 
-  All known non-trivial zeros lie on the line $\Re(s) = 1/2$.
-  Their imaginary parts are symmetric about 0; 
-  whereby it is enough to know the positive ones.
+    All known non-trivial zeros lie on the line $\Re(s) = 1/2$.
+    Their imaginary parts are symmetric about 0; 
+    whereby it is enough to know the positive ones.
   
 Formulas: 
 
 Programs: 
 
 References:
-  Pl15: 
+  Pla15: 
     bib: David J. Platt, Math. Comp. 84 (2015), 1521-1535.
     doi: 10.1090/S0025-5718-2014-02884-6 
     MR: 3315519
@@ -59,12 +59,12 @@ Tags:
 - L-function
 
 Data properties:
-  type: R
+  type: RB
   complete: no
-  absolute precision: 2.5e-31
+  #absolute precision: 2.5e-31
   both signs: True
   sources:
-  - CITE{Pl15}
+  - CITE{Pla15}
   - CITE{LMFDB}
 
 Numbers: INPUT{numbers.yaml}
