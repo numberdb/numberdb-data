@@ -1,0 +1,48 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Factorial of natural numbers
+  
+Definition: >
+  The factorial of a non-negative integer $n$ is defined as
+  $n! := 1\cdot 2\cdots n$.
+
+Parameters:
+  n:
+    type: Z
+    constraints: $n \geq 0$ 
+         
+Comments:
+  
+Formulas: 
+  formula-recursion: >
+    $n! = n\cdot (n-1)!$ for $n \geq 1$.
+  formula-gamma: >
+    $n! = \Gamma(n+1)$ for $n \geq 0$.
+  
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      numbers = {n.factorial() for n in [0..100]}
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Factorial"
+    url: https://en.wikipedia.org/wiki/Factorial
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- sequence
+- combinatorics
+
+Data properties:
+  type: ZZ
+  complete: no
+
+Numbers: INPUT{numbers.yaml}

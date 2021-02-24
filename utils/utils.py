@@ -179,6 +179,12 @@ def real_interval_to_pretty_string(r):
         return '[%s,%s]' % (Rdown(r.lower()),Rup(r.upper()))
 
 def numbers_to_yaml(numbers):
+    '''
+    TODO!
+    '''
+    
+    raise NotImplementedError()
+    
     def number_to_yaml(r):
         if r.parent() == ZZ:
             return r.__str__()
@@ -205,12 +211,7 @@ def numbers_to_yaml(numbers):
         result = '\n'.join('- %s' % (number_to_yaml(r),) for r in numbers)
         return result
         
-    elif not isinstance(numbers,list):
-        #Assume a single number is given:
-        result = '- %s' % (number_to_yaml(number),)
-        return result
-        
-    else:
+    elif isinstance(numbers,dict):
         #Main case:
         #A dictionary is given, 
         #whose keys are the parameters and
@@ -222,12 +223,12 @@ def numbers_to_yaml(numbers):
         num_params = None
         parsed_numbers = {}
         for param, number in numbers.items():
-            parsed_param = tuple(p.strip(' ') for p in param.split(","))
+            parsed_param = tuple(p.strip(' ') for p in str(param).split(","))
             parsed_numbers[parsed_param] = number
             
             if num_params == None:
-                num_params = len(params)
-            elif num_params != len(params):
+                num_params = len(parsed_param)
+            elif num_params != len(parsed_param):
                 raise ValueError("Number of parameters is non-constant.")
                 
         def build_yaml(parsed_numbers, prefix = '', num_params_left = num_params):
@@ -242,11 +243,18 @@ def numbers_to_yaml(numbers):
                 result += build_yaml(numbers_rec, prefix+'  ', num_params_left-1)
             return result
         
+        result = build_yaml(parsed_numbers)
         return result
 
-def list_of_numbers_to_yaml(s, param0 = 'auto'):
+    else:
+        #Assume a single number is given:
+        result = '- %s' % (number_to_yaml(numbers),)
+        return result
+
+def string_of_numbers_to_yaml(s, param0 = 'auto'):
     '''
-    INPUT: A string (list of numbers with seperator ','.
+    INPUT: A string (list of numbers with seperator ',', 
+            e.g. '-4, -3, -2, -1, 1, 2, 3, 4, 5'.
     OUTPUT: A string in yaml format    
     '''
     
