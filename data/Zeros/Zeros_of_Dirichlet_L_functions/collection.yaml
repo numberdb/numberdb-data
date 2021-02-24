@@ -75,7 +75,6 @@ Tags:
 Data properties:
   type: R
   complete: no
-  relative precision: 1e-28
   sources:
   - CITE{Pla11}
   - CITE{LMFDB}
