@@ -15,7 +15,7 @@ Parameters:
     
 Comments:
   comment-non-constant: >
-    $\mu may not be constant CITE{WikiNC}.
+    $\mu$ may not be constant CITE{WikiNC}.
   
 Formulas: 
 
@@ -31,7 +31,7 @@ Links:
   Wiki:
     title: "Wikipedia: Proton-to-electron mass ratio"
     url: https://en.wikipedia.org/wiki/Proton-to-electron_mass_ratio
-  Wiki:
+  WikiNC:
     title: "Wikipedia: Proton-to-electron mass ratio: Variation over time" 
     url: https://en.wikipedia.org/wiki/Proton-to-electron_mass_ratio#Variation_of_%CE%BC_over_time
 
@@ -47,9 +47,9 @@ Data properties:
   type: RB
   sources:
   - CITE{Bar03}
-  - reliability: >
+  reliability: >
     The given real interval is chosen to contain 
-    the measurements up to five measurement uncertainties
+    the measurement up to five measurement uncertainties
     that are displayed in CITE{Bar03}.
 
 Numbers:
