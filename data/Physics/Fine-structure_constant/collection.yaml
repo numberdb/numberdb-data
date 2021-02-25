@@ -57,7 +57,7 @@ Data properties:
   - CITE{WikiMeas}
   reliability: >
     The given real intervals are chosen to contain 
-    all measurements up to five standard uncertainties
+    all measurements up to five measurement uncertainties
     that are displayed in CITE{WikiMeas} in the years 2014-2020.
     Also note CITE{comment-non-constant}.
 

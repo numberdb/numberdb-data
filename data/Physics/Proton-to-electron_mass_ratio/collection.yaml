@@ -1,0 +1,61 @@
+ID: INPUT{id.yaml} 
+
+Title: Proton-to-electron mass ratio
+
+Definition: >
+  The proton-to-electron mass ratio $\mu$ is the quotient of 
+  the rest mass of a proton by
+  the rest mass of an electron.  
+  
+Parameters:
+  expression:
+    title: Transformation of constant
+    type: Symbolic
+    show-in-parameter-list: no
+    
+Comments:
+  comment-non-constant: >
+    $\mu may not be constant CITE{WikiNC}.
+  
+Formulas: 
+
+Programs: 
+
+References:
+  Bar03:
+    bib: >
+      John D. Barrow, "The Constants of Nature: From Alpha to Omega --
+      the Numbers That Encode the Deepest Secrets of the Universe", 2003.
+
+Links:
+  Wiki:
+    title: "Wikipedia: Proton-to-electron mass ratio"
+    url: https://en.wikipedia.org/wiki/Proton-to-electron_mass_ratio
+  Wiki:
+    title: "Wikipedia: Proton-to-electron mass ratio: Variation over time" 
+    url: https://en.wikipedia.org/wiki/Proton-to-electron_mass_ratio#Variation_of_%CE%BC_over_time
+
+Similar tables:
+  
+Keywords: 
+
+Tags:
+- physics
+- dimensionless
+
+Data properties:
+  type: RB
+  sources:
+  - CITE{Bar03}
+  - reliability: >
+    The given real interval is chosen to contain 
+    the measurements up to five measurement uncertainties
+    that are displayed in CITE{Bar03}.
+
+Numbers:
+  mu: 
+    param-latex: $\mu$
+    number: 1836.152673430 +/- 5.51e-7
+  mu_inv: 
+    param-latex: $\mu^{-1}$
+    number: 0.000544617021488 +/- 1.64e-13
