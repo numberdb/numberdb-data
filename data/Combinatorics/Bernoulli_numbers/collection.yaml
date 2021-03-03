@@ -8,6 +8,9 @@ Definition: >
   $\frac{t}{e^t-1} = \sum_{n=0}^\infty \frac{B_nt^n}{n!}$.
 
 Parameters:
+  n:
+    type: Z
+    constraints: $n \geq 0$
 
 Comments: 
   comment-sign-convention: >
@@ -47,5 +50,6 @@ Tags:
 
 Data properties:
   type: Q
+  both signs: True
 
 Numbers: INPUT{numbers.yaml}
