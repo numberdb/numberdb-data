@@ -67,4 +67,7 @@ Data properties:
   - CITE{Pla15}
   - CITE{LMFDB}
 
+Display properties:
+  number-header: $\rho_n$
+
 Numbers: INPUT{numbers.yaml}

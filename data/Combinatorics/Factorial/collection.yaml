@@ -42,7 +42,10 @@ Tags:
 - combinatorics
 
 Data properties:
-  type: ZZ
+  type: Z
   complete: no
+  
+Display properties:
+  number-header: $n!$
 
 Numbers: INPUT{numbers.yaml}

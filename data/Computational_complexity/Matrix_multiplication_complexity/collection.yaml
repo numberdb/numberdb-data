@@ -62,5 +62,8 @@ Data properties:
   sources:
   - CITE{AVW}
 
+Display properties:
+  number-header: $\omega$
+
 Numbers:
 - "[2, 2.3728596]"

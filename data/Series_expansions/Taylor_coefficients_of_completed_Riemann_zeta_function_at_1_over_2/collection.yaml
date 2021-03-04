@@ -1,7 +1,7 @@
 ID: INPUT{id.yaml}
 
 Title: >
-  Taylor coefficients of the completed Riemann zeta function at $1/2$. 
+  Taylor coefficients of the completed Riemann zeta function at 1/2. 
 
 Definition: >
   The list contains the coefficients of the Taylor expansion
@@ -11,14 +11,14 @@ Definition: >
   at $s=1/2$.
   
 Parameters:
-  n:
-    type: Z
-    constraints: $n \neq 0$
-
   expression:
     title: Transformation of constant
     type: Symbolic
     show-in-parameter-list: no
+
+  n:
+    type: Z
+    constraints: $n \neq 0$
   
 Comments:
   comment-Riemann-zeta-definition: >
@@ -31,7 +31,7 @@ Comments:
   
 Formulas:
   formula-functional-equation: >
-    $\xi(s) = xi(1-s)$ (functional equation).
+    $\xi(s) = \xi(1-s)$ (functional equation).
 
 Programs: 
   program-sage:
@@ -44,7 +44,7 @@ Programs:
 References:
   Kei92:
     bib: >
-      J B. Keiper, "Power series expansions of Riemann's $\xi$ function",
+      J. B. Keiper, "Power series expansions of Riemann's $\xi$ function",
       Math. Comp. 58 (1992), 765-773.
     doi: 10.1090/S0025-5718-1992-1122072-5
     MR: 1122072
@@ -68,5 +68,9 @@ Tags:
 Data properties:
   type: R
   complete: no
+  
+Display properties:
+  number-header: >
+    $n$<sup>th</sup> coefficient
 
 Numbers: INPUT{numbers.yaml}

@@ -83,6 +83,9 @@ Data properties:
   - CITE{Rad}
   - CITE{Wiki}
 
+Display properties:
+  number-header: $R(n,n)$
+
 Numbers:
   1: "[1, 1]"
   2: "[2, 2]"

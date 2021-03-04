@@ -41,6 +41,10 @@ Data properties:
   type: Z
   complete: no
 
+Display properties:
+  number-header: >
+    $n$<sup>th</sup> integer
+
 Numbers:
   -10: -10
   -9: -9

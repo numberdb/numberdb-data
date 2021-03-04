@@ -57,5 +57,8 @@ Tags:
 Data properties:
   type: R
   complete: no
+  
+Display properties:
+  number-header: $\zeta(s)$
 
 Numbers: INPUT{numbers.yaml}

@@ -61,6 +61,8 @@ Data properties:
     that are displayed in CITE{WikiMeas} in the years 2014-2020.
     Also note CITE{comment-non-constant}.
 
+Display properties:
+
 Numbers:
   alpha:
     param-latex: $\alpha$

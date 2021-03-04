@@ -51,5 +51,8 @@ Tags:
 Data properties:
   type: Q
   both signs: True
+  
+Display properties:
+  number-header: $B_n$
 
 Numbers: INPUT{numbers.yaml}

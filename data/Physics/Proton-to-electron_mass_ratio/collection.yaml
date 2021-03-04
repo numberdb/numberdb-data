@@ -52,6 +52,8 @@ Data properties:
     the measurement up to five measurement uncertainties
     that are displayed in CITE{Bar03}.
 
+Display properties:
+
 Numbers:
   mu: 
     param-latex: $\mu$

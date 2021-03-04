@@ -81,9 +81,11 @@ Data properties:
   
 Display properties:
   layout: nested lists
+  number-header: >
+    $k$<sup>th</sup> zero of $L(\chi_q(n,\cdot),s)$
   group parameters:
   - [q, n]
-  - [k] 
+  - [k]
 
 Numbers:
   1,1:

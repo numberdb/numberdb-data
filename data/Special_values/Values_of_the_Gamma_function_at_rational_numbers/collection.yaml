@@ -54,5 +54,8 @@ Tags:
 Data properties:
   type: R
   complete: no
+  
+Display properties:
+  number-header: $\Gamma(s)$
 
 Numbers: INPUT{numbers.yaml}
