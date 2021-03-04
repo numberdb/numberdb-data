@@ -3,7 +3,7 @@ import os
 from utils.utils import numbers_to_yaml
 from utils.utils import real_interval_to_sage_string
 
-path = 'data/Special_values/Special_values_of_the_Gamma_function/'
+path = 'data/Special_values/Values_of_the_Gamma_function_at_rational_numbers/'
 
 prec10 = 100 #relative precision in base 10
 r = 30

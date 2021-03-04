@@ -1,0 +1,53 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Values of the Riemann zeta function at rational numbers
+
+Definition: >
+  The list values $\zeta(s)$ of the Riemann zeta function
+  at rational numbers $s$.
+
+Parameters:
+  s:
+    type: Q
+    constraints: $s \neq 1$
+   
+Comments:
+  comment-Riemann-zeta-definition: >
+    The Riemann zeta function $\zeta(s)$
+    is the meromorphic continuation of the Dirichlet series 
+    $\sum_{n=0}^\infty n^{-s}, \Re(s) > 1$.
+  
+  comment-pole: >
+    At $s=0$, $\zeta$ has a simple pole.
+  
+Formulas:
+
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      numbers = {a/b: gamma(RIF(a/b)) 
+                      for b,a in cartesian_product(([1..16],[-30..30])) 
+                      if gcd(a,b) == 1 and a/b != 1}
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Riemann zeta function"
+    url: https://en.wikipedia.org/wiki/Riemann_zeta_function
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- special values
+- L-function
+
+Data properties:
+  type: R
+  complete: no
+
+Numbers: INPUT{numbers.yaml}
