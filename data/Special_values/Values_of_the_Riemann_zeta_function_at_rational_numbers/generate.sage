@@ -6,8 +6,8 @@ from utils.utils import real_interval_to_sage_string
 path = 'data/Special_values/Values_of_the_Riemann_zeta_function_at_rational_numbers/'
 
 prec10 = 100 #relative precision in base 10
-b_range = [1..16]
-a_range = [-30..30]
+b_range = [1..20]
+a_range = [-40..40]
 
 RIFprec = RealIntervalField(prec10 * 3.4 * 2)
 

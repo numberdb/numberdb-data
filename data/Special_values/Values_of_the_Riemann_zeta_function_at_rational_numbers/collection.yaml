@@ -27,8 +27,8 @@ Programs:
   program-sage:
     language: Sage
     code: |
-      numbers = {a/b: gamma(RIF(a/b)) 
-                      for b,a in cartesian_product(([1..16],[-30..30])) 
+      numbers = {a/b: zeta(a/b) 
+                      for b,a in cartesian_product(([1..20],[-40..40])) 
                       if gcd(a,b) == 1 and a/b != 1}
 
 References:
