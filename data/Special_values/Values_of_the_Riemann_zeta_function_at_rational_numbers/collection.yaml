@@ -24,7 +24,7 @@ Comments:
 Formulas:
   formula-values-at-non-positive-integers: >
     $\zeta(-n) = (-1)^n\frac{B_n}{n+1}$ for integers $n\geq 0$, 
-    where $B_n$ is the $n$'th Bernoulli number 
+    where $B_n$ is the $n$'th HREF{C13}[Bernoulli number] 
     with sign convention $B_1=-1/2$.
     
   formula-values-at-positive-even-integers: >
