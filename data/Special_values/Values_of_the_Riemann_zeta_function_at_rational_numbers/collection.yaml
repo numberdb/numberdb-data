@@ -4,7 +4,7 @@ Title: >
   Values of the Riemann zeta function at rational numbers
 
 Definition: >
-  The list values $\zeta(s)$ of the Riemann zeta function
+  The list contains values $\zeta(s)$ of the Riemann zeta function
   at rational numbers $s$.
 
 Parameters:

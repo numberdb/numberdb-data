@@ -1,0 +1,72 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Taylor coefficients of the completed Riemann zeta function at $1/2$. 
+
+Definition: >
+  The list contains the coefficients of the Taylor expansion
+  $\xi(s) = \sum_{n=0}^\infty \frac{a_n}{n!} (s-1/2)^n$
+  of the completed Riemann zeta function
+  $\xi(s) = \frac{1}{2}s(s-1)\pi^{-s/2}\Gamma(s/2)\zeta(s)$
+  at $s=1/2$.
+  
+Parameters:
+  n:
+    type: Z
+    constraints: $n \neq 0$
+
+  expression:
+    title: Transformation of constant
+    type: Symbolic
+    show-in-parameter-list: no
+  
+Comments:
+  comment-Riemann-zeta-definition: >
+    The Riemann zeta function $\zeta(s)$
+    is the meromorphic continuation of the Dirichlet series 
+    $\sum_{n=0}^\infty n^{-s}, \Re(s) > 1$.
+
+  comment-odd-coefficients: >
+    $a_n = 0$ for every odd $n$ due to CITE{formula-functional-equation}.
+  
+Formulas:
+  formula-functional-equation: >
+    $\xi(s) = xi(1-s)$ (functional equation).
+
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      s = var("s")
+      xi(s) = 1/2 * s*(s-1)*pi^(-s/2)*gamma(s/2)*zeta(s)
+      numbers = {n: xi.derivative(s,n)(s=1/2) for n in [0..10]}
+
+References:
+  Kei92:
+    bib: >
+      J B. Keiper, "Power series expansions of Riemann's $\xi$ function",
+      Math. Comp. 58 (1992), 765-773.
+    doi: 10.1090/S0025-5718-1992-1122072-5
+    MR: 1122072
+
+Links:
+  WikiZeta:
+    title: "Wikipedia: Riemann zeta function"
+    url: https://en.wikipedia.org/wiki/Riemann_zeta_function
+  WikiXi:
+    title: "Wikipedia: Riemann Xi function"
+    url: https://en.wikipedia.org/wiki/Riemann_Xi_function
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- Taylor series
+- L-function
+
+Data properties:
+  type: R
+  complete: no
+
+Numbers: INPUT{numbers.yaml}
