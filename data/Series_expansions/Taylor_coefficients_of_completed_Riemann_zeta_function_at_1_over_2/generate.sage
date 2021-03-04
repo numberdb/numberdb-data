@@ -6,24 +6,35 @@ from utils.utils import real_interval_to_sage_string
 path = 'data/Series_expansions/Taylor_coefficients_of_completed_Riemann_zeta_function_at_1_over_2/'
 
 prec10 = 100 #relative precision in base 10
-n_max = 50
+n_max = 250
 n_range = [0..n_max]
 
-RIFprec = RealIntervalField(prec10 * 3.4 * 2)
+print("n_max:",n_max)
+
+RIFprec = RealIntervalField(prec10 * 3.4 * 10)
 
 #xi(s) = 1/2 * s*(s-1)*pi^(-s/2)*gamma(s/2)*zeta(s)
+#We will compute separate series for each factor:
+#For zeta we use sage's algorithm, which is based on mpmath.
+#For gamma we use a formula by Masayuki Ui that uses Bell polynomials.
+#Sage's implementation of Bell polynomials is slow for large parameters.
+#Instead we use a recurrence relation for Bell polynomials,
+#which we use for their evaluations at the arguments we are interested in. 
+#(Computing these Bell polynomials explicitly would require too much memory.)
 
 s = var('s')
 s0 = 1/2
 xi_factors = (
 	1/2 * s,
-	zeta(s) * (s-1), #remove pole for simplicity
+	zeta(s),
+	s-1,
 	pi^(-s/2),
 	gamma(s/2),
 )
 P.<t> = PowerSeriesRing(RIFprec)
-RX = PolynomialRing(QQ,'x',n_max)
 
+'''
+RX = PolynomialRing(QQ,'x',n_max)
 bell = {}
 for n in n_range:
 	if n == 0:
@@ -40,6 +51,7 @@ for n in [1..n_max]:
 		)
 
 print('finished computing bell polynomials')
+'''
 
 psi_n_s0_over_2 = [
 	RIFprec(psi(n,s0/2))
@@ -48,10 +60,35 @@ psi_n_s0_over_2 = [
 
 print('finished computing psi(n,s0/2)')
 
+binom = {}
+for n in n_range:
+	binom[n,0] = RIFprec(1)
+	binom[n,n] = RIFprec(1)
+for n in [1..n_max]:
+	for k in [1..n-1]:
+		binom[n,k] = binom[n-1,k-1] + binom[n-1,k]
+
+print("finished computing pascal's triangle")
+
+bell_evaluated = {}
+for n in n_range:
+	if n == 0:
+		bell_evaluated[0,0] = RIFprec(1)
+	else:
+		bell_evaluated[n,0] = RIFprec(0)
+		bell_evaluated[0,n] = RIFprec(0)
+for n in [1..n_max]:
+	for k in [1..n]:
+		print("n,k:",n,k)
+		bell_evaluated[n,k] = sum(
+			binomial(n-1,i-1)*psi_n_s0_over_2[i-1]*bell_evaluated[n-i,k-1]
+			for i in [1..n-k+1]
+		)
+
 series_gamma_s0_over_2 = P([
 	gamma(s0/2) * sum(
 		#RX(bell_polynomial(n,k))(psi_n_s0_over_2[:n]+[0 for i in range(n,n_max)])
-		bell[n,k](psi_n_s0_over_2[:n]+[0 for i in range(n,n_max)])
+		bell_evaluated[n,k]
 		for k in [0..n]
 	) / n.factorial()
 		for n in n_range
@@ -90,6 +127,8 @@ for expression in ['a_n', 'a_n/n!']:
 		if expression == 'a_n':
 			number = ans[n]
 		else:
+			#if n > 100:
+			#	continue
 			number = coeffs[n]
 		n_str = str(n)
 		numbers_expression[n_str] = real_interval_to_sage_string(
