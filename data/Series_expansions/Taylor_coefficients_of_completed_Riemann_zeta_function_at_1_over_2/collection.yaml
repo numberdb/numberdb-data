@@ -1,7 +1,7 @@
 ID: INPUT{id.yaml}
 
 Title: >
-  Taylor coefficients of the completed Riemann zeta function at 1/2. 
+  Taylor coefficients of the completed Riemann zeta function at 1/2
 
 Definition: >
   The list contains the coefficients of the Taylor expansion

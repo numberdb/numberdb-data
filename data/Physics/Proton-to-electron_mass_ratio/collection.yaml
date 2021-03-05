@@ -44,7 +44,7 @@ Tags:
 - dimensionless
 
 Data properties:
-  type: RB
+  type: R
   sources:
   - CITE{Bar03}
   reliability: >

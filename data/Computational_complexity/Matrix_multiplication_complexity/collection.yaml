@@ -58,7 +58,7 @@ Tags:
 - matrix multiplication
 
 Data properties:
-  type: RI
+  type: R
   sources:
   - CITE{AVW}
 
