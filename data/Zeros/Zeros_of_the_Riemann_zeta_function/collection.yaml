@@ -59,7 +59,7 @@ Tags:
 - L-function
 
 Data properties:
-  type: RB
+  type: R
   complete: no
   #absolute precision: 2.5e-31
   both signs: True
