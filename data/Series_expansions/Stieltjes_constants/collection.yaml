@@ -1,0 +1,63 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Stieltjes constants
+
+Definition: >
+  The Stieltjes constants $\gamma_n$, $n\geq 0$, can be defined via the
+  Laurent series expansion of the Riemann zeta function at $s=1$:
+  $\zeta(s) = \frac{1}{s-1} + 
+   \sum_{n=0}^{\infty} \frac{(-1)^n}{n!}\gamma_n(s-1)^n$. 
+  
+Parameters:
+  n:
+    type: Z
+    constraints: $n \neq 0$
+  
+Comments:
+  comment-Riemann-zeta-definition: >
+    The Riemann zeta function $\zeta(s)$
+    is the meromorphic continuation of the Dirichlet series 
+    $\sum_{n=0}^\infty n^{-s}, \Re(s) > 1$.
+
+Formulas:
+  formula-as-limit: >
+    $\gamma(n) = \lim_{m\to\infty} \sum_{k=1}^m 
+        \big(\frac{(\log k)^n}{k} - \frac{(\log m)^{n+1}}{n+1}\big)$.
+
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      numbers = {n: stieltjes(n) for n in [0..100]}
+
+References:
+  Kei92:
+    bib: >
+      J. B. Keiper, "Power series expansions of Riemann's $\xi$ function",
+      Math. Comp. 58 (1992), 765-773.
+    doi: 10.1090/S0025-5718-1992-1122072-5
+    MR: 1122072
+
+Links:
+  Wiki:
+    title: "Wikipedia: Stieltjes constants"
+    url: https://en.wikipedia.org/wiki/Stieltjes_constants
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- Taylor series
+- L-function
+
+Data properties:
+  type: R
+  complete: no
+  
+Display properties:
+  number-header: >
+    $\gamma_n$
+
+Numbers: INPUT{numbers.yaml}
