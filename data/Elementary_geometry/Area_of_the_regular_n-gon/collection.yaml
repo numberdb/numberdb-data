@@ -12,9 +12,10 @@ Definition: >
   
 Parameters:
   expression:
-    title: Anchor
+    display: constraint
+    title: length that is constrained to be $1$
     type: Symbolic
-    show-in-parameter-list: no
+#    show-in-parameter-list: no
 
   n:
     type: Z
