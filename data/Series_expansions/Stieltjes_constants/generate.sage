@@ -28,7 +28,7 @@ for n in n_range:
 	numbers[n] = RIFprec(stieltjes(n).n(prec2))
 
 numbers = {str(n):
-	real_interval_to_sage_string(number,prec10)
+	real_interval_to_sage_string(number,prec10).replace('?','')
 	for n, number in numbers.items()
 }
 

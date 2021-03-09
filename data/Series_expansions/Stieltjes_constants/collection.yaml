@@ -22,8 +22,8 @@ Comments:
 
 Formulas:
   formula-as-limit: >
-    $\gamma(n) = \lim_{m\to\infty} \sum_{k=1}^m 
-        \big(\frac{(\log k)^n}{k} - \frac{(\log m)^{n+1}}{n+1}\big)$.
+    $\gamma_n = \lim_{m\to\infty} \sum_{k=1}^m 
+        \big(\frac{\log^n k}{k} - \frac{\log^{n+1} m}{n+1}\big)$.
 
 Programs: 
   program-sage:

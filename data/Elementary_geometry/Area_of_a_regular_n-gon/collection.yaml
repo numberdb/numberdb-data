@@ -1,0 +1,71 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Area of the regular n-gon
+
+Definition: >
+  This table lists the areas $A_n$ of the regular $n$-gon CITE{Wiki}
+  given that either
+  the side length $s$ equals $1$,
+  the outer radius $R$ equals $1$,
+  or the inner radius (apothem) $r$ equals $1$.
+  
+Parameters:
+  expression:
+    title: Anchor
+    type: Symbolic
+    show-in-parameter-list: no
+
+  n:
+    type: Z
+    constraints: $n \geq 3$
+  
+Comments:
+  comment-algebraic: >
+    All numbers in this table are algebraic numbers.
+  
+Formulas:
+  formula-s: >
+    $A_n = \frac{n}{4} \cot \frac{\pi}{n}$ if $s=1$.
+  formula-R: >
+    $A_n = \frac{n}{2} \sin \frac{2\pi}{n}$ if $R=1$.
+  formula-r: >
+    $A_n = n \tan \frac{\pi}{n}$ if $r=1$.
+
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      numbers = {
+        'unit-s': {n: n/4 * cot(pi/n)   for n in [3..10]},
+        'unit-R': {n: n/2 * sin(2*pi/n) for n in [3..10]},
+        'unit-r': {n: n   * tan(pi/n)   for n in [3..10]},
+      }
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Regular polygon"
+    url: https://en.wikipedia.org/wiki/Regular_polygon
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- elementary geometry
+- algebraic
+- area
+- trigonometry
+- polygon
+
+Data properties:
+  type: R
+  complete: no
+  
+Display properties:
+  number-header: >
+    $A_n$
+
+Numbers: INPUT{numbers.yaml}
