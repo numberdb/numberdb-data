@@ -33,10 +33,10 @@ Links:
     title: "MathWorld: Feigenbaum Constant"
     url: https://mathworld.wolfram.com/FeigenbaumConstant.html
   OEIS_delta:
-    title: Decimal expansion of Feigenbaum bifurcation velocity
+    title: "OEIS: Decimal expansion of Feigenbaum bifurcation velocity"
     url: https://oeis.org/A006890
   OEIS_alpha:
-    title: Decimal expansion of Feigenbaum reduction parameter
+    title: "OEIS: Decimal expansion of Feigenbaum reduction parameter"
     url: https://oeis.org/A006891
   Wiki:
     title: "Wikipedia: The first Feigenbaum constant"
