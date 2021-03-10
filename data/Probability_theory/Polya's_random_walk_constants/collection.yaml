@@ -1,0 +1,80 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Pólya's random walk constants
+
+Definition: >
+  For $d\geq 1$, $p(d)$ is the probability that a random walk on a
+  $d$-dimensional lattice returns to the origin.
+  
+Parameters:
+  d:
+    type: Z
+    constraints: $d \geq 1$
+  
+Comments:
+  
+Formulas:
+  formula-1d-and-2d: >
+    $p(1) = p(2) = 1$ CITE{Pol}.
+  formula-3d: >
+    $p(3) = 1-1/u(3)$ where 
+    $u(3)=\frac{\sqrt{6}}{32\pi^3}\Gamma(\frac{1}{24})\Gamma(\frac{5}{24})\Gamma(\frac{7}{24})\Gamma(\frac{11}{24})$
+    and $\Gamma$ is the 
+    HREF{https://en.wikipedia.org/wiki/Gamma_function}[Gamma function] CITE{MCW}.
+
+Programs: 
+
+References:
+  Pol:
+    bib: >
+      G. Pólya, "Über eine Aufgabe der Wahrscheinlichkeitsrechnung betreffend die Irrfahrt im Straßennetz", 
+      Mathematische Annalen, Vol. 84, No. 1-2 (1921), 149-160.
+    doi: 10.1007/BF01458701
+  MCW:
+    bib: >
+      W. H. McCrea and F. J. W. Whipple, "Random Paths in Two and Three Dimensions",
+      Proceedings of the Royal Society of Edinburgh, Vol. 60, No. 3 (1940), 281-298.
+    doi: 10.1017/S0370164600020265
+    
+Links:
+  MathWorld:
+    title: "MathWorld: Pólya's Random Walk Constants"
+    url: https://mathworld.wolfram.com/PolyasRandomWalkConstants.html
+  OEIS: >
+    OEIS sequences 
+    HREF{https://oeis.org/A086230/}[A086230] $(d=3)$,
+    HREF{https://oeis.org/A086232/}[A086232] $(d=4)$,
+    HREF{https://oeis.org/A086230/}[A086233] $(d=5)$,
+    HREF{https://oeis.org/A086230/}[A086234] $(d=6)$,
+    HREF{https://oeis.org/A086230/}[A086235] $(d=7)$,
+    HREF{https://oeis.org/A086230/}[A086236] $(d=8)$.
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- probability theory
+- random walks
+
+Data properties:
+  type: R
+  complete: no
+  reliability: no error bounds specified for $d \geq 4$ (help needed)
+  sources:
+    - CITE{OEIS} for $d \geq 4$
+  
+Display properties:
+  number-header: >
+    $p(d)$
+
+Numbers: 
+  1: 1
+  2: 1
+  3: 0.34053732955099914282627318443290289671060821712430209776323610537779196945896238464252808188905713099462301010684071008183988196055
+  4: 0.193201673224983937341870973329369160575873386450139495835026185709632292495810846029443
+  5: 0.135178609820655291047262429569315879691656444189996581804732903253409269458997391491061
+  6: 0.104715495628822010826135851106821546566448165078827186663230820073776585684914521029699
+  7: 0.0858449341133790091881081347851735566406978963249647696432467321391084259333693123925316
+  8: 0.0729126499593839984697453553883073696016118349162713731900079791927230662446014405543597

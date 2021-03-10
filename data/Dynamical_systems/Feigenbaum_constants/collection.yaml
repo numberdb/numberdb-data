@@ -30,7 +30,7 @@ Links:
     title: Broadhurst - Feigenbaum constants to 1018 decimal places
     url: http://www.plouffe.fr/simon/constants/feigenbaum.txt
   MathWorld:
-    title: MathWorld - Feigenbaum Constant
+    title: "MathWorld: Feigenbaum Constant"
     url: https://mathworld.wolfram.com/FeigenbaumConstant.html
   OEIS_delta:
     title: Decimal expansion of Feigenbaum bifurcation velocity
@@ -48,11 +48,13 @@ Keywords:
 
 Tags:
 - bifurcation theory
+- dynamical systems
 
 Data properties:
   type: R
   sources:
   - CITE{Broadhurst}
+  reliability: unknown
 
 Display properties:
 
