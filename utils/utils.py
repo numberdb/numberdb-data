@@ -159,6 +159,15 @@ def real_interval_to_sage_string(r, max_digits = None):
     f = f[:(max_digits - digits_a1)]
     result = '%s.%s?%s' % (a1, f, e)
     return result
+
+def complex_interval_to_sage_string(r, max_digits = None):
+    if r.imag() == 0:
+        return real_interval_to_sage_string(r.real(), max_digits)
+    result = "%s + i * %s" % (
+        real_interval_to_sage_string(r.real(), max_digits),
+        real_interval_to_sage_string(r.imag(), max_digits),
+    )
+    return result
     
 def real_interval_to_pretty_string(r):
     if r.contains_zero():

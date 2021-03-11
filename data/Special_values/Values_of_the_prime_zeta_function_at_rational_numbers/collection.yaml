@@ -1,0 +1,56 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Values of the prime zeta function $P(s)$ at rational numbers
+
+Definition: >
+  For $\Re(s)>1$, one defines $P(s) = \sum_{p\in \text{primes}} p^{-s}$,
+  which can be analytically continued to $\Re(s)>0$.
+  This list contains values $P(s)$ for certain rational numbers $s$.
+
+Parameters:
+  s:
+    type: C
+    constraints: $\Re(s) > 0$, $s$ not the inverse of a squarefree integer
+   
+Comments:
+  comment-poles: >
+    $P(s)$ has its poles at $1/n$, 
+    where $n$ runs over all squarefree positive integers.
+  
+  
+Formulas:
+
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      from mpmath import mp
+      numbers = {a/b: mp.primezeta(a/b)
+                      for b,a in cartesian_product(([1..20],[1..20])) 
+                      if gcd(a,b) == 1 and a/b != 1 and
+                      (a != 1 or not b.is_squarefree())}
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Prime zeta function"
+    url: https://en.wikipedia.org/wiki/Prime_zeta_function
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- special values
+- Dirichlet series
+
+Data properties:
+  type: R
+  complete: no
+  
+Display properties:
+  number-header: $P(s)$
+
+Numbers: INPUT{numbers.yaml}

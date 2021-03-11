@@ -32,8 +32,8 @@ Links:
   mpmath: >
     HREF{https://mpmath.org/}[mpmath] (Python library)
   Wiki:
-    title: "Wikipedia: Bessel functions of the first kind"
-    url: https://en.wikipedia.org/wiki/Bessel_function#Bessel_functions_of_the_first_kind:_J%CE%B1
+    title: "Wikipedia: Bessel functions of the second kind"
+    url: https://en.wikipedia.org/wiki/Bessel_function#Bessel_functions_of_the_second_kind:_Y%CE%B1
 
 Similar tables:
   
@@ -51,6 +51,6 @@ Data properties:
   reliability: computed with mpmath CITE{mpmath}
 
 Display properties:
-  number-header: $n$<sup>th</sup> local extremum of $J_\alpha$
+  number-header: $n$<sup>th</sup> local extremum of $Y_\alpha$
 
 Numbers: INPUT{numbers.yaml}
