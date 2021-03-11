@@ -1,11 +1,11 @@
 ID: INPUT{id.yaml}
 
 Title: >
-  Zeros of Bessel functions of the first kind $J_\alpha$ 
+  Zeros of Bessel functions of the second kind $Y_\alpha$ 
 
 Definition: >
   The list contains the first positive zeros of 
-  Bessel functions of the first kind $J_\alpha$.
+  Bessel functions of the second kind $Y_\alpha$.
 
 Parameters:
   alpha:
@@ -21,8 +21,6 @@ Comments:
     $\alpha \in \frac{1}{2}\mathbb{Z}_{\geq 0}$.
   
 Formulas: 
-  formula-1over2: >
-    The $n$'th root of $J_{1/2}(x)$ equals $n\pi$.
 
 Programs: 
 
@@ -32,8 +30,8 @@ Links:
   mpmath: >
     HREF{https://mpmath.org/}[mpmath] (Python library)
   Wiki:
-    title: "Wikipedia: Bessel functions of the first kind"
-    url: https://en.wikipedia.org/wiki/Bessel_function#Bessel_functions_of_the_first_kind:_J%CE%B1
+    title: "Wikipedia: Bessel functions of the second kind"
+    url: https://en.wikipedia.org/wiki/Bessel_function#Bessel_functions_of_the_second_kind:_Y%CE%B1
 
 Similar tables:
   
@@ -49,6 +47,6 @@ Data properties:
   reliability: computed with mpmath CITE{mpmath}
 
 Display properties:
-  number-header: $n$<sup>th</sup> root of $J_\alpha$
+  number-header: $n$<sup>th</sup> root of $Y_\alpha$
 
 Numbers: INPUT{numbers.yaml}
