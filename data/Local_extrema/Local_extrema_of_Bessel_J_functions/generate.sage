@@ -27,17 +27,6 @@ for alpha in alpha_range:
 			max_digits = prec10,
 		).replace('?','')
 
-		'''
-		if alpha == 1/2:
-			#number = n*pi
-			if n == 1:
-				numbers_alpha[str(n)] = {
-					'number': number_str,
-					'equals': 'HREF{Pi}',
-				}
-				continue
-		'''
-		
 		numbers_alpha[str(n)] = number_str
 
 	numbers[str(alpha)] = numbers_alpha

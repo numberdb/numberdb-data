@@ -1,0 +1,56 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Local extrema of Bessel functions of the second kind $Y_\alpha$ 
+
+Definition: >
+  The list contains the first zeros of the derivative of 
+  Bessel functions of the second kind $Y_\alpha$.
+
+Parameters:
+  alpha:
+    display: $\alpha$
+    type: C
+  n:
+    type: Z
+    constraints: $n \geq 1$
+   
+Comments:
+  comment-choice-of-alpha: >
+    This collection currently restricts to the important special case 
+    $\alpha \in \frac{1}{2}\mathbb{Z}_{\geq 0}$.
+  comment-maxima: >
+    Local maxima arise for odd $n$, local minima for even $n$.  
+  
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  mpmath: >
+    HREF{https://mpmath.org/}[mpmath] (Python library)
+  Wiki:
+    title: "Wikipedia: Bessel functions of the first kind"
+    url: https://en.wikipedia.org/wiki/Bessel_function#Bessel_functions_of_the_first_kind:_J%CE%B1
+
+Similar tables:
+  
+Keywords:
+- maximum
+- minimum
+  
+Tags:
+- local extrema
+- special functions
+
+Data properties:
+  type: R
+  complete: no
+  reliability: computed with mpmath CITE{mpmath}
+
+Display properties:
+  number-header: $n$<sup>th</sup> local extremum of $J_\alpha$
+
+Numbers: INPUT{numbers.yaml}

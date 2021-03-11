@@ -5,7 +5,7 @@ from utils.utils import numbers_to_yaml
 from utils.utils import real_interval_to_sage_string
 
 
-path = 'data/Zeros/Zeros_of_Bessel_Y_functions/'
+path = 'data/Local_extrema/Local_extrema_of_Bessel_Y_functions/'
 
 prec10 = 100 #relative precision in base 10
 
@@ -21,13 +21,12 @@ for alpha in alpha_range:
 	numbers_alpha = {}
 
 	for n in n_range:
-		number = mpmath.mp.besselyzero(alpha,n,derivative=0)
+		number = mpmath.mp.besselyzero(alpha,n,derivative=1)
 		number_str = real_interval_to_sage_string(
 			RIFprec(number),
 			max_digits = prec10,
 		).replace('?','')
 
-		
 		numbers_alpha[str(n)] = number_str
 
 	numbers[str(alpha)] = numbers_alpha
