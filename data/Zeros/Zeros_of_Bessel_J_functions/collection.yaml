@@ -1,0 +1,51 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Zeros of Bessel functions of the first kind $J_\alpha$ 
+
+Definition: >
+  The list contains the first positive zeros of 
+  Bessel functions of the first kind $J_\alpha$.
+
+Parameters:
+  alpha:
+    display: $\alpha$
+    type: C
+  n:
+    type: Z
+    constraints: $n \neq 1$
+   
+Comments:
+  comment-choice-of-alpha: >
+    This collection currently restricts to the important special case 
+    $\alpha \in \frac{1}{2}\mathbb{Z}$.
+  
+Formulas: 
+  formula-1over2: >
+    The $n$'th root of $J_{1/2}(x)$ equals $n\pi$.
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Bessel functions of the first kind"
+    url: https://en.wikipedia.org/wiki/Bessel_function#Bessel_functions_of_the_first_kind:_J%CE%B1
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- zero
+
+Data properties:
+  type: R
+  complete: no
+  reliability: computed with mpmath
+
+Display properties:
+  number-header: $n$<sup>th</sup> root of $J_\alpha$
+
+Numbers: INPUT{numbers.yaml}
