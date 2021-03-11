@@ -13,7 +13,7 @@ Parameters:
     type: C
   n:
     type: Z
-    constraints: $n \neq 1$
+    constraints: $n \geq 1$
    
 Comments:
   comment-choice-of-alpha: >
