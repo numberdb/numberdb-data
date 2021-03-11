@@ -34,6 +34,8 @@ Programs:
 References:
 
 Links:
+  mpmath: >
+    HREF{https://mpmath.org/}[mpmath] (Python library)
   Wiki:
     title: "Wikipedia: Prime zeta function"
     url: https://en.wikipedia.org/wiki/Prime_zeta_function
@@ -49,6 +51,7 @@ Tags:
 Data properties:
   type: R
   complete: no
+  reliability: computed with mpmath CITE{mpmath}
   
 Display properties:
   number-header: $P(s)$
