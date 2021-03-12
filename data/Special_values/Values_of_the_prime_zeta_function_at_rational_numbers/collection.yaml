@@ -1,7 +1,7 @@
 ID: INPUT{id.yaml}
 
 Title: >
-  Values of the prime zeta function $P(s)$ at rational numbers
+  Values of the prime zeta function at rational numbers
 
 Definition: >
   For $\Re(s)>1$, one defines $P(s) = \sum_{p\in \text{primes}} p^{-s}$,

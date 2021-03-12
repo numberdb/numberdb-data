@@ -1,0 +1,56 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Complete elliptic integral of the first kind $K(m)$
+
+Definition: >
+  The list contains the evaluations of the
+  complete elliptic integral of the first kind
+  $K(m) = \int_0^1 \frac{dt}{\sqrt{(1-t^2)(1-mt^2)}}$
+  for some parameters $m=k^2$,
+  where $k$ is the ellpitic modulus.
+
+Parameters:
+  m:
+    display: $m$
+    type: R
+    constraints: $0\leq m < 1$
+   
+Comments:
+  comment-k: >
+    $K(m)$ is also denoted as $K(k)$ despite the relation 
+    $m=k^2$ between the parameter $m$ and the elliptic modulus $k$.
+  
+Formulas: 
+  formula-sin: >
+    $K(m) = \int_0^{\pi/2} \frac{d\theta}{\sqrt{1-m\sin^2\theta}}$.
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Complete elliptic integral of the first kind"
+    url: https://en.wikipedia.org/wiki/Elliptic_integral#Complete_elliptic_integral_of_the_first_kind
+  WikiQuarterPeriod: 
+    title: "Wikipedia: Quarter period"
+    url: https://en.wikipedia.org/wiki/Quarter_period
+
+Similar tables:
+  
+Keywords:
+- quarter period
+  
+Tags:
+- period
+- ellipic curves
+
+Data properties:
+  type: R
+  complete: no
+
+Display properties:
+  number-header: $K(m)$
+
+Numbers: INPUT{numbers.yaml}
