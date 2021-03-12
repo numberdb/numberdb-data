@@ -21,7 +21,7 @@ Formulas:
     $S_d = \frac{2\pi^{(d+1)/2}}{\Gamma((d+1)/2)}$.
   formula-ball: >
     $S_{d-1} = dB_d$ for $d\geq 0$, where $B_d$ denotes the 
-    $d$-dimensional volume of the unit sphere in $\mathbb{R}^d$.
+    $d$-dimensional volume of the unit ball in $\mathbb{R}^d$.
 
 Programs: 
 

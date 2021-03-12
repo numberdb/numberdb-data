@@ -1,0 +1,41 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Rational multiples of pi
+
+Definition: >
+  $\pi$ is the area of the unit disk. 
+  This tables lists certain rational multiples $a\pi$, $a\in\mathbb{Q}$.
+  
+Parameters:
+  a:
+    type: Q
+   
+Comments:
+  
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Pi"
+    url: https://en.wikipedia.org/wiki/Pi
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- simple expression
+
+Data properties:
+  type: R
+  complete: no
+
+Display properties:
+  number-header: $a\pi$
+
+Numbers: INPUT{numbers.yaml}
