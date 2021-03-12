@@ -1,0 +1,51 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Volume of the $d$-dimensional unit sphere
+
+Definition: >
+  $S_d = \text{vol}(\{x\in\mathbb{R}^{d+1}: |x| = 1\})$ is 
+  the $d$-dimensional volume of 
+  the unit sphere in $(d+1)$-dimensional Euclidean space.
+
+Parameters:
+  d:
+    display: $d$
+    type: Z
+    constraints: $d \geq -1$
+   
+Comments:
+  
+Formulas: 
+  formula-gamma: >
+    $S_d = \frac{2\pi^{(d+1)/2}}{\Gamma((d+1)/2)}$.
+  formula-ball: >
+    $S_{d-1} = dB_d$ for $d\geq 0$, where $B_d$ denotes the 
+    $d$-dimensional volume of the unit sphere in $\mathbb{R}^d$.
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: N-sphere"
+    url: https://en.wikipedia.org/wiki/N-sphere
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- elementary geometry
+- integral
+- period
+
+Data properties:
+  type: R
+  complete: no
+
+Display properties:
+  number-header: $S_d$
+
+Numbers: INPUT{numbers.yaml}
