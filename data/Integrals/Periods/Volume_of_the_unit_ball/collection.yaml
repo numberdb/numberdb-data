@@ -1,0 +1,52 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Volume of the $d$-dimensional unit ball
+
+Definition: >
+  $B_d = \text{vol}(\{x\in\mathbb{R}^d: |x|\leq 1\})$ is 
+  the volume of the unit ball in $d$-dimensional Euclidean space.
+
+Parameters:
+  d:
+    display: $d$
+    type: Z
+    constraints: $d \geq 0$
+   
+Comments:
+  
+Formulas: 
+  formula-gamma: >
+    $B_d = \frac{\pi^{d/2}}{\Gamma(d/2+1)}$.
+  formula-only-gamma: >
+    $B_d = \frac{2^d\Gamma(1+1/2)^d}{\Gamma(1+d/2)}$.
+  formula-sphere: >
+    $dB_d = S_{d-1}$, where $S_{d-1}$ denotes the 
+    $(d-1)$-dimensional volume of the unit sphere in $\mathbb{R}^d$.
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Volume of an n-ball"
+    url: https://en.wikipedia.org/wiki/Volume_of_an_n-ball
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- elementary geometry
+- integral
+- period
+
+Data properties:
+  type: R
+  complete: no
+
+Display properties:
+  number-header: $B_d$
+
+Numbers: INPUT{numbers.yaml}

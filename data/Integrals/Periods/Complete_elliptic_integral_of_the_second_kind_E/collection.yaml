@@ -23,7 +23,7 @@ Comments:
   
 Formulas: 
   formula-sin: >
-    $E(m) = \int_0^{\pi/2} \sqrt{1-m\sin^2\theta}} d\theta$.
+    $E(m) = \int_0^{\pi/2} \sqrt{1-m\sin^2\theta} d\theta$.
 
 Programs: 
 
