@@ -1,0 +1,52 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Complete elliptic integral of the second kind $E(m)$
+
+Definition: >
+  The list contains the evaluations of the
+  complete elliptic integral of the second kind
+  $E(m) = \int_0^1 \frac{\sqrt{1-mt^2}}{\sqrt{1-t^2}} dt$
+  for some parameters $m=k^2$,
+  where $k$ is the ellpitic modulus.
+
+Parameters:
+  m:
+    display: $m$
+    type: R
+    constraints: $0\leq m \leq 1$
+   
+Comments:
+  comment-k: >
+    $E(m)$ is also denoted as $E(k)$ despite the relation 
+    $m=k^2$ between the parameter $m$ and the elliptic modulus $k$.
+  
+Formulas: 
+  formula-sin: >
+    $E(m) = \int_0^{\pi/2} \sqrt{1-m\sin^2\theta}} d\theta$.
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Complete elliptic integral of the second kind"
+    url: https://en.wikipedia.org/wiki/Elliptic_integral#Complete_elliptic_integral_of_the_second_kind
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- period
+- ellipic curves
+
+Data properties:
+  type: R
+  complete: no
+
+Display properties:
+  number-header: $E(m)$
+
+Numbers: INPUT{numbers.yaml}
