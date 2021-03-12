@@ -23,7 +23,14 @@ for s in s_range:
 		RIFprec(number),
 		max_digits = prec10,
 	).replace('?','')
-
+	
+	if s == 1:
+		numbers[str(s)] = {
+			'number': number_str,
+			'equals': 'HREF{Pi}',
+		}
+		continue
+		
 	numbers[str(s)] = number_str
 
 filename = os.path.join(path, 'numbers.yaml')

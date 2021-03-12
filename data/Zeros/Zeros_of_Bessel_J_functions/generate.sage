@@ -35,6 +35,12 @@ for alpha in alpha_range:
 					'equals': 'HREF{Pi}',
 				}
 				continue
+			else:
+				numbers_alpha[str(n)] = {
+					'number': number_str,
+					'equals': 'HREF{Rational_multiples_of_pi#%s}' % (str(n),),
+				}
+				continue
 
 		numbers_alpha[str(n)] = number_str
 
