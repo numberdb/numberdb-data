@@ -23,6 +23,13 @@ for d in d_range:
 		max_digits = prec10,
 	).replace('?','')
 
+	if d == 2:
+		numbers[str(d)] = {
+			'number': number_str,
+			'equals': 'HREF{Pi}',
+		}
+		continue
+
 	numbers[str(d)] = number_str
 
 filename = os.path.join(path, 'numbers.yaml')
