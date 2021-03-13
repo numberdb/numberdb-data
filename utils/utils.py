@@ -282,3 +282,15 @@ def string_of_numbers_to_yaml(s, param0 = 'auto'):
         param0 += 1
     
     return result
+
+def blur_real_interval(r, blur_bits = 2):
+    #print("r:",r)
+    #print("r.lower(), r.upper():",r.lower(),r.upper())
+    #print("r.prec():",r.prec())
+    #e = r.prec() - blur_bits
+    #blur = r.parent()(1 - 2**(-e), 1 + 2**(-e))
+    #return r * blur	
+
+    u = r.upper() + r.upper().ulp() * 2**blur_bits
+    l = r.lower() - r.lower().ulp() * 2**blur_bits
+    return r.parent()(l,u)

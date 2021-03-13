@@ -1,0 +1,106 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Keiper-Li coefficients
+
+Definition: >
+  The Keiper-Li coefficients $\lambda_n$, $n\geq 0$, are defined as
+  $\lambda_n = \sum_\rho \big(1-(1-\frac{1}{\rho})^n\big)$,
+  where the sum is interpreted as 
+  $\lim_{T\to\infty} \sum_{\rho:|\rho|\leq T}$
+  over the set of non-trivial zeros $\rho$ of the Riemann zeta function.
+  
+Parameters:
+  n:
+    type: Z
+    constraints: $n \geq 0$
+  
+Comments:
+  comment-Keiper's-lambda: >
+    Keiper CITE{Kei92} originally defined $\lambda_n$ with a different
+    normalization:
+    $\lambda^{\text{Keiper}}_n = \frac{1}{n}\lambda_n$.
+
+  comment-Riemann-hypothesis: >
+    The Riemann hypothesis is equilvalent to $\lambda_n\geq 0$ for all $n$.
+    This is Li's criterion.
+    
+Formulas:
+  formula-negative-indices: >
+    $\lambda_n = \lambda_{-n}$, if we extend the same definition 
+    to negative indices.
+  
+  formula-original-definition: >
+    $\lambda_n = \frac{1}{(n-1)!} \frac{d^n}{ds^n}\big(s^{n-1}\log\xi(s)\big)|_{s=1}$ 
+    for $n\geq 1$ and $\lambda_0 = 0$, 
+    where $\xi(s)$ is the Riemann $\xi$ function
+    $\xi(s) = \frac{1}{2}s(s-1)\pi^{-s/2}\Gamma(s/2)\zeta(s)$
+
+  formula-taylor-1: >
+    $\log(2\xi(1/z)) = \sum_{n=1}^\infty \frac{\lambda_{n}}{n} (1-z)^n$,
+    which is how Keiper originally defined the constants $\lambda^{\text{Keiper}}_n = \lambda_n/n$.
+    
+  formula-taylor-2: >
+    $\frac{d}{dz}\log\xi(\frac{1}{1-z}) = \sum_{n=0}^\infty \lambda_{n+1}z^n$.
+
+Programs: 
+
+References:
+  AdR11:
+    bib: >
+      Juan Arias de Reyna, "Asymptotics of Keiper-Li coefficients",
+      Functiones et Approximatio Commentarii Mathematici. 45(1) (2011), 7-21.
+    doi: 10.7169/facm/1317045228
+
+  Joh15:
+    bib: >
+      Fredrik Johansson, "Rigorous high-precision computation of the Hurwitz zeta function and its derivatives",
+      Numerical Algorithms. 69(2) (2015), 253-270. 
+    arxiv: 1309.2877
+    doi: 10.1007/s11075-014-9893-1
+      
+  Kei92:
+    bib: >
+      J. B. Keiper, "Power series expansions of Riemann's $\xi$ function",
+      Math. Comp. 58 (1992), 765-773.
+    doi: 10.1090/S0025-5718-1992-1122072-5
+    MR: 1122072
+
+  Lag07:
+    bib: >
+      Jeffrey C. Lagarias, "Li coefficients for automorphic L-functions",
+      Ann. Inst. Fourier, Grenoble, Tome 57, no 5 (2007), 1689-1740.
+    url: http://aif.cedram.org/item?id=AIF_2007__57_5_1689_0
+
+  Li97:
+    bib: >
+      Xian-Jin Li, "The Positivity of a Sequence of Numbers and the Riemann Hypothesis",
+      Journal of Number Theory 65 (1997), 325-333.
+
+Links:
+  WikiZeta:
+    title: "Wikipedia: Riemann zeta function"
+    url: https://en.wikipedia.org/wiki/Riemann_zeta_function
+  WikiZeta:
+    title: "Wikipedia: Li's criterion"
+    url: https://en.wikipedia.org/wiki/Li%27s_criterion
+
+Similar tables:
+  
+Keywords:
+- RH
+- Riemann hypothesis
+  
+Tags:
+- Taylor series
+- L-function
+
+Data properties:
+  type: R
+  complete: no
+  
+Display properties:
+  number-header: >
+    $\lambda_n$
+
+Numbers: INPUT{numbers.yaml}
