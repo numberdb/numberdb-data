@@ -22,7 +22,7 @@ Comments:
     $\lambda^{\text{Keiper}}_n = \frac{1}{n}\lambda_n$.
 
   comment-Riemann-hypothesis: >
-    The Riemann hypothesis is equilvalent to $\lambda_n\geq 0$ for all $n$.
+    The Riemann hypothesis is equivalent to $\lambda_n\geq 0$ for all $n$.
     This is Li's criterion.
     
 Formulas:
