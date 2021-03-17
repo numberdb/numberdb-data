@@ -19,7 +19,7 @@ Comments:
 
 Formulas: 
   formula-polynomial-root: >
-    $\varphi^2-\varphi-1=0$.
+    $\varphi^2-\varphi-1=0$, which has two roots, $\varphi$ and $\varphi^{-1}$.
   formula-inverse: >
     $\varphi^{-1} = \varphi - 1$.
 
@@ -35,6 +35,9 @@ Links:
   Wiki:
     title: "Wikipedia: Golden ratio"
     url: https://en.wikipedia.org/wiki/Golden_ratio
+  OEIS:
+    title: "OEIS: Decimal expansion of the golden ratio phi (or tau) = (1 + sqrt(5))/2."
+    url: https://oeis.org/A001622
 
 Similar tables:
   
