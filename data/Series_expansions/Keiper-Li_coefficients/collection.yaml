@@ -56,8 +56,12 @@ Formulas:
     2 + \frac{3}{4}\pi^2 - 6\log 2 - 3\log\pi - 12\gamma_1 + 
     \gamma(3 + 2(\gamma - 3)\gamma + 6\gamma_1) + 3\gamma_2 - \frac{7}{4}\zeta(3)
     \big)$.
+    
+  formula-lambda-n-plus-1: >
+    $\lambda_{n+1} = \lambda_n + 
+    \frac{1}{n!} \frac{d^n}{ds^n} \big( s^n \frac{\xi'(s)}{\xi(s)} \big) \big|_{s=1}$
+    for $n\geq 0$.
   
-
 Programs: 
 
 References:
