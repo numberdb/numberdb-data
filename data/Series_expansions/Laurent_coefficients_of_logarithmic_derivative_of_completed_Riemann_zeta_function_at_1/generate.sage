@@ -85,7 +85,7 @@ for n in n_range:
 	if n == 1:
 		sigma[n] = lamda[1]
 	elif n >= 2:
-		sigma[n] = (-1)^n * eta[n-1] - RIFprec((1-2^(-n)) * zeta(n)) + 1 #[2, Thm. 3]
+		sigma[n] = (-1)^n * eta[n-1] - (1-RIFprec(2)^(-n)) * RIFprec(zeta(n)) + 1 #[2, Thm. 3]
 		
 	
 numbers = {}
