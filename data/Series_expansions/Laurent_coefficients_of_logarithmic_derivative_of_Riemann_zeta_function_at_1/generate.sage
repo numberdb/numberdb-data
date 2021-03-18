@@ -80,9 +80,9 @@ numbers = {}
 for n in [-1] + n_range:
 	n_str = str(n)
 	if n == -1:
-		number = RIFprec(-1)
+		number = RIFprec(1)
 	else:
-		number = -eta[n]	
+		number = eta[n]	
 	
 	numbers[n_str] = real_interval_to_sage_string(
 		number,
