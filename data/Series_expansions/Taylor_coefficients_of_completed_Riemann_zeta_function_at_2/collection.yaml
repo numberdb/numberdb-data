@@ -29,6 +29,8 @@ Comments:
 Formulas:
   formula-functional-equation: >
     $\xi(s) = \xi(1-s)$ (functional equation).
+  formula-a0: >
+    $a_0 = \pi/6$.
 
 Programs: 
   program-sage:
