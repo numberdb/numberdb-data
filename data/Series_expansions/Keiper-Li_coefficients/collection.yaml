@@ -51,6 +51,12 @@ References:
       Juan Arias de Reyna, "Asymptotics of Keiper-Li coefficients",
       Functiones et Approximatio Commentarii Mathematici. 45(1) (2011), 7-21.
     doi: 10.7169/facm/1317045228
+    
+  Con09:
+    bib: >
+      Donal F. Connon, "A recurrence relation for the Li/Keiper constants 
+      in terms of the Stieltjes constants", (2009), 50 pages.
+    arxiv: 0902.1691
 
   Joh15:
     bib: >
