@@ -1,0 +1,60 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Algebraic numbers of degree 2
+
+Definition: >
+  The list contains the complex roots of irreducible polynomials 
+  $f(x) = a_2 x^2 + a_1 x + a_0$ in $\mathbb{Z}[x]$ of degree 2.
+
+Parameters:
+  a2:
+    display: $a_2$
+    type: Z
+    constraints: $a_2 \neq 0$
+  a1:
+    display: $a_1$
+    type: Z
+  a0:
+    display: $a_0$
+    type: Z
+    constraints: $a_0 \neq 0$
+  n:
+    type: Z
+    constraints: $n \geq 1$
+   
+Comments:
+  comment-n: >
+    $n$ is the index of the root, where we order the roots first
+    by their norm, then by their imaginary part. 
+  
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Algebraic number"
+    url: https://en.wikipedia.org/wiki/Algebraic_number
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- zero
+- algebraic
+
+Data properties:
+  type: R
+  complete: no
+
+Display properties:
+  number-header: $n$<sup>th</sup> root of $f(x)$
+  group parameters:
+  - [a2, a1, a0]
+  - [n]
+
+Numbers: INPUT{numbers.yaml}
