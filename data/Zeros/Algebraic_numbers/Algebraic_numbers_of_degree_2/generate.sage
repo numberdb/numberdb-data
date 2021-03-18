@@ -50,6 +50,20 @@ for a2, a1, a0 in as_range:
 			max_digits = prec10,
 		).replace('?','')
 		
+		if (a2,a1,a0) == (1,-1,-1):
+			if n == 1:
+				numbers_f[str(n)] = {
+					'number': number_str,
+					'equals': 'HREF{Golden_ratio#phi_inv}',
+				}
+				continue
+			if n == 2:
+				numbers_f[str(n)] = {
+					'number': number_str,
+					'equals': 'HREF{Golden_ratio#phi}',
+				}
+				continue
+		
 		numbers_f[str(n)] = number_str
 
 	numbers[f_str] = numbers_f
