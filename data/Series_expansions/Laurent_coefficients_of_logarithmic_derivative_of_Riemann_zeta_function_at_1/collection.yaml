@@ -15,7 +15,7 @@ Parameters:
   
 Comments:
   comment-eta_n: >
-    For $n\geq 0$, $-a_n$ is often denoted $\eta_n$ CITE{Con09}.
+    For $n\geq 0$, $-a_n$ is often denoted $\eta_n$ CITE{Cof04} CITE{Con09}.
     
   comment-radius-of-convergence: >
     The radius of convergence of the expansion of $\zeta'(s)/\zeta(s)$
