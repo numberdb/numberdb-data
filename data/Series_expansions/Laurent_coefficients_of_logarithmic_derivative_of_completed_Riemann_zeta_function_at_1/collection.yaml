@@ -25,6 +25,11 @@ Parameters:
 Comments:
     
 Formulas:
+  formula-zeta-zero-moments: >
+    For $n\geq 2$, 
+    $\sigma_n = \sum_\rho \rho^{-n}$,
+    where the sum is over the non-tirival zeros of $\zeta(s)$. CITE{Leh88}
+
   formula-sigma-1: >
     $\sigma_1 = \lambda_1$, where $\lambda_1$ is the first
     Keipler-Li coefficient.
@@ -40,11 +45,6 @@ Formulas:
 
   formula-lambda: >
     $\lambda_n = - \sum_{k=1}^n (-1)^k \binom{n}{k} \sigma_k$. CITE{Cof05}
-
-  formula-zeta-zero-moments: >
-    For $n\geq 2$, 
-    $\sigma_n = \sum_\rho \rho^{-n}$,
-    where the sum is over the non-tirival zeros of $\zeta(s)$. CITE{Leh88}
 
 Programs: 
 
