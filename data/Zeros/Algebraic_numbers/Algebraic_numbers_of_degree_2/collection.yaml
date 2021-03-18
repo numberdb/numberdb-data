@@ -21,12 +21,13 @@ Parameters:
     constraints: $a_0 \neq 0$
   n:
     type: Z
-    constraints: $n \geq 1$
+    constraints: $1\leq n \leq 2$
    
 Comments:
   comment-n: >
-    $n$ is the index of the root, where we order the roots first
-    by their norm, then by their imaginary part. 
+    $n$ is the index of the root, where we order the roots 
+    by their real parts if they are real,
+    otherwise by their imaginary part.
   
 Formulas: 
 

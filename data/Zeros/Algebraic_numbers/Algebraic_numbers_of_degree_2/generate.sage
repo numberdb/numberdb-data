@@ -34,9 +34,17 @@ for a2, a1, a0 in as_range:
 	f_str = "%s, %s, %s" % (a2, a1, a0)
 
 	numbers_f = {}
-	roots = f.roots(CIFprec,multiplicities=False)
+	if f.disc() < 0:
+		#complex roots, order by imaginary part:
+		roots = f.roots(CIFprec,multiplicities=False)
+		roots.sort(key = lambda root: root.imag())
+	else:
+		#real roots, order by real part:
+		roots = f.roots(RIFprec,multiplicities=False)
+		roots.sort(key = lambda root: root.real())
 
-	for n, root in enumerate(roots):
+	for n0, root in enumerate(roots):
+		n = n0 + 1 #shift index, such that 1 <= n <= deg(f)
 		number_str = complex_interval_to_sage_string(
 			root,
 			max_digits = prec10,
