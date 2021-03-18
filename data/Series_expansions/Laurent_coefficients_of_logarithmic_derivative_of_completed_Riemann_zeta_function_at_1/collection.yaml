@@ -1,0 +1,108 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Laurent series coefficients of the logarithmic derivative 
+  of the completed Riemann zeta function $\xi(s)$ at $s=1$
+
+Definition: >
+  This list contains the coefficients of the Laurent series expansion
+  $\xi'(s)/\xi(s) = \sum_{n=0}^\infty (-1)^n \sigma_{n+1} (s-1)^{n}$,
+  where $\xi(s) = \frac{1}{2}s(s-1)\pi^{-s/2}\Gamma(s/2)\zeta(s)$
+  is the completed Riemann zeta function CITE{WikiXi}.
+  We additionally list $\sigma_n/n$, 
+  the coefficients in CITE{formula-log-xi-at-1} and CITE{formula-log-xi-at-0}.
+  
+Parameters:
+  expression:
+    title: Transformation of constant
+    type: Symbolic
+    show-in-parameter-list: no
+
+  n:
+    type: Z
+    constraints: $n \geq 1$
+  
+Comments:
+    
+Formulas:
+  formula-sigma-1: >
+    $\sigma_1 = \lambda_1$, where $\lambda_1$ is the first
+    Keipler-Li coefficient.
+
+  formula-log-xi-at-1: >
+    $\log \xi(s) = - \log 2 - \sum_{n=1}^\infty (-1)^n \frac{\sigma_n}{n} (s-1)^n$.
+
+  formula-log-deriv-xi-at-0: >
+    $\xi'(s)/\xi(s) = - \sum_{n=0}^\infty \sigma_{n+1} s^{n}$.
+
+  formula-log-xi-at-0: >
+    $\log \xi(s) = - \log 2 - \sum_{n=1}^\infty \frac{\sigma_n}{n} s^n$.
+
+  formula-lambda: >
+    $\lambda_n = - \sum_{k=1}^n (-1)^k \binom{n}{k} \sigma_k$. CITE{Cof05}
+
+  formula-zeta-zero-moments: >
+    $\sigma_n = \sum_\rho \rho^{-n}$ where the sum is over
+    the non-tirival zeros of $\zeta(s)$. CITE{Leh88}
+
+Programs: 
+
+References:
+  Cof04:
+    bib: >
+      M.W. Coffey, "Relations and positivity results for the 
+      derivatives of the Riemann ξ function",
+      J. Comput. Appl. Math. 166 (2004), 525-534.
+
+  Cof05:
+    bib: >
+      Mark W. Coffey, "Toward Verification of the Riemann Hypothesis: 
+      Application of the Li Criterion",
+      Mathematical Physics, Analysis and Geometry 8 (2005), 211-255.
+
+  Con09:
+    bib: >
+      Donal F. Connon, "A recurrence relation for the Li/Keiper constants 
+      in terms of the Stieltjes constants", (2009), 50 pages.
+    arXiv: 0902.1691      
+
+  Kei92:
+    bib: >
+      J. B. Keiper, "Power series expansions of Riemann's $\xi$ function",
+      Math. Comp. 58 (1992), 765-773.
+    doi: 10.1090/S0025-5718-1992-1122072-5
+    MR: 1122072
+
+  Leh88: 
+    bib: >
+      D. H. Lehmer, "The sum of like powers of the zeros of the Riemann zeta function",
+      Math. Comput. 50, 265-273 (1988).
+
+Links:
+  WikiZeta:
+    title: "Wikipedia: Riemann zeta function"
+    url: https://en.wikipedia.org/wiki/Riemann_zeta_function
+  WikiXi:
+    title: "Wikipedia: Riemann Xi function"
+    url: https://en.wikipedia.org/wiki/Riemann_Xi_function
+
+Similar tables:
+  
+Keywords:
+- zeta zeros
+  
+Tags:
+- Taylor series
+- L-function
+- moments
+
+Data properties:
+  type: R
+  complete: no
+  
+Display properties:
+  number-header: >
+    $n$<sup>th</sup> coefficient
+
+Numbers: INPUT{numbers.yaml}
+

@@ -48,7 +48,7 @@ Formulas:
     where $\gamma$ is the Euler-Mascheroni constant.
     
   formula-lambda-2: >
-    $\lambda_2 = 1 +\gamma - \gamma^2 + \pi^2/8 - 2\log 2 - \log\pi - 2\gamma_1$, 
+    $\lambda_2 = 1 +\gamma - \gamma^2 + \pi^2/8 $ $- 2\log 2 - \log\pi - 2\gamma_1$, 
     where $\gamma_1$ is the first Stieltjes constant.
   
   formula-lambda-3: >
