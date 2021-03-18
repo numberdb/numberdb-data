@@ -5,7 +5,7 @@ Title: >
 
 Definition: >
   The list contains the coefficients of the Taylor expansion
-  $\xi(s) = \sum_{n=0}^\infty \frac{a_n}{n!} (s-1/2)^n$
+  $\xi(s) = \sum_{n=0}^\infty \frac{a_n}{n!} (s-2)^n$
   of the completed Riemann zeta function
   $\xi(s) = \frac{1}{2}s(s-1)\pi^{-s/2}\Gamma(s/2)\zeta(s)$
   at $s=2$.
