@@ -77,18 +77,40 @@ for n in n_range:
 		
 numbers = {}
 
-for n in [-1] + n_range:
-	n_str = str(n)
-	if n == -1:
-		number = RIFprec(1)
-	else:
-		number = eta[n]	
-	
-	numbers[n_str] = real_interval_to_sage_string(
-		number,
-		max_digits = prec10,
-	).replace('?','')
-		 
+for expression in ['eta_n', 'eta_n/n']:
+	expression_latex = '$\%s$' % (expression,)
+
+	numbers_expression = {}
+	for n in [-1] + n_range:
+		n_str = str(n)
+
+		if expression == 'eta_n':
+			if n == -1:
+				number = RIFprec(1)
+			else:
+				number = eta[n]	
+		elif expression == 'eta_n/n':
+			if n <= 0:
+				continue
+			number = eta[n]/n
+		else:
+			raise RuntimeError()
+		
+		numbers_expression[n_str] = real_interval_to_sage_string(
+			number,
+			max_digits = prec10,
+		).replace('?','')
+
+		if expression == 'eta_n/n' and n == 1:
+			numbers_expression[n_str] = {
+				'number': numbers_expression[n_str],
+				'equals': 'HREF{#eta_n,1}',
+			}
+			
+	numbers[expression] = {
+		'param-latex': expression_latex,
+		'numbers': numbers_expression,
+	}
 
 filename = os.path.join(path, 'numbers.yaml')
 yaml.dump(numbers, stream = open(filename, 'w'), sort_keys = False)
