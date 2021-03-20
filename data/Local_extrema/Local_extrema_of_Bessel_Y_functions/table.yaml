@@ -17,7 +17,7 @@ Parameters:
    
 Comments:
   comment-choice-of-alpha: >
-    This collection currently restricts to the important special case 
+    This table currently restricts to the important special case 
     $\alpha \in \frac{1}{2}\mathbb{Z}_{\geq 0}$.
   comment-maxima: >
     Local maxima arise for odd $n$, local minima for even $n$.  

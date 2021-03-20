@@ -1,10 +1,10 @@
 ID: INPUT{id.yaml}
 
 Title: >
-  Local extrema of Bessel functions of the first kind $J_\alpha$ 
+  Zeros of Bessel functions of the first kind $J_\alpha$ 
 
 Definition: >
-  The list contains the first zeros of the derivative of 
+  The list contains the first positive zeros of 
   Bessel functions of the first kind $J_\alpha$.
 
 Parameters:
@@ -17,15 +17,12 @@ Parameters:
    
 Comments:
   comment-choice-of-alpha: >
-    This collection currently restricts to the important special case 
+    This table currently restricts to the important special case 
     $\alpha \in \frac{1}{2}\mathbb{Z}_{\geq 0}$.
-  comment-alpha-0: >
-    Note that we list $x=0$ for $\alpha=0$ as $J_0'(0)=0$
-    and for consistency with CITE{comment-maxima}.
-  comment-maxima: >
-    Local maxima arise for odd $n$, local minima for even $n$.  
   
 Formulas: 
+  formula-1over2: >
+    The $n$'th root of $J_{1/2}(x)$ equals $n\pi$.
 
 Programs: 
 
@@ -41,11 +38,9 @@ Links:
 Similar tables:
   
 Keywords:
-- maximum
-- minimum
   
 Tags:
-- local extrema
+- zero
 - special functions
 
 Data properties:
@@ -54,6 +49,6 @@ Data properties:
   reliability: computed with mpmath CITE{mpmath}
 
 Display properties:
-  number-header: $n$<sup>th</sup> local extremum of $J_\alpha$
+  number-header: $n$<sup>th</sup> root of $J_\alpha$
 
 Numbers: INPUT{numbers.yaml}

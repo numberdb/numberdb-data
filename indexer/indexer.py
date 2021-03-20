@@ -30,7 +30,7 @@ def update_ids():
 	#i = index
 
 	next_ids_filename = os.path.join("data","next_ids.yaml")
-	collection_id_prefix = "C"
+	table_id_prefix = "T"
 
 	def succ_id(id):
 		prefix = id[0]
@@ -41,41 +41,41 @@ def update_ids():
 	try:
 		with open(next_ids_filename,"r") as f:
 			next_ids = yaml.load(f,Loader=yaml.BaseLoader)
-			next_collection_id = next_ids["next_collection_id"]
+			next_table_id = next_ids["next_table_id"]
 			
 	except FileNotFoundError:
-		next_collection_id = collection_id_prefix + "0"
+		next_table_id = table_id_prefix + "0"
 
-	print("next_collection_id:",next_collection_id)
+	print("next_table_id:",next_table_id)
 
 	commit_message = "added ids\n\n"
-	new_collection_paths = []
+	new_table_paths = []
 
 	for item in tree.traverse():
 		if item.type == 'blob':
 			path, filename = os.path.split(item.path)
-			if filename == "collection.yaml":
+			if filename == "table.yaml":
 				if not os.path.exists(os.path.join(path,"id.yaml")):
-					new_collection_paths.append(path)
+					new_table_paths.append(path)
 
-	print("new_collection_paths:",new_collection_paths)
+	print("new_table_paths:",new_table_paths)
 
 	new_filenames = []
 
-	for path in new_collection_paths:
+	for path in new_table_paths:
 		filename = os.path.join(path,"id.yaml")
 		with open(filename,"w") as f:
 			f.writelines([
 				"# Automatically created file. Do NOT edit.\n",
 				"# If you copy the containing folder, delete this file in the copy.\n",
 				"\n",
-				"%s\n" % (next_collection_id,),
+				"%s\n" % (next_table_id,),
 				])
 		new_filenames.append(filename)
-		commit_message += "    %s: %s\n" % (next_collection_id, filename)
+		commit_message += "    %s: %s\n" % (next_table_id, filename)
 
 		print("saved ",filename)
-		next_collection_id = succ_id(next_collection_id)
+		next_table_id = succ_id(next_table_id)
 
 	if len(new_filenames) == 0:
 		print("Done: No new id needed.") 
@@ -86,7 +86,7 @@ def update_ids():
 			"# Automatically created file. Do NOT edit.\n",
 			"# If you copy the containing folder, delete this file in the copy.\n",
 			"\n",
-			"next_collection_id: %s\n" % (next_collection_id,),
+			"next_table_id: %s\n" % (next_table_id,),
 			])
 		print("saved ",next_ids_filename)
 		commit_message += "    updated %s\n" % (next_ids_filename,)
