@@ -1,6 +1,6 @@
 # numberdb-data
 
-The raw data for numberdb.org is contained in this repository, more specifically, in the folder data/.
+The raw data for [numberdb.org](https://numberdb.org) is contained in this repository, more specifically, in the folder [data](https://github.com/bmatschke/numberdb-data/tree/main/data/).
 
 ## For authors/contributors:
 
@@ -26,4 +26,4 @@ Important: The folder name (just the top level, not the whole path) will also wo
 
 ## For editors:
 
-After accepting pull-requests that contain new collections, run the indexer by clicking on Actions -> Indexer -> Run workflow -> Run workflow (on branch main). This will create id.yamls for the new collections.
+After accepting pull-requests that contain new collections, [run the indexer](https://github.com/bmatschke/numberdb-data/actions/workflows/indexer.yaml) by clicking on Actions -> Indexer -> Run workflow -> Run workflow (on branch main). This will create id.yamls for the new collections.
