@@ -1,0 +1,81 @@
+ID: INPUT{id.yaml} 
+
+Title: Wilbraham-Gibbs constant
+
+Definition: >
+  The Wilbraham-Gibbs constant $G'$ is defined as $G' = \text{Si}(\pi) = \int_0^\pi \frac{\sin t}{t} dt$.
+  The Gibbs constant $G$ is defined as $G'/(\pi/2)$.  
+  
+Parameters:
+  expression:
+    title: Transformation of constant
+    type: Symbolic
+    show-in-parameter-list: no
+    
+Comments:
+  comment-Gibbs-phenomenon: >
+    If $f$ is a periodic piecewise continuously differentiable function 
+    with a jump of a certain size at a discontinuity of $f$,
+    then for large $n$, 
+    the $n$'th partial Fourier expansion of $f$ will overshoot
+    this jump by a factor of approximately $(G-1)/2$ at each side,
+    and by a factor of $(G-1)$ in total.
+    This is known as the Gibbs phenomenon CITE{Wiki}.
+    
+Formulas: 
+
+Programs: 
+
+References:
+  Fin:
+    bib: >
+      Finch, S. R.,
+      "Gibbs-Wilbraham Constant." 
+      §4.1 in "Mathematical Constants". 
+      Cambridge University Press, pp. 248-250, (2003). 
+  Wil:
+    bib: >
+      Wilbraham, Henry, "On a certain periodic function", 
+      The Cambridge and Dublin Mathematical Journal, 3: 198–201, (1848).
+     
+
+Links:
+  MathWorld:
+    title: "MathWorld: Wilbraham-Gibbs Constant"
+    url: https://mathworld.wolfram.com/Wilbraham-GibbsConstant.html
+  OEIS_A243268:
+    title: "OEIS: A243268"
+    url: https://oeis.org/A243268
+  OEIS_A036792:
+    title: "OEIS: A036792"
+    url: https://oeis.org/A036792
+  Wiki:
+    title: "Wikipedia: Gibbs phenomenon"
+    url: https://en.wikipedia.org/wiki/Gibbs_phenomenon
+    
+Similar tables:
+  
+Keywords: 
+
+Tags:
+- analysis
+- Fourier series
+
+Data properties:
+  type: R
+
+Display properties:
+
+Numbers:
+  WG:
+    param-latex: $G'$
+    number: 1.851937051982466170361053370157991363345809728981154909804783781876981890166348358532710336502954757
+  G:
+    param-latex: $G$
+    number: 1.178979744472167270232028845824909741463897420964366146834503705768303703705043859077668347949410421
+  G-1:
+    param-latex: $G-1$
+    number: 0.178979744472167270232028845824909741463897420964366146834503705768303703705043859077668347949410421
+  '(G-1)/2': 
+    param-latex: $(G-1)/2$
+    number: 0.089489872236083635116014422912454870731948710482183073417251852884151851852521929538834173974705210
