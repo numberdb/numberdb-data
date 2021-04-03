@@ -1,0 +1,72 @@
+ID: INPUT{id.yaml} 
+
+Title: Hafner-Sarnak-McCurley constant
+
+Definition: >
+  The Hafner-Sarnak-McCurley constant $\omega$ is the limit
+  of the probabilities $D(n)$ as $n \to \infty$ 
+  that the determinants of two random $n\times n$ matrices 
+  with integral coefficients have coprime determinants.
+
+Parameters:
+
+Comments: 
+
+Formulas: 
+  formula-omega: >
+    $\omega = \prod_p \big(1-
+    \big(1 - \prod_{j=1}^\infty (1-p^{-j})\big)^2
+    \big)$,
+    where the outer product ranges over all primes $p$.
+  formula-Dn: >
+    $D(n) = \prod_p \big( 1 -
+    \big(
+    1 - \prod_{j=1}^n (1 - p^{-j})
+    \big)^2
+    \big)$.
+
+Programs: 
+
+References:
+  FlVa96:
+    bib: >
+      Flajolet, P. and Vardi, I., 
+      "Zeta Function Expansions of Classical Constants", 
+      Unpublished manuscript (1996).
+    url: http://algo.inria.fr/flajolet/Publications/landau.ps
+  
+  HSMCJ93:
+    bib: >
+      L. Hafner, P. Sarnak and K. McCurley, 
+      "Relatively prime values of polynomials", 
+      In A Tribute to Emil Grosswald: Number Theory and Related Analysis, 
+      Contemporary Mathematics (1993), 
+      M. Knopp and M. Sheigorn, Editors, vol. 143.
+
+Links:
+  MathWorld:
+    title: "MathWorld: Hafner-Sarnak-McCurley Constant"
+    url: https://mathworld.wolfram.com/Hafner-Sarnak-McCurleyConstant.html
+  OEIS:
+    title: "OEIS: A085849"
+    url: https://oeis.org/A085849
+  Wiki:
+    title: "Wikipedia: Hafner-Sarnak-McCurley constant"
+    url: https://en.wikipedia.org/wiki/Hafner%E2%80%93Sarnak%E2%80%93McCurley_constant
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- arithmetic
+- probability theory
+
+Data properties:
+  type: R
+  
+Display properties:
+  number-header: $\omega$
+
+Numbers:
+- 0.353236371854995984543516550432682011280164778566690446416085942814238325002669003483672078334335498967
