@@ -1,0 +1,46 @@
+ID: INPUT{id.yaml} 
+
+Title: Twin prime constant $C_2$
+
+Definition: >
+   $C_2 := \prod_{p \geq 3} \big( 1 - (p-1)^{-2} \big)$, 
+   where the product ranges over the odd primes $p$. 
+
+Parameters:
+
+Comments: 
+  comment-first-Hardy-Littlewood-conjecture: >
+    Let $\pi_2(x)$ denote the number of primes $p\leq x$ such that
+    $p+2$ is also a prime.
+    The first Hardy-Littlewood conjecture implies that
+    $\pi_2(x) \sim 2C_2\frac{x}{\log^2 x}$.
+    
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  OEIS:
+    title: "OEIS: A005597"
+    url: https://oeis.org/A005597
+  Wiki:
+    title: "Wikipedia: First Hardy-Littlewood conjecture"
+    url: https://en.wikipedia.org/wiki/Twin_prime#First_Hardy%E2%80%93Littlewood_conjecture
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- probability theory
+
+Data properties:
+  type: R
+  
+Display properties:
+  number-header: $C_2$
+
+Numbers:
+- 0.660161815846869573927812110014555778432623360284733413319448423335405642304495277143760031413839867911779
