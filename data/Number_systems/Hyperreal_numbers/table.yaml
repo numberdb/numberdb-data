@@ -21,9 +21,9 @@ Comments:
   comment-not-well-defined: >
     Our current definition of $^*\mathbb{R}$ is not well-defined
     as it depends on the choice of the free ultrafilter $U$.
-    This is against a principle of NumberDB according to which 
-    every number in this database should be exactly defined.
-    This could possibly resolved using 
+    This is against a basic principle of NumberDB according to which 
+    every number in this database should be well-defined.
+    This could possibly be resolved using 
     the construction of Kanovei and Shelah CITE{KanShe04}.
     
   comment-extension-of-R: >
