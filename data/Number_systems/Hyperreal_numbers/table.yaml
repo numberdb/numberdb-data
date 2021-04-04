@@ -1,0 +1,95 @@
+ID: INPUT{id.yaml} 
+
+Title: Hyperreal numbers
+
+Definition: >
+  Given a free ultrafilter $U$ on the natural numbers $\mathbb{N}$,
+  the field of hyperreal numbers $^*\mathbb{R}$ CITE{WikiHyperreal}
+  can be defined as 
+  the ultrapower $\mathbb{R}^\mathbb{N}/U$ CITE{WikiUltrafilter},
+  which is the set of all sequences of real numbers modulo 
+  the equivalence relation $(a_n)_n \sim (b_n)_n$ if and only if 
+  $\{n \mid a_n = b_n\} \in U$.  
+  
+Parameters:
+  expression:
+    title: Name of constant
+    type: Symbolic
+    show-in-parameter-list: no
+    
+Comments:
+  comment-not-well-defined: >
+    Our current definition of $^*\mathbb{R}$ is not well-defined
+    as it depends on the choice of the free ultrafilter $U$.
+    This is against a principle of NumberDB according to which 
+    every number in this database should be exactly defined.
+    This could possibly resolved using 
+    the construction of Kanovei and Shelah CITE{KanShe04}.
+    
+  comment-extension-of-R: >
+    $^*\mathbb{R}$ is an extension field of the real numbers $\mathbb{R}$:
+    An embedding $\mathbb{R} \to {}^*\mathbb{R}$ is given by
+    $r \mapsto (r)_n$.
+  comment-field: >
+    The hyperreal numbers become a field with respect to element-wise
+    operations. 
+    (Except that for division, division by $0$ may happen at some indices $n$, 
+    in which case once chooses an arbitrary real number as the result.)
+  comment-eps: >
+    The hyperreal number $\varepsilon = (1/n)_n$ is an infinitesimal:
+    $\varepsilon > 0$ and $\varepsilon < r$ for any positive real number $r$.
+  comment-1/eps: >
+    Similarly, $1/\varepsilon$ is an infinite hyperreal number: 
+    $1/\varepsilon > r$ for any real number $r$.
+    
+Formulas: 
+
+Programs: 
+
+References:
+  KanShe04:
+    bib: >
+      Kanovei, Vladimir; Shelah, Saharon, 
+      "A definable nonstandard model of the reals",
+      Journal of Symbolic Logic, 69: 159–164, (2004).
+    arXiv: math/0311165 
+    doi: 10.2178/jsl/1080938834
+
+Links:
+  WikiHyperreal:
+    title: "Wikipedia: Hyperreal number"
+    url: https://en.wikipedia.org/wiki/Hyperreal_number
+  WikiUltrafilter:
+    title: "Wikipedia: Ultraproduct"
+    url: https://en.wikipedia.org/wiki/Ultraproduct
+    
+Similar tables:
+  
+Keywords: 
+
+Tags:
+- stub
+- ring
+- number system
+- nonstandard analysis
+- axiom of choice
+- set theory
+
+Data properties:
+  type: "*R"
+
+Display properties:
+
+Numbers:
+  1:
+    param-latex: $1$
+    number: >
+      (n: 1 for n in NN)
+  eps:
+    param-latex: $\varepsilon$
+    number: >
+      (n: 1/n for n in NN)
+  1/eps:
+    param-latex: $1/\varepsilon$
+    number: >
+      (n: n for n in NN)
