@@ -1,0 +1,54 @@
+ID: INPUT{id.yaml} 
+
+Title: 42
+
+Definition: >
+  The natural number 42.
+  
+Parameters:
+
+Comments: 
+
+Formulas: 
+  formula-factorization: >
+    Prime factorization: $42 = 2 \cdot 3 \cdot 7$.
+  formula-sum-of-3-cubes: >
+    Sum of three cubes: $42 = (-80538738812075974)^3 + 80435758145817515^3 + 12602123297335631^3$.
+    CITE{BooSut}    
+
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      numbers = [42]
+
+References:
+  BooSut:
+    bib: >
+       Booker and Sutherland, "On a question of Mordell",
+       Proc. Nat. Acad. Sci. USA 118 (2021), no. 11. 
+    doi: 10.1073/pnas.2022377118 
+
+Links:
+  Suth:
+    title: "Booker, Sutherland: Sum of cubes"
+    url: https://math.mit.edu/~drew/sumsofcubes.html
+  Wiki:
+    title: "Wikipedia: 42 (number)"
+    url: https://en.wikipedia.org/wiki/42_(number)
+
+Similar tables:
+- relation: contained in
+  table: HREF{Integers#1}[integers]
+  
+Keywords:
+
+Tags:
+- integer
+- abundant
+
+Data properties:
+  type: Z
+
+Numbers:
+- 42
