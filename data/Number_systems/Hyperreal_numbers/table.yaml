@@ -30,17 +30,25 @@ Comments:
     $^*\mathbb{R}$ is an extension field of the real numbers $\mathbb{R}$:
     An embedding $\mathbb{R} \to {}^*\mathbb{R}$ is given by
     $r \mapsto (r)_n$.
+    
   comment-field: >
     The hyperreal numbers become a field with respect to element-wise
     operations. 
     (Except that for division, division by $0$ may happen at some indices $n$, 
     in which case once chooses an arbitrary real number as the result.)
+
   comment-eps: >
     The hyperreal number $\varepsilon = (1/n)_n$ is an infinitesimal:
     $\varepsilon > 0$ and $\varepsilon < r$ for any positive real number $r$.
+
   comment-1/eps: >
     Similarly, $1/\varepsilon$ is an infinite hyperreal number: 
     $1/\varepsilon > r$ for any real number $r$.
+
+  comment-schroedingers-infinity: >
+    The hyperreal $S = ((-1)^n n)_n$ is either $1/\varepsilon$ or its negative,
+    depending on the choice of $U$.
+    We might call $S$ "Schrödinger's infinity".
     
 Formulas: 
 
@@ -93,3 +101,7 @@ Numbers:
     param-latex: $1/\varepsilon$
     number: >
       (n: n for n in NN)
+  S:
+    param-latex: $S$
+    number: >
+      (n: (-1)^n * n for n in NN)
