@@ -1,0 +1,48 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Values of the $p$-adic Gamma function at integers
+
+Definition: >
+  This table contains values 
+  $\Gamma_p(k) \in \mathbb{Z}_p$
+  of the $p$-adic Gamma function 
+  at certain integers $k$.
+
+Parameters:
+  p:
+    type: Z
+    constraints: prime
+    
+  k:
+    type: Z
+    
+Comments:
+    
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: P-adic_gamma_function"
+    url: https://en.wikipedia.org/wiki/P-adic_gamma_function
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- p-adic
+- special values
+
+Data properties:
+  type: Qp
+  complete: no
+
+Display properties:
+  number-header: $\Gamma_p(k)$
+
+Numbers: INPUT{numbers.yaml}
