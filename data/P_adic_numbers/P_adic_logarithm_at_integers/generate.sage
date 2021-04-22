@@ -2,7 +2,7 @@ import yaml
 import os
 import mpmath
 
-path = 'data/P_adic_numbers/P_adic_logarithms/'
+path = 'data/P_adic_numbers/P_adic_logarithm_at_integers/'
 
 prec10 = 50 #relative precision in base 10
 
