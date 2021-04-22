@@ -4,9 +4,9 @@ import mpmath
 
 path = 'data/P_adic_numbers/Teichmueller_representatives_in_Zp/'
 
-prec10 = 30 #relative precision in base 10
+prec10 = 50 #relative precision in base 10
 
-p_range = prime_range(20)
+p_range = prime_range(30)
 
 RIFprec = RealIntervalField(prec10 * 3.4 * 2)
 
@@ -15,7 +15,7 @@ for p in p_range:
 	print("p:",p)
 	numbers_p = {}
 
-	prec_p = ceil(30*log(10,p))
+	prec_p = ceil(prec10*log(10,p))
 	Q_p = Qp(p, prec=prec_p, print_mode='val-unit')
 
 	if p == 2:
