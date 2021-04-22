@@ -1,0 +1,60 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  $p$-adic logarithm of integers
+
+Definition: >
+  This table constains $p$-adic logarithms 
+  $\log_p(k) \in \mathbb{Z}_p$ of certain integers $k$.
+
+Parameters:
+  p:
+    type: Z
+    constraints: prime
+    
+  k:
+    type: Z
+    constraints: $k = 1 \mod p$
+    
+Comments:
+  comment-extension-of-log: >
+    The $p$-adic logarithm is defined by its Taylor series 
+    for all $x \in 1 + p\mathbb{Z}_p$.
+    It extends via its functional equation to 
+    all of $\mathbb{Z}_p^\times$:
+    Any element of $\mathbb{Z}_p^\times$ can be uniquely written as a
+    product $ax$ of some $x \in 1 + p\mathbb{Z}_p$ and some 
+    Teichmüller representative $a \in \mathbb{Z}_p$.
+    As $a$ is a root of unity, the functional equation for $\log_p$ 
+    dictates $\log_p(a)=0$ and thus $\log_p(ax) = \log_p(x)$.
+    Similarly, we can extend $\log_p$ to any $x\in \mathbb{Q}_p^\times$
+    by prescribing an arbitrary value for $\log_p p$,
+    such as $\log_p p = 0$.
+    
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: p-adic logarithm function"
+    url: https://en.wikipedia.org/wiki/P-adic_exponential_function#p-adic_logarithm_function
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- p-adic
+- special values
+
+Data properties:
+  type: Qp
+  complete: no
+
+Display properties:
+  number-header: $\log_p(k)$
+
+Numbers: INPUT{numbers.yaml}
