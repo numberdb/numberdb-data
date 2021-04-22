@@ -1,0 +1,60 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Teichmüller representatives in $\mathbb{Z}_p$
+
+Definition: >
+  Let $p$ be a rational prime,
+  let $q=p$ for $p>2$ and $q=4$ for $p=2$,
+  let $G = (\mathbb{Z}/q\mathbb{Z})^\times$, 
+  and let $\omega: G \to \mathbb{Z}_p^*$ be
+  the Teichmüller character CITE{Wiki}.
+  The images $\omega(k)$ of elements $k \in G$ are their
+  Teichmüller representatives in $\mathbb{Z}_p$.  
+
+Parameters:
+  p:
+    type: Z
+    constraints: prime
+    
+  k:
+    type: Z
+    constraints: 
+    - > 
+      $1 \leq k < p$ for $p>2$
+    - >
+      $k = \pm 1$ for $p=2$
+    
+Comments:
+  comment-roots-of-unity: >
+    The set of Teichmüller representatives in $\mathbb{Z}_p$
+    equals the set of non-zero roots of unity in $\mathbb{Z}_p$.
+    The $k$'th Teichmüller representative reduces to $k$ modulo $p$.
+  
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Teichmüller character"
+    url: https://en.wikipedia.org/wiki/Teichm%C3%BCller_character
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- p-adic
+- zeros
+
+Data properties:
+  type: Qp
+  complete: no
+
+Display properties:
+  number-header: Teichmüller representative of $k$ in $\mathbb{Z}_p$
+
+Numbers: INPUT{numbers.yaml}
