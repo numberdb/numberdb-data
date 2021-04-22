@@ -1,0 +1,53 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Values of the $p$-adic exponential function at integers
+
+Definition: >
+  This table constains values 
+  $\exp_p(k) \in \mathbb{Z}_p$
+  of the $p$-adic exponential function 
+  at certain integers $k$.
+
+Parameters:
+  p:
+    type: Z
+    constraints: prime
+    
+  k:
+    type: Z
+    constraints: $|k|_p < p^{-1/(p-1)}$
+    
+Comments:
+  comment-extension-of-log: >
+    The $p$-adic logarithm is defined by its Taylor series 
+    for all $x \in \mathbb{C}_p$ within the radius of convergence,
+    $|x|_p < p^{-1/(p-1)}$.
+    
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: P-adic_exponential_function"
+    url: https://en.wikipedia.org/wiki/P-adic_exponential_function
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- p-adic
+- special values
+
+Data properties:
+  type: Qp
+  complete: no
+
+Display properties:
+  number-header: $\exp_p(k)$
+
+Numbers: INPUT{numbers.yaml}
