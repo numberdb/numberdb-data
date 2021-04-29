@@ -7,7 +7,7 @@ path = 'data/P_adic_numbers/P_adic_exponential_function_at_integers/'
 prec10 = 50 #relative precision in base 10
 
 p_range = prime_range(30)
-i_range = [0..30] 
+i_range = [-50..50] 
 
 numbers = {}
 for p in p_range:
