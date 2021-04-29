@@ -6,7 +6,7 @@ path = 'data/P_adic_numbers/Teichmueller_representatives_in_Zp/'
 
 prec10 = 50 #relative precision in base 10
 
-p_range = prime_range(30)
+p_range = prime_range(100)
 
 RIFprec = RealIntervalField(prec10 * 3.4 * 2)
 
