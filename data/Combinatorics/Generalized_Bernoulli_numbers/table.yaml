@@ -1,0 +1,62 @@
+ID: INPUT{id.yaml} 
+
+Title: Generalized Bernoulli numbers
+
+Definition: >
+  Let $\chi$ be a Dirichlet character of modulus $q$.
+  The generalized Bernoulli numbers $B_{k,\chi}$ attached to $\chi$
+  are defined as the Taylor coefficients of 
+  $\sum_{a=1}^q \chi(a) \frac{te^{at}}{e^{qt}-1} = \sum_{k=0}^\infty B_{k,\chi}\frac{t^k}{k!}$.
+
+Parameters:
+  q:
+    title: modulus of $\chi$
+    type: Z
+    constraints: $q \geq 1$
+  n:
+    title: HREF{#CL}[Conrey index] of $\chi$
+    type: Z
+    constraints: $1 \leq n \leq \max(q-1,1)$
+    comments: >
+      The pair $(q,n)$ uniquely determines the Dirichlet character $\chi$.
+  k:
+    type: Z
+    constraints: $k \geq 0$
+
+Comments: 
+
+Formulas: 
+
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      chi = DirichletGroup(3).an_element()
+      numbers = [chi.bernoulli(n) for n in [0..10]]
+
+References:
+
+Links:
+  CL:
+    title: "LMFDB knowl: Conrey label"
+    url: https://www.lmfdb.org/knowledge/show/character.dirichlet.conrey
+  Wiki:
+    title: "Wikipedia: Generalized Bernoulli numbers"
+    url: https://en.wikipedia.org/wiki/Bernoulli_number#Generalized_Bernoulli_numbers
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- sequence
+- generating function
+- special values
+
+Data properties:
+  type: C
+  
+Display properties:
+  number-header: $B_{k,\chi}$
+
+Numbers: INPUT{numbers.yaml}
