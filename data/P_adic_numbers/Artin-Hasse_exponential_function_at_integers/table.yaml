@@ -1,0 +1,55 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Values of the Artin-Hasse exponential function at integers
+
+Definition: >
+  For a given prime $p$, 
+  the Artin-Hasse exponential function $E_p$
+  is defined as the power series
+  $E_p(x) = \exp \sum_{n=0}^\infty \frac{x^{p^n}}{p^n}$.
+  Its radius of convergence in $\mathbb{Q}_p$ around $0$ equals $1$.
+  This table contains values 
+  $E_p(k) \in \mathbb{Z}_p$
+  of the $p$-adic Artin-Hasse exponential function $E_p$ 
+  at certain integers $k$.
+
+Parameters:
+  p:
+    type: Z
+    constraints: prime
+    
+  k:
+    type: Z
+    constraints: $|k|_p < 1$
+    
+Comments:
+    
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Artin-Hasse_exponential_function"
+    url: https://en.wikipedia.org/wiki/Artin%E2%80%93Hasse_exponential
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- p-adic
+- exponential function
+- special values
+
+Data properties:
+  type: Qp
+  complete: no
+
+Display properties:
+  number-header: $E_p(k)$
+
+Numbers: INPUT{numbers.yaml}
