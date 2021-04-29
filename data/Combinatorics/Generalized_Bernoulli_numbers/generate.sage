@@ -36,6 +36,10 @@ for q in q_range:
 
 		for k in k_range:
 		
+			if chi(-1) != (-1)^k:
+				#Skip trivial 0's (note that for (q,n)=(1,1), there is an exception at k=1!).
+				continue
+		
 			b_k_chi = chi.bernoulli(k)
 			if not b_k_chi in QQ:
 				b_k_chi = CIFprec(b_k_chi)

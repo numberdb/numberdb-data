@@ -24,6 +24,9 @@ Parameters:
     constraints: $k \geq 0$
 
 Comments: 
+  comment-trivial-zeros: >
+    If $\chi(-1) \neq (-1)^k$, we have $B_{k,\chi}=0$ unless $(q,n)=(1,1)$ (that is, $\chi=1$).
+    Thus we skip these trivial zero entries.
 
 Formulas: 
 
