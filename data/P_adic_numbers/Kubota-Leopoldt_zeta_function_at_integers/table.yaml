@@ -1,0 +1,51 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Values of the Kubota-Leopoldt zeta function at integers
+
+Definition: >
+  For a given prime $p$, 
+  the Kubota-Leopoldt zeta function $\zeta_p(s)$
+  is the unique continuous $p$-adic function on the $p$-adic integers $\mathbb{Z}_p$
+  that equals $(1-p^{-k})\zeta(k)$ at the negative integers $k$ of the form
+  $k = 1 \mod (p-1)$ if $p>2$ and $k = 1 \mod 2$ if $p=2$.
+  This table lists values of $\zeta_p(s)$ at certain integers $s$.
+  
+Parameters:
+  p:
+    type: Z
+    constraints: prime
+    
+  s:
+    type: Z
+    
+Comments:
+    
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: P-adic L-function"
+    url: https://en.wikipedia.org/wiki/P-adic_L-function
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- p-adic
+- L-function
+- special values
+
+Data properties:
+  type: Qp
+  complete: no
+
+Display properties:
+  number-header: $\zeta_p(s)$
+
+Numbers: INPUT{numbers.yaml}
