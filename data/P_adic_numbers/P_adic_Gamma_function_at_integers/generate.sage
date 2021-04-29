@@ -7,7 +7,7 @@ path = 'data/P_adic_numbers/P_adic_Gamma_function_at_integers/'
 prec10 = 50 #relative precision in base 10
 
 p_range = prime_range(30)
-k_range = [-20..20] 
+k_range = [-40..40] 
 
 numbers = {}
 for p in p_range:
