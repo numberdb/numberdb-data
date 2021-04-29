@@ -7,7 +7,7 @@ path = 'data/P_adic_numbers/P_adic_logarithm_at_integers/'
 prec10 = 50 #relative precision in base 10
 
 p_range = prime_range(30)
-i_range = [0..30] #k = 1 + i*p
+i_range = [-50..50] #k = i
 
 numbers = {}
 for p in p_range:
@@ -18,7 +18,10 @@ for p in p_range:
 	Q_p = Qp(p, prec=prec_p, print_mode='val-unit')
 
 	for i in i_range:
-		k = 1 + i*p
+		k = i
+		if k % p == 0:
+			continue
+		#print("k:",k)
 		number = Q_p(k).log()
 	
 		number_str = str(number)
