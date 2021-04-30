@@ -4,7 +4,7 @@ from utils.utils import numbers_to_yaml
 from utils.utils import real_interval_to_sage_string
 
 
-path = 'data/P_adic_numbers/P-adic_arithmetic-geometric_mean/'
+path = 'data/P-adic_numbers/P-adic_arithmetic-geometric_mean/'
 
 prec10 = 50 #relative precision in base 10
 

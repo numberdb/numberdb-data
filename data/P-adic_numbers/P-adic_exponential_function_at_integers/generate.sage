@@ -2,7 +2,7 @@ import yaml
 import os
 import mpmath
 
-path = 'data/P_adic_numbers/Artin-Hasse_exponential_function_at_integers/'
+path = 'data/P-adic_numbers/P-adic_exponential_function_at_integers/'
 
 prec10 = 50 #relative precision in base 10
 
@@ -18,8 +18,11 @@ for p in p_range:
 	Q_p = Qp(p, prec=prec_p, print_mode='val-unit')
 
 	for i in i_range:
-		k = i * p
-		number = Q_p(k).artin_hasse_exp()
+		if p > 2:
+			k = i * p
+		else:
+			k = i * p^2
+		number = Q_p(k).exp()
 	
 		number_str = str(number)
 		numbers_p[str(k)] = number_str
