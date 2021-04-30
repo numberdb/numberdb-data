@@ -1,0 +1,75 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Values of the arithmetic-geometric mean
+
+Definition: >
+  The arithmetic-geometric mean $\text{agm}(a,b)$ of two
+  non-negative real numbers $a$ and $b$ is defined
+  as the simultaneous limit $\lim a_n = \lim g_n$ 
+  of the sequences $(a_n)$ and $(g_n)$ given by
+  $a_0 = a$, $g_0 = b$, 
+  $a_{n+1} = (a_n + g_n)/2$, 
+  $g_{n+1} = \sqrt{a_n g_n}$. 
+  This table lists values of $\text{agm}(a,b)$ 
+  for certain pairs of integers $a$ and $b$.
+  
+Parameters:
+  a:
+    display: $a$
+    type: R
+    constraints: $a \geq 0$
+
+  b:
+    display: $b$
+    type: R
+    constraints: $b \geq 0$
+   
+Comments:
+  comment-breaking-symmetry: >
+    Due to the symmetry CITE{formula-symmetric}, we only list values 
+    for $a < b$.
+  
+Formulas: 
+  formula-elliptic-integral: >
+    $\text{agm}(a,b) = \frac{(a+b)\pi}{4K((a-b)/(a+b))}$, where
+    $K(k) = \int_0^{\pi/2} \frac{d\theta}{\sqrt{1-k^2\sin^2\theta}}$
+    is the complete elliptic integral of the first kind CITE{WikiEllInt}.
+  formula-symmetric: >
+    $\text{agm}(a,b) = \text{agm}(b,a)$
+  formula-diagonal: >
+    $\text{agm}(a,a) = a$
+  formula-edge: >
+    $\text{agm}(0,a) = 0$
+
+Programs: 
+
+References:
+
+Links:
+  MathWorld:
+    title: "MathWorld: Arithmetic-Geometric Mean"
+    url: https://mathworld.wolfram.com/Arithmetic-GeometricMean.html
+  Wiki:
+    title: "Wikipedia: Arithmetic-geometric mean"
+    url: https://en.wikipedia.org/wiki/Arithmetic%E2%80%93geometric_mean
+  WikiEllInt:
+    title: "Wikipedia: Complete elliptic integral of the first kind"
+    url: https://en.wikipedia.org/wiki/Elliptic_integral#Complete_elliptic_integral_of_the_first_kind
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- ellipic curves
+
+Data properties:
+  type: R
+  complete: no
+
+Display properties:
+  number-header: $\text{agm}(m)$
+
+Numbers: INPUT{numbers.yaml}
