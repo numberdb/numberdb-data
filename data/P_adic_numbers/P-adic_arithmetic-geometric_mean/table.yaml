@@ -15,14 +15,16 @@ Definition: >
   for certain pairs of integers $a$ and $b$.
   
 Parameters:
+  p:
+    type: Z
+    constraints: >
+      prime
   a:
-    display: $a$
     type: Qp
-
   b:
-    display: $b$
     type: Qp
-    constraints: $a/b = 1 \mod p$ (mod $16$ for $p=2$)    
+    constraints: > 
+      $a/b = 1 \mod p$ (mod $16$ for $p=2$)    
        
 Comments:
   comment-breaking-symmetry: >
