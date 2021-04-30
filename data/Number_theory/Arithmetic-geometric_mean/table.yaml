@@ -27,7 +27,9 @@ Parameters:
    
 Comments:
   comment-breaking-symmetry: >
-    Due to the symmetry CITE{formula-symmetric}, we only list values 
+    Due to the symmetry CITE{formula-symmetric} 
+    and trivial cases CITE{formula-diagonal}, CITE{formula-edge}, 
+    we only list values 
     for $a < b$.
   
 Formulas: 
@@ -70,6 +72,6 @@ Data properties:
   complete: no
 
 Display properties:
-  number-header: $\text{agm}(m)$
+  number-header: $\text{agm}(a,b)$
 
 Numbers: INPUT{numbers.yaml}
