@@ -18,6 +18,7 @@ Parameters:
     
   s:
     type: Z
+    constraints: $s \neq 1$
     
 Comments:
     
