@@ -1,0 +1,70 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Values of the $p$-adic arithmetic-geometric mean
+
+Definition: >
+  The $p$-adic arithmetic-geometric mean $\text{agm}_p(a,b)$ of two
+  $p$-adic numbers $a$ and $b$ is defined
+  as the simultaneous limit $\lim a_n = \lim g_n$ 
+  of the sequences $(a_n)$ and $(g_n)$ given by
+  $a_0 = a$, $g_0 = b$, 
+  $a_{n+1} = (a_n + g_n)/2$, 
+  $g_{n+1} = \sqrt{a_n g_n}$. 
+  This table lists values of $\text{agm}_p(a,b)$ 
+  for certain pairs of integers $a$ and $b$.
+  
+Parameters:
+  a:
+    display: $a$
+    type: Qp
+
+  b:
+    display: $b$
+    type: Qp
+    constraints: $a/b = 1 \mod p$ (mod $16$ for $p=2$)    
+       
+Comments:
+  comment-breaking-symmetry: >
+    Due to the symmetry CITE{formula-symmetric} 
+    and trivial cases CITE{formula-diagonal}, CITE{formula-edge}, 
+    we only list values 
+    for $a < b$.
+  
+Formulas: 
+  formula-symmetric: >
+    $\text{agm}_p(a,b) = \text{agm}_p(b,a)$
+  formula-diagonal: >
+    $\text{agm}_p(a,a) = a$
+  formula-edge: >
+    $\text{agm}_p(0,a) = 0$
+
+Programs: 
+
+References:
+
+Links:
+  MathWorld:
+    title: "MathWorld: Arithmetic-Geometric Mean"
+    url: https://mathworld.wolfram.com/Arithmetic-GeometricMean.html
+  Wiki:
+    title: "Wikipedia: Arithmetic-geometric mean"
+    url: https://en.wikipedia.org/wiki/Arithmetic%E2%80%93geometric_mean
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- p-adic
+- number theory
+- ellipic curves
+
+Data properties:
+  type: R
+  complete: no
+
+Display properties:
+  number-header: $\text{agm}_p(a,b)$
+
+Numbers: INPUT{numbers.yaml}
