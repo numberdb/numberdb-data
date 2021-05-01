@@ -1,0 +1,46 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Zeros of the Airy function of the second kind Bi
+
+Definition: >
+  The list contains the first (negative) zeros of 
+  Airy function of the second kind $\text{Bi}(x)$. CITE{Wiki}
+
+Parameters:
+  n:
+    type: Z
+    constraints: $n \geq 1$
+   
+Comments:
+  
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  mpmath: >
+    HREF{https://mpmath.org/}[mpmath] (Python library)
+  Wiki:
+    title: "Wikipedia: Airy function"
+    url: https://en.wikipedia.org/wiki/Airy_function
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- zero
+- special functions
+
+Data properties:
+  type: R
+  complete: no
+  reliability: computed with mpmath CITE{mpmath}
+
+Display properties:
+  number-header: $n$<sup>th</sup> negative root of $\text{Bi}(x)$
+
+Numbers: INPUT{numbers.yaml}
