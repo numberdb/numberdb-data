@@ -1,0 +1,67 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Multiple zeta values of length 2
+
+Definition: >
+  This list contains values of the 
+  multiple zeta function $\zeta(s_1,s_2)$ 
+  for certain integers $s_1, s_2$.
+
+Parameters:
+  s1:
+    display: $s_1$
+    type: Z
+    constraints: $s_1 \geq 2$
+
+  s2:
+    display: $s_2$
+    type: Z
+    constraints: $s_2 \geq 1$
+   
+Comments:
+  comment-multiple-zeta-function-definition: >
+    For complex numbers $s_1,\ldots,s_k$ with 
+    $\Re(s_1)+\ldots + \Re(s_i) > i$ (for all $i$), 
+    the multiple zeta function is defined as
+    $\zeta(s_1,\ldots,s_k) = \sum_{n_1 > n_2 > \ldots > n_k > 0} n^{-s_1}\cdots n^{-s_k}$.
+  comment-multiple-zeta-values-definition: >
+    The values of $\zeta(s_1,\ldots,s_k)$ 
+    at positive integers $s_1,\ldots,s_k$ ($s_1 \geq 2$)
+    are called multiple zeta values (MZVs) 
+    of length $k$ and
+    weight $s_1+\ldots + s_k$.
+  
+Formulas:
+
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      numbers = {s1: {s2: Multizeta(s2,s1)
+                      for s2 in [1..10]}
+                      for s1 in [2..10]}
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Multiple zeta function"
+    url: https://en.wikipedia.org/wiki/Multiple_zeta_function
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- special values
+- L-function
+
+Data properties:
+  type: R
+  complete: no
+  
+Display properties:
+  number-header: $\zeta(s_1,s_2)$
+
+Numbers: INPUT{numbers.yaml}
