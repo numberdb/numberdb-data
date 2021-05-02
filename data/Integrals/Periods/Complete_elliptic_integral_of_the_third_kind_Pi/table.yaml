@@ -1,0 +1,62 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Complete elliptic integral of the third kind $\Pi(n,m)$
+
+Definition: >
+  The list contains the evaluations of the
+  complete elliptic integral of the third kind
+  $\Pi(n,m) = \int_0^{\pi/2} \frac{1}{(1-n\sin^2 \theta)\sqrt{1-m\sin^2 \theta}} d\theta$
+  for some parameters $n$ and $m=k^2$,
+  where $k$ is the ellpitic modulus.
+
+Parameters:
+  n:
+    display: $n$
+    type: R
+    constraints: $0\leq n < 1$
+  m:
+    display: $m$
+    type: R
+    constraints: $0\leq m < 1$
+   
+Comments:
+  comment-k: >
+    $\Pi(n,m)$ is also denoted as $\Pi(n,k)$ despite the relation 
+    $m=k^2$ between the parameter $m$ and the elliptic modulus $k$.
+  comment-sign-of-n: >
+    $\Pi(n,m)$ is sometimes defined with the inverse sign of 
+    the characteristic $n$.
+  comment-sign-of-n: >
+    The parameter $n$ can be larger than $1$, 
+    although in that case one has to specify how to integrate
+    through the singulatiry of the integrand, 
+    e.g. by taking the Cauchy principal value.
+  
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Complete elliptic integral of the third kind"
+    url: https://en.wikipedia.org/wiki/Elliptic_integral#Complete_elliptic_integral_of_the_third_kind
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- period
+- ellipic curves
+
+Data properties:
+  type: R
+  complete: no
+
+Display properties:
+  number-header: $\Pi(n,m)$
+
+Numbers: INPUT{numbers.yaml}
