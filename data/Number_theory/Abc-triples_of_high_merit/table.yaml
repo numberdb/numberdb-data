@@ -1,0 +1,77 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  $abc$-triples of high merit
+
+Definition: >
+  The list contains all known $abc$-triples merit at least $24$, 
+  as givin in CITE{ABCatHome}.
+  An $abc$-triple is a solution of the equation $a+b=c$ with coprime integers
+  $0 < a \leq b < c$.
+  The quality of an $abc$-triple is defined as
+  $q = \log(c)/\log(r)$, 
+  where $r = \text{rad}(abc)$ is the radical of $abc$, that is, 
+  the product over all prime divisors of $abc$.
+  The merit of an $abc$ triple is defined as 
+  $m = (q-1)^2 \log(r) \log\log(r)$.
+  
+Parameters:
+  m:
+    type: R
+    constraints: $m > 24$
+  v:
+    title: variable
+    type: Symbolic
+    show-in-parameter-list: no
+   
+Comments:
+  comment-abc-conjecture: >
+    The abc-conjecture CITE{WikiABC} states that $\limsup q = 1$, that is,
+    for every $\varepsilon > 0$ there are only finitely many $abc$-triples
+    of quality $q > 1+\varepsilon$.
+  comment-abc-merit-conjecture: >
+    The refined $abc$-conjecture of Robert, Stewart and Tenenbaum CITE{RoStTe14}
+    states that $\limsup m = 48$.
+    
+Formulas: 
+
+Programs: 
+
+References:
+  RoStTe14:
+    bib: >
+      O. Robert, C. Stewart, G. Tenenbaum, 
+      A refinement of the abc conjecture, 
+      Bull. Lond. Math. Soc. 46:6 (2014), 1156-1166.
+    url: https://hal.archives-ouvertes.fr/hal-01281526/document
+      
+Links:
+  ABCatHome:
+    title: "Bart de Smit: ABC@home" 
+    url: https://www.math.leidenuniv.nl/~desmit/abc/
+  ABCatHomeHighM:
+    title: "Bart de Smit: ABC@home: High merit triples" 
+    url:     https://www.math.leidenuniv.nl/~desmit/abc/index.php?set=3
+  WikiABC:
+    title: "Wikipedia: abc conjecture"
+    url: https://en.wikipedia.org/wiki/Abc_conjecture
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+
+Data properties:
+  type: Z
+  complete: unknown
+  sources:
+  - CITE{ABCatHomeHighM} and the references therein
+  reliability: >
+    The merit $m$ is correct up to one ulp (unit of least precision); 
+    see HREF{https://www.numberdb.org/help#section-number-types}.
+Display properties:
+  number-header: value
+
+Numbers: INPUT{numbers.yaml}
