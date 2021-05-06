@@ -15,6 +15,7 @@ path = 'data/Number_theory/Abc-triples_of_high_quality'
 prec10 = 100 #relative precision in base 10
 num_digits_q = 6
 
+RIFprec = RealIntervalField(prec10 * 3.4 * 2)
 
 #First we parse the html files for abc-triples:
 abcqs = []
