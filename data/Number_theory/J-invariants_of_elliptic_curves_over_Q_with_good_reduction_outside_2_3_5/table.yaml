@@ -1,0 +1,51 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  $j$-invariants of elliptic curves over $\mathbb{Q}$ with 
+  good reduction outside $\{2, 3, 5\}$
+
+Definition: >
+  This table contains the $j$-invariants of all 
+  elliptic curves $\mathbb{Q}$ with good reduction outside $\{2,3,5\}$.
+  
+Parameters:
+   
+Comments:
+  comment-minimal-discriminant-and-N: >
+    An elliptic curve $E/\mathbb{Q}$ has good reduction at a prime $p$
+    if and only if $p$ does not divide the minimal discriminant of $E$, 
+    and equivalently,
+    if and only if $p$ does not divide the conductor of $E$.   
+
+Formulas:
+
+Programs:
+
+References:
+      
+Links:
+  SUE:
+    title: "Tables of elliptic curves with good reduction away from the first primes"
+    url: https://github.com/bmatschke/s-unit-equations/tree/master/elliptic-curve-tables/good-reduction-away-from-first-primes
+  Wiki:
+    title: "Wikipedia: j-invariant"
+    url: https://en.wikipedia.org/wiki/J-invariant
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- ellptic curves
+
+Data properties:
+  type: Q
+  complete: yes
+  sources:
+  - CITE{SUE}
+
+Display properties:
+  number-header: $j$
+
+Numbers: INPUT{numbers.yaml}
