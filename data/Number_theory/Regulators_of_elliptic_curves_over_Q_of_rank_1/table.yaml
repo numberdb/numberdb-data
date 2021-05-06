@@ -15,23 +15,25 @@ Definition: >
   
 Parameters:
   N:
-    title: conductor
+    title: conductor of $E$
     type: Z
   c4:
     display: $c_4$
     #title: HREF{https://www.lmfdb.org/knowledge/show/ec.q.lmfdb_label}[LMFDB label]
-    title: $c_4$ invariant of a minimal model
+    title: invariant $c_4$ of a minimal model of $E$
     type: Z
 
   c6:
     display: $c_6$
-    title: $c_6$ invariant of a minimal model
+    title: invariant $c_6$ of a minimal model of $E$
     type: Z
    
 Comments:
   comment-redundancy-of-N: >
     The conductor $N$ can be deduced from $c_4$ and $c_6$.
     We display it for convenience.
+  comment-E-from-c4c6: >
+    A model of $E/\mathbb{Q}$ is given by $E: y^2 = x^3 - 27 c_4 x - 54 c_6$. 
     
 Formulas:
   formula-height-pairing-matrix: >
