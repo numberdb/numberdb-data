@@ -8,7 +8,7 @@ Definition: >
   determinant of the height pairing matrix for a
   Mordell--Weil basis of $E(\mathbb{Q})$.
   For elliptic curves of rank $1$, this is the same as the
-  Neron-Tate height of a Mordell-Weil generator of the free part 
+  Néron-Tate height of a Mordell-Weil generator of the free part 
   of $E(\mathbb{Q})$.
   This table lists regulators for elliptic curves over $\mathbb{Q}$ of
   rank $1$ for the first few conductors.
@@ -38,7 +38,7 @@ Formulas:
     For an elliptic curve $E$ over a number field $K$, 
     $\text{Reg}(E/K) = \det(\langle P_i, P_j\rangle)_{1\leq i, j \leq r}$, 
     where $P_1, \ldots, P_r$ is a Mordell-Weil basis for $E(K)$ and
-    $\langle ., .\rangle$ denotes the Neron-Tate height pairing.
+    $\langle ., .\rangle$ denotes the Néron-Tate height pairing.
 
 Programs:
   program-sage: 
