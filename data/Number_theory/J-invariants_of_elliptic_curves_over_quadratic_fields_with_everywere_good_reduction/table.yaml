@@ -1,0 +1,61 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  $j$-invariants of elliptic curves 
+  over quadratic fields 
+  with everywhere good reduction
+
+Definition: >
+  This table contains the $j$-invariants of elliptic curves $E/K$
+  over number fields with absolute discriminant bounded by $|\Delta_K| \leq 20000$,
+  such that $E$ has everywhere good reduction.
+  
+Parameters:
+  D:
+    display: $\Delta_K$
+    title: discriminant of $K$
+    type: Z
+    
+Comments:
+  comment-N: >
+    An elliptic curve $E$ over a number field $K$ 
+    has everywhere good reduction if and only if its conductor equals $1$.
+    In case the class number of $K$ is $1$, this is equivalent to
+    the minimal discriminant of $E$ being $1$.
+  comment-no-duplicates: >
+    Rational $j$-invariants are only listed once, 
+    namely for the number field of minimal absolute discriminant.
+
+Formulas:
+
+Programs:
+
+References:
+      
+Links:
+  SUE:
+    title: "Tables of elliptic curves with good reduction everywhere"
+    url: https://github.com/bmatschke/s-unit-equations/tree/master/elliptic-curve-tables/good-reduction-everywhere
+  Wiki:
+    title: "Wikipedia: j-invariant"
+    url: https://en.wikipedia.org/wiki/J-invariant
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- ellptic curves
+- algebraic
+
+Data properties:
+  type: C
+  complete: yes, assuming GRH
+  sources:
+  - CITE{SUE}
+
+Display properties:
+  number-header: $j$
+
+Numbers: INPUT{numbers.yaml}
