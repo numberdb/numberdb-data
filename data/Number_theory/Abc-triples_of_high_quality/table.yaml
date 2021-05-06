@@ -1,0 +1,66 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  $abc$-triples of high quality
+
+Definition: >
+  The list contains all known $abc$-triples quality at least $1.4$.
+  An $abc$-triple is a solution of the equation $a+b=c$ with coprime integers
+  $0 < a \leq b < c$.
+  The quality of an $abc$-triple is defined as
+  $q = \log(c)/\log\text{rad}(abc)$, 
+  where $\text{rad}(abc)$ is the radical of $abc$, that is, 
+  the product over all prime divisors of $abc$.
+  
+Parameters:
+  q:
+    type: R
+    constraints: $q > 1.4$
+  v:
+    title: variable
+    type: Symbolic
+    show-in-parameter-list: no
+   
+Comments:
+  comment-abc-conjecture: >
+    The abc-conjecture CITE{WikiABC} states that $\limsup q = 1$, that is,
+    for every $\varepsilon > 0$ there are only finitely many $abc$-triples
+    of quality $q > 1+\varepsilon$.
+    
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  ABCatHome:
+    title: "Bart de Smit: ABC@home" 
+    url: https://www.math.leidenuniv.nl/~desmit/abc/
+  ABCatHomeHighQ:
+    title: "Bart de Smit: ABC@home: High quality triples" 
+    url:     https://www.math.leidenuniv.nl/~desmit/abc/index.php?set=2
+  WikiABC:
+    title: "Wikipedia: abc conjecture"
+    url: https://en.wikipedia.org/wiki/Abc_conjecture
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- special values
+- algebraic
+
+Data properties:
+  type: Z
+  complete: unknown
+  sources:
+  - CITE{ABCatHomeHighQ} and the references therein
+  reliability: >
+    The quality $q$ is correct up to one ulp (unit of least precision); 
+    see HREF{https://www.numberdb.org/help#section-number-types}.
+Display properties:
+  number-header: value
+
+Numbers: INPUT{numbers.yaml}
