@@ -1,0 +1,53 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Roots of unity
+
+Definition: >
+  The list contains roots of unity, that is, 
+  complex solutions of equations of the form $x^n = 1$.
+  The $n$'th roots of unity are given as $\exp(2\pi i k/n)$.
+
+Parameters:
+  n:
+    type: Z
+    constraints: $n \geq 1$
+  k:
+    type: Z
+    constraints: $0\leq k < n$
+   
+Comments:
+  comment-primitive-root-of-unity: >
+    If $\gcd(k,n) = 1$, $\exp(2\pi i k/n)$ is a called primitive $n$'th root of unity.
+    These are the roots of the $n$'th cyclotomic polynomial CITE{WikiCycPoly}.
+      
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  WikiCycPoly:
+    title: "Wikipedia: Cyclotomic polynomial"
+    url: https://en.wikipedia.org/wiki/Cyclotomic_polynomial
+  Wiki:
+    title: "Wikipedia: Root of unity"
+    url: https://en.wikipedia.org/wiki/Root_of_unity
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- zero
+- algebraic
+
+Data properties:
+  type: C
+  complete: no
+
+Display properties:
+  number-header: $\exp(2\pi i k/n)$
+
+Numbers: INPUT{numbers.yaml}
