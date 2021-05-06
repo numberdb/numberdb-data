@@ -1,0 +1,79 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Regulators of elliptic curves over $\mathbb{Q}$ of rank $3$
+
+Definition: >
+  The regulator of an elliptic curve $E$ over $\mathbb{Q}$ is the 
+  determinant of the height pairing matrix for a
+  Mordell--Weil basis of $E(\mathbb{Q})$.
+  This table lists regulators for elliptic curves over $\mathbb{Q}$ of
+  rank $3$ for the first few conductors.
+  
+Parameters:
+  N:
+    title: conductor of $E$
+    type: Z
+  c4:
+    display: $c_4$
+    #title: HREF{https://www.lmfdb.org/knowledge/show/ec.q.lmfdb_label}[LMFDB label]
+    title: invariant $c_4$ of a minimal model of $E$
+    type: Z
+
+  c6:
+    display: $c_6$
+    title: invariant $c_6$ of a minimal model of $E$
+    type: Z
+   
+Comments:
+  comment-redundancy-of-N: >
+    The conductor $N$ can be deduced from $c_4$ and $c_6$.
+    We display it for convenience.
+  comment-E-from-c4c6: >
+    A model of $E/\mathbb{Q}$ is given by $E: y^2 = x^3 - 27 c_4 x - 54 c_6$. 
+    
+Formulas:
+  formula-height-pairing-matrix: >
+    For an elliptic curve $E$ over a number field $K$, 
+    $\text{Reg}(E/K) = \det(\langle P_i, P_j\rangle)_{1\leq i, j \leq r}$, 
+    where $P_1, \ldots, P_r$ is a Mordell-Weil basis for $E(K)$ and
+    $\langle ., .\rangle$ denotes the Néron-Tate height pairing.
+
+Programs:
+  program-sage: 
+    language: Sage
+    code: |
+      numbers = [E.regulator() for E in cremona_curves([1..100])
+                               if E.rank() == 3]
+
+References:
+      
+Links:
+  LMFDB:
+    title: "LMFDB: Elliptic curves over Q"
+    url: https://www.lmfdb.org/EllipticCurve/Q/
+  Wiki:
+    title: "Wikipedia: Elliptic regulator"
+    url: https://en.wikipedia.org/wiki/N%C3%A9ron%E2%80%93Tate_height#The_elliptic_and_abelian_regulators
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- ellptic curves
+
+Data properties:
+  type: R
+  complete: unknown
+  sources:
+  - CITE{LMFDB}
+
+Display properties:
+  number-header: $\text{Reg}(E/\mathbb{Q})$
+  group parameters:
+  - [N]
+  - [c4, c6]
+
+Numbers: INPUT{numbers.yaml}
