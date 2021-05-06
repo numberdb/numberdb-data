@@ -1,4 +1,4 @@
-'1.62991':
+'1.629911':
   a:
     param-latex: $a$
     number: '2'
@@ -8,7 +8,7 @@
   c:
     param-latex: $c$
     number: '6436343'
-'1.62599':
+'1.625990':
   a:
     param-latex: $a$
     number: '121'
@@ -18,7 +18,7 @@
   c:
     param-latex: $c$
     number: '48234496'
-'1.62349':
+'1.623490':
   a:
     param-latex: $a$
     number: '24833'
@@ -28,7 +28,7 @@
   c:
     param-latex: $c$
     number: '5020969537440000'
-'1.58075':
+'1.580756':
   a:
     param-latex: $a$
     number: '283'
@@ -38,7 +38,7 @@
   c:
     param-latex: $c$
     number: '8251953408'
-'1.56788':
+'1.567887':
   a:
     param-latex: $a$
     number: '1'
@@ -48,7 +48,7 @@
   c:
     param-latex: $c$
     number: '4375'
-'1.54707':
+'1.547075':
   a:
     param-latex: $a$
     number: '343'
@@ -58,7 +58,7 @@
   c:
     param-latex: $c$
     number: '59392'
-'1.54443':
+'1.544433':
   a:
     param-latex: $a$
     number: '2477678547239'
@@ -68,7 +68,7 @@
   c:
     param-latex: $c$
     number: '613474845886230468750'
-'1.53671':
+'1.536713':
   a:
     param-latex: $a$
     number: '125'
@@ -78,7 +78,7 @@
   c:
     param-latex: $c$
     number: '11174240024189'
-'1.52699':
+'1.526999':
   a:
     param-latex: $a$
     number: '611596453'
@@ -88,7 +88,7 @@
   c:
     param-latex: $c$
     number: '5980305573'
-'1.52216':
+'1.522160':
   a:
     param-latex: $a$
     number: '20218313059443'
@@ -98,7 +98,7 @@
   c:
     param-latex: $c$
     number: '121537574654540800'
-'1.50943':
+'1.509432':
   a:
     param-latex: $a$
     number: '188728275341281'
@@ -108,7 +108,7 @@
   c:
     param-latex: $c$
     number: '30687232000000000000'
-'1.50331':
+'1.503317':
   a:
     param-latex: $a$
     number: '10023806115968'
@@ -118,7 +118,7 @@
   c:
     param-latex: $c$
     number: '237007680752204739'
-'1.50283':
+'1.502838':
   a:
     param-latex: $a$
     number: '239'
@@ -128,7 +128,7 @@
   c:
     param-latex: $c$
     number: '1919140864'
-'1.49762':
+'1.497620':
   a:
     param-latex: $a$
     number: '198425'
@@ -138,7 +138,7 @@
   c:
     param-latex: $c$
     number: '96889208832'
-'1.49243':
+'1.492431':
   a:
     param-latex: $a$
     number: '44'
@@ -148,7 +148,7 @@
   c:
     param-latex: $c$
     number: '14087010572580078125'
-'1.49159':
+'1.491590':
   a:
     param-latex: $a$
     number: '73'
@@ -158,7 +158,7 @@
   c:
     param-latex: $c$
     number: '5973865915867209'
-'1.48924':
+'1.489245':
   a:
     param-latex: $a$
     number: '16777216'
@@ -168,7 +168,7 @@
   c:
     param-latex: $c$
     number: '311402282625'
-'1.48886':
+'1.488865':
   a:
     param-latex: $a$
     number: '121'
@@ -178,7 +178,7 @@
   c:
     param-latex: $c$
     number: '256000'
-'1.48291':
+'1.482910':
   a:
     param-latex: $a$
     number: '37'
@@ -188,7 +188,7 @@
   c:
     param-latex: $c$
     number: '32805'
-'1.48132':
+'1.481322':
   a:
     param-latex: $a$
     number: '115966796875'
@@ -198,7 +198,7 @@
   c:
     param-latex: $c$
     number: '9417311795947'
-'1.48053':
+'1.480533':
   a:
     param-latex: $a$
     number: '8654525279998779296875'
@@ -208,7 +208,7 @@
   c:
     param-latex: $c$
     number: '229735821053540168227618816'
-'1.47444':
+'1.474449':
   a:
     param-latex: $a$
     number: '1'
@@ -218,7 +218,7 @@
   c:
     param-latex: $c$
     number: '301327048'
-'1.47413':
+'1.474137':
   a:
     param-latex: $a$
     number: '49'
@@ -228,7 +228,7 @@
   c:
     param-latex: $c$
     number: '31640625'
-'1.47129':
+'1.471298':
   a:
     param-latex: $a$
     number: '16119'
@@ -238,7 +238,7 @@
   c:
     param-latex: $c$
     number: '214375000'
-'1.46567':
+'1.465676':
   a:
     param-latex: $a$
     number: '5595907'
@@ -248,7 +248,7 @@
   c:
     param-latex: $c$
     number: '184693750063875'
-'1.46552':
+'1.465520':
   a:
     param-latex: $a$
     number: '13841287201'
@@ -258,7 +258,7 @@
   c:
     param-latex: $c$
     number: '2285511444513'
-'1.46527':
+'1.465274':
   a:
     param-latex: $a$
     number: '377933067'
@@ -268,7 +268,7 @@
   c:
     param-latex: $c$
     number: '3972256707877936136192'
-'1.46460':
+'1.464604':
   a:
     param-latex: $a$
     number: '110330191652531040475'
@@ -278,7 +278,7 @@
   c:
     param-latex: $c$
     number: '3761951491641151239408'
-'1.46192':
+'1.461923':
   a:
     param-latex: $a$
     number: '3200'
@@ -288,7 +288,7 @@
   c:
     param-latex: $c$
     number: '4826809'
-'1.46062':
+'1.460622':
   a:
     param-latex: $a$
     number: '464743623105438551'
@@ -298,7 +298,7 @@
   c:
     param-latex: $c$
     number: '6045120559539161799852032000'
-'1.45942':
+'1.459424':
   a:
     param-latex: $a$
     number: '289111328125'
@@ -308,7 +308,7 @@
   c:
     param-latex: $c$
     number: '1628886484780209814653'
-'1.45779':
+'1.457793':
   a:
     param-latex: $a$
     number: '115200578857421875'
@@ -318,7 +318,7 @@
   c:
     param-latex: $c$
     number: '336307453990481166336'
-'1.45778':
+'1.457789':
   a:
     param-latex: $a$
     number: '177978515625'
@@ -328,7 +328,7 @@
   c:
     param-latex: $c$
     number: '10501582332073'
-'1.45748':
+'1.457481':
   a:
     param-latex: $a$
     number: '96301474167'
@@ -338,7 +338,7 @@
   c:
     param-latex: $c$
     number: '212192631701864792'
-'1.45706':
+'1.457065':
   a:
     param-latex: $a$
     number: '225'
@@ -348,7 +348,7 @@
   c:
     param-latex: $c$
     number: '72596138993'
-'1.45620':
+'1.456202':
   a:
     param-latex: $a$
     number: '637534208'
@@ -358,7 +358,7 @@
   c:
     param-latex: $c$
     number: '94574612143583'
-'1.45567':
+'1.455673':
   a:
     param-latex: $a$
     number: '1'
@@ -368,7 +368,7 @@
   c:
     param-latex: $c$
     number: '2401'
-'1.45512':
+'1.455126':
   a:
     param-latex: $a$
     number: '15944049'
@@ -378,7 +378,7 @@
   c:
     param-latex: $c$
     number: '34375682417'
-'1.45502':
+'1.455024':
   a:
     param-latex: $a$
     number: '15144820879'
@@ -388,7 +388,7 @@
   c:
     param-latex: $c$
     number: '304192882450575'
-'1.45443':
+'1.454434':
   a:
     param-latex: $a$
     number: '15605316307'
@@ -398,7 +398,7 @@
   c:
     param-latex: $c$
     number: '243905605316307'
-'1.45334':
+'1.453343':
   a:
     param-latex: $a$
     number: '4826809'
@@ -408,7 +408,7 @@
   c:
     param-latex: $c$
     number: '21094497149921875'
-'1.45319':
+'1.453195':
   a:
     param-latex: $a$
     number: '925190931432103'
@@ -418,7 +418,7 @@
   c:
     param-latex: $c$
     number: '1134574455726621351'
-'1.45261':
+'1.452613':
   a:
     param-latex: $a$
     number: '702021632'
@@ -428,7 +428,7 @@
   c:
     param-latex: $c$
     number: '2679348375'
-'1.45200':
+'1.452000':
   a:
     param-latex: $a$
     number: '720077960137146368'
@@ -438,7 +438,7 @@
   c:
     param-latex: $c$
     number: '121495171727591456203125'
-'1.45191':
+'1.451917':
   a:
     param-latex: $a$
     number: '25161368403091'
@@ -448,7 +448,7 @@
   c:
     param-latex: $c$
     number: '570243460734558105468750'
-'1.45134':
+'1.451343':
   a:
     param-latex: $a$
     number: '1701'
@@ -458,7 +458,7 @@
   c:
     param-latex: $c$
     number: '1048576'
-'1.45085':
+'1.450858':
   a:
     param-latex: $a$
     number: '83349'
@@ -468,7 +468,7 @@
   c:
     param-latex: $c$
     number: '5880735125'
-'1.45021':
+'1.450216':
   a:
     param-latex: $a$
     number: '146767394485224241'
@@ -478,7 +478,7 @@
   c:
     param-latex: $c$
     number: '13669290314551853179931640625'
-'1.45009':
+'1.450097':
   a:
     param-latex: $a$
     number: '2704798098231340213727'
@@ -488,7 +488,7 @@
   c:
     param-latex: $c$
     number: '2285620417520094434609375'
-'1.45002':
+'1.450025':
   a:
     param-latex: $a$
     number: '1'
@@ -498,7 +498,7 @@
   c:
     param-latex: $c$
     number: '63927525376'
-'1.44965':
+'1.449651':
   a:
     param-latex: $a$
     number: '1'
@@ -508,7 +508,7 @@
   c:
     param-latex: $c$
     number: '20709376'
-'1.44935':
+'1.449354':
   a:
     param-latex: $a$
     number: '2707160810382798173125'
@@ -518,7 +518,7 @@
   c:
     param-latex: $c$
     number: '362059156587224169433748421'
-'1.44797':
+'1.447977':
   a:
     param-latex: $a$
     number: '5203'
@@ -528,7 +528,7 @@
   c:
     param-latex: $c$
     number: '265137564458328'
-'1.44774':
+'1.447742':
   a:
     param-latex: $a$
     number: '89'
@@ -538,7 +538,7 @@
   c:
     param-latex: $c$
     number: '1500512256'
-'1.44759':
+'1.447590':
   a:
     param-latex: $a$
     number: '129140163'
@@ -548,7 +548,7 @@
   c:
     param-latex: $c$
     number: '6024036481140163'
-'1.44742':
+'1.447420':
   a:
     param-latex: $a$
     number: '393927551841835417600000'
@@ -558,7 +558,7 @@
   c:
     param-latex: $c$
     number: '10705266665005733111813089673'
-'1.44687':
+'1.446873':
   a:
     param-latex: $a$
     number: '27982932961'
@@ -568,7 +568,7 @@
   c:
     param-latex: $c$
     number: '43309846493768673'
-'1.44624':
+'1.446246':
   a:
     param-latex: $a$
     number: '55546875'
@@ -578,7 +578,7 @@
   c:
     param-latex: $c$
     number: '7034868731'
-'1.44506':
+'1.445064':
   a:
     param-latex: $a$
     number: '338'
@@ -588,7 +588,7 @@
   c:
     param-latex: $c$
     number: '390963'
-'1.44459':
+'1.444595':
   a:
     param-latex: $a$
     number: '292638540234375'
@@ -598,7 +598,7 @@
   c:
     param-latex: $c$
     number: '272543252916207616'
-'1.44419':
+'1.444199':
   a:
     param-latex: $a$
     number: '137887744'
@@ -608,7 +608,7 @@
   c:
     param-latex: $c$
     number: '10781172693125'
-'1.44350':
+'1.443501':
   a:
     param-latex: $a$
     number: '995588'
@@ -618,7 +618,7 @@
   c:
     param-latex: $c$
     number: '10358428956073713'
-'1.44330':
+'1.443306':
   a:
     param-latex: $a$
     number: '1'
@@ -628,7 +628,7 @@
   c:
     param-latex: $c$
     number: '512001'
-'1.44328':
+'1.443284':
   a:
     param-latex: $a$
     number: '61731'
@@ -638,7 +638,7 @@
   c:
     param-latex: $c$
     number: '48889856'
-'1.44280':
+'1.442803':
   a:
     param-latex: $a$
     number: '1289066038662879404041'
@@ -648,7 +648,7 @@
   c:
     param-latex: $c$
     number: '40742191038662879404041'
-'1.44201':
+'1.442013':
   a:
     param-latex: $a$
     number: '1249446765800288'
@@ -658,7 +658,7 @@
   c:
     param-latex: $c$
     number: '3213039295097163'
-'1.44181':
+'1.441813':
   a:
     param-latex: $a$
     number: '22771715409'
@@ -668,7 +668,7 @@
   c:
     param-latex: $c$
     number: '371744140625'
-'1.44177':
+'1.441775':
   a:
     param-latex: $a$
     number: '8387035209728'
@@ -678,7 +678,7 @@
   c:
     param-latex: $c$
     number: '99252475305387900353'
-'1.44151':
+'1.441518':
   a:
     param-latex: $a$
     number: '160412424963707'
@@ -688,7 +688,7 @@
   c:
     param-latex: $c$
     number: '217794689768713707'
-'1.44144':
+'1.441440':
   a:
     param-latex: $a$
     number: '29791'
@@ -698,7 +698,7 @@
   c:
     param-latex: $c$
     number: '3939140625'
-'1.44096':
+'1.440968':
   a:
     param-latex: $a$
     number: '42849'
@@ -708,7 +708,7 @@
   c:
     param-latex: $c$
     number: '28672000'
-'1.44026':
+'1.440263':
   a:
     param-latex: $a$
     number: '9244796845555712'
@@ -718,7 +718,7 @@
   c:
     param-latex: $c$
     number: '96550262451171875'
-'1.43906':
+'1.439062':
   a:
     param-latex: $a$
     number: '1'
@@ -728,7 +728,7 @@
   c:
     param-latex: $c$
     number: '19140625'
-'1.43835':
+'1.438356':
   a:
     param-latex: $a$
     number: '1'
@@ -738,7 +738,7 @@
   c:
     param-latex: $c$
     number: '2505572352'
-'1.43823':
+'1.438238':
   a:
     param-latex: $a$
     number: '14321927484375'
@@ -748,7 +748,7 @@
   c:
     param-latex: $c$
     number: '101029522854437036222'
-'1.43813':
+'1.438138':
   a:
     param-latex: $a$
     number: '7505629765697536'
@@ -758,7 +758,7 @@
   c:
     param-latex: $c$
     number: '14895158097170806911'
-'1.43785':
+'1.437859':
   a:
     param-latex: $a$
     number: '52832077950197'
@@ -768,7 +768,7 @@
   c:
     param-latex: $c$
     number: '4426629838132322'
-'1.43654':
+'1.436544':
   a:
     param-latex: $a$
     number: '3929319027001'
@@ -778,7 +778,7 @@
   c:
     param-latex: $c$
     number: '20925929793846620160'
-'1.43618':
+'1.436180':
   a:
     param-latex: $a$
     number: '742586'
@@ -788,7 +788,7 @@
   c:
     param-latex: $c$
     number: '3521859507'
-'1.43575':
+'1.435750':
   a:
     param-latex: $a$
     number: '162729'
@@ -798,7 +798,7 @@
   c:
     param-latex: $c$
     number: '1042151581574097478515625'
-'1.43500':
+'1.435005':
   a:
     param-latex: $a$
     number: '7168'
@@ -808,7 +808,7 @@
   c:
     param-latex: $c$
     number: '85293'
-'1.43485':
+'1.434858':
   a:
     param-latex: $a$
     number: '104474391867'
@@ -818,7 +818,7 @@
   c:
     param-latex: $c$
     number: '316478486303257915'
-'1.43415':
+'1.434151':
   a:
     param-latex: $a$
     number: '1013888'
@@ -828,7 +828,7 @@
   c:
     param-latex: $c$
     number: '226092951134919513'
-'1.43395':
+'1.433956':
   a:
     param-latex: $a$
     number: '101391750713'
@@ -838,7 +838,7 @@
   c:
     param-latex: $c$
     number: '8541802978515625'
-'1.43360':
+'1.433601':
   a:
     param-latex: $a$
     number: '139344708952637771'
@@ -848,7 +848,7 @@
   c:
     param-latex: $c$
     number: '164883326912128466796875'
-'1.43346':
+'1.433463':
   a:
     param-latex: $a$
     number: '12397455648'
@@ -858,7 +858,7 @@
   c:
     param-latex: $c$
     number: '2334846877471273'
-'1.43345':
+'1.433451':
   a:
     param-latex: $a$
     number: '1013875'
@@ -868,7 +868,7 @@
   c:
     param-latex: $c$
     number: '64186132653932544'
-'1.43309':
+'1.433093':
   a:
     param-latex: $a$
     number: '37569208117'
@@ -878,7 +878,7 @@
   c:
     param-latex: $c$
     number: '12721777434786004992'
-'1.43304':
+'1.433042':
   a:
     param-latex: $a$
     number: '961'
@@ -888,7 +888,7 @@
   c:
     param-latex: $c$
     number: '474610336'
-'1.43290':
+'1.432904':
   a:
     param-latex: $a$
     number: '2097152'
@@ -898,7 +898,7 @@
   c:
     param-latex: $c$
     number: '134777587890625'
-'1.43234':
+'1.432347':
   a:
     param-latex: $a$
     number: '287965184'
@@ -908,7 +908,7 @@
   c:
     param-latex: $c$
     number: '71693980686926181'
-'1.43232':
+'1.432320':
   a:
     param-latex: $a$
     number: '1670815292588032'
@@ -918,7 +918,7 @@
   c:
     param-latex: $c$
     number: '1361775138159395407'
-'1.43214':
+'1.432142':
   a:
     param-latex: $a$
     number: '8652390921'
@@ -928,7 +928,7 @@
   c:
     param-latex: $c$
     number: '30896088320000000'
-'1.43181':
+'1.431814':
   a:
     param-latex: $a$
     number: '2063030309'
@@ -938,7 +938,7 @@
   c:
     param-latex: $c$
     number: '2236781914708005'
-'1.43162':
+'1.431623':
   a:
     param-latex: $a$
     number: '8688792277309'
@@ -948,7 +948,7 @@
   c:
     param-latex: $c$
     number: '19073486328125'
-'1.43126':
+'1.431260':
   a:
     param-latex: $a$
     number: '2255797354496'
@@ -958,7 +958,7 @@
   c:
     param-latex: $c$
     number: '73845999976140275'
-'1.43118':
+'1.431183':
   a:
     param-latex: $a$
     number: '2048'
@@ -968,7 +968,7 @@
   c:
     param-latex: $c$
     number: '170732843789'
-'1.43109':
+'1.431091':
   a:
     param-latex: $a$
     number: '184832'
@@ -978,7 +978,7 @@
   c:
     param-latex: $c$
     number: '3079179140625'
-'1.43041':
+'1.430417':
   a:
     param-latex: $a$
     number: '193'
@@ -988,7 +988,7 @@
   c:
     param-latex: $c$
     number: '16056027781443'
-'1.43017':
+'1.430175':
   a:
     param-latex: $a$
     number: '7489872117'
@@ -998,7 +998,7 @@
   c:
     param-latex: $c$
     number: '2297162158203125'
-'1.42991':
+'1.429915':
   a:
     param-latex: $a$
     number: '315380807'
@@ -1008,7 +1008,7 @@
   c:
     param-latex: $c$
     number: '96840548010486840950'
-'1.42987':
+'1.429873':
   a:
     param-latex: $a$
     number: '162678573828608'
@@ -1018,7 +1018,7 @@
   c:
     param-latex: $c$
     number: '967723129413525483'
-'1.42955':
+'1.429552':
   a:
     param-latex: $a$
     number: '570807'
@@ -1028,7 +1028,7 @@
   c:
     param-latex: $c$
     number: '218103808'
-'1.42942':
+'1.429428':
   a:
     param-latex: $a$
     number: '8035237888'
@@ -1038,7 +1038,7 @@
   c:
     param-latex: $c$
     number: '381439016395619013'
-'1.42900':
+'1.429007':
   a:
     param-latex: $a$
     number: '10460353203'
@@ -1048,7 +1048,7 @@
   c:
     param-latex: $c$
     number: '27734844514'
-'1.42891':
+'1.428912':
   a:
     param-latex: $a$
     number: '82800367216340571'
@@ -1058,7 +1058,7 @@
   c:
     param-latex: $c$
     number: '78295398904815693725696'
-'1.42890':
+'1.428908':
   a:
     param-latex: $a$
     number: '5329'
@@ -1068,7 +1068,7 @@
   c:
     param-latex: $c$
     number: '65876540625'
-'1.42840':
+'1.428401':
   a:
     param-latex: $a$
     number: '67138671875'
@@ -1078,7 +1078,7 @@
   c:
     param-latex: $c$
     number: '586869112832'
-'1.42836':
+'1.428361':
   a:
     param-latex: $a$
     number: '707281'
@@ -1088,7 +1088,7 @@
   c:
     param-latex: $c$
     number: '238726341442112209'
-'1.42832':
+'1.428323':
   a:
     param-latex: $a$
     number: '11'
@@ -1098,7 +1098,7 @@
   c:
     param-latex: $c$
     number: '9565938'
-'1.42756':
+'1.427566':
   a:
     param-latex: $a$
     number: '73'
@@ -1108,7 +1108,7 @@
   c:
     param-latex: $c$
     number: '3969746172'
-'1.42748':
+'1.427488':
   a:
     param-latex: $a$
     number: '13845841'
@@ -1118,7 +1118,7 @@
   c:
     param-latex: $c$
     number: '497860510696785'
-'1.42711':
+'1.427115':
   a:
     param-latex: $a$
     number: '59049'
@@ -1128,7 +1128,7 @@
   c:
     param-latex: $c$
     number: '132649472'
-'1.42675':
+'1.426752':
   a:
     param-latex: $a$
     number: '31'
@@ -1138,7 +1138,7 @@
   c:
     param-latex: $c$
     number: '112812500031'
-'1.42656':
+'1.426565':
   a:
     param-latex: $a$
     number: '3'
@@ -1148,7 +1148,7 @@
   c:
     param-latex: $c$
     number: '128'
-'1.42572':
+'1.425727':
   a:
     param-latex: $a$
     number: '61677818554527009'
@@ -1158,7 +1158,7 @@
   c:
     param-latex: $c$
     number: '11321035881835937500000'
-'1.42518':
+'1.425181':
   a:
     param-latex: $a$
     number: '8251953125'
@@ -1168,7 +1168,7 @@
   c:
     param-latex: $c$
     number: '5925963097469203173'
-'1.42460':
+'1.424607':
   a:
     param-latex: $a$
     number: '108582141952'
@@ -1178,7 +1178,7 @@
   c:
     param-latex: $c$
     number: '3412784375657577'
-'1.42340':
+'1.423406':
   a:
     param-latex: $a$
     number: '6566485948342272'
@@ -1188,7 +1188,7 @@
   c:
     param-latex: $c$
     number: '754271495501708984375'
-'1.42338':
+'1.423380':
   a:
     param-latex: $a$
     number: '275'
@@ -1198,7 +1198,7 @@
   c:
     param-latex: $c$
     number: '4831838208'
-'1.42319':
+'1.423191':
   a:
     param-latex: $a$
     number: '557832031250'
@@ -1208,7 +1208,7 @@
   c:
     param-latex: $c$
     number: '126612145088085214252013'
-'1.42308':
+'1.423086':
   a:
     param-latex: $a$
     number: '749502843041820983'
@@ -1218,7 +1218,7 @@
   c:
     param-latex: $c$
     number: '2965409555166039867858'
-'1.42287':
+'1.422876':
   a:
     param-latex: $a$
     number: '1696555248485695128859'
@@ -1228,7 +1228,7 @@
   c:
     param-latex: $c$
     number: '388681217516340543128859'
-'1.42260':
+'1.422606':
   a:
     param-latex: $a$
     number: '8466594201171275'
@@ -1238,7 +1238,7 @@
   c:
     param-latex: $c$
     number: '77680645734219625100619'
-'1.42208':
+'1.422082':
   a:
     param-latex: $a$
     number: '2215457'
@@ -1248,7 +1248,7 @@
   c:
     param-latex: $c$
     number: '315103976824832'
-'1.42201':
+'1.422015':
   a:
     param-latex: $a$
     number: '12304697054518521'
@@ -1258,7 +1258,7 @@
   c:
     param-latex: $c$
     number: '6363083859088694521'
-'1.42182':
+'1.421827':
   a:
     param-latex: $a$
     number: '944'
@@ -1268,7 +1268,7 @@
   c:
     param-latex: $c$
     number: '4638672819'
-'1.42157':
+'1.421575':
   a:
     param-latex: $a$
     number: '78125'
@@ -1278,7 +1278,17 @@
   c:
     param-latex: $c$
     number: '27295744'
-'1.42137':
+'1.421378':
+  a:
+    param-latex: $a$
+    number: '72402135'
+  b:
+    param-latex: $b$
+    number: '109048965991846471808'
+  c:
+    param-latex: $c$
+    number: '109048965991918873943'
+'1.421370':
   a:
     param-latex: $a$
     number: '1218826949'
@@ -1288,7 +1298,7 @@
   c:
     param-latex: $c$
     number: '1403222279373824'
-'1.42104':
+'1.421045':
   a:
     param-latex: $a$
     number: '549755813888'
@@ -1298,7 +1308,7 @@
   c:
     param-latex: $c$
     number: '7686430859375'
-'1.42100':
+'1.421008':
   a:
     param-latex: $a$
     number: '2308155904'
@@ -1308,7 +1318,7 @@
   c:
     param-latex: $c$
     number: '1194052296529'
-'1.42081':
+'1.420813':
   a:
     param-latex: $a$
     number: '1293862733719'
@@ -1318,7 +1328,7 @@
   c:
     param-latex: $c$
     number: '39378846484375'
-'1.42075':
+'1.420751':
   a:
     param-latex: $a$
     number: '1580506708975616'
@@ -1328,7 +1338,7 @@
   c:
     param-latex: $c$
     number: '122467859214675039'
-'1.42058':
+'1.420582':
   a:
     param-latex: $a$
     number: '223270703038574259899031'
@@ -1338,7 +1348,7 @@
   c:
     param-latex: $c$
     number: '649307589247725043520719814656'
-'1.42043':
+'1.420437':
   a:
     param-latex: $a$
     number: '109531219'
@@ -1348,7 +1358,7 @@
   c:
     param-latex: $c$
     number: '1231016019'
-'1.42032':
+'1.420320':
   a:
     param-latex: $a$
     number: '1594323'
@@ -1358,7 +1368,7 @@
   c:
     param-latex: $c$
     number: '51905824314323'
-'1.42023':
+'1.420232':
   a:
     param-latex: $a$
     number: '19177936109568'
@@ -1368,7 +1378,7 @@
   c:
     param-latex: $c$
     number: '1490116119384765625'
-'1.42003':
+'1.420035':
   a:
     param-latex: $a$
     number: '12167'
@@ -1378,7 +1388,7 @@
   c:
     param-latex: $c$
     number: '47669777792'
-'1.41955':
+'1.419559':
   a:
     param-latex: $a$
     number: '13651536370466816'
@@ -1388,7 +1398,7 @@
   c:
     param-latex: $c$
     number: '889266601795369941'
-'1.41929':
+'1.419292':
   a:
     param-latex: $a$
     number: '178409449'
@@ -1398,7 +1408,7 @@
   c:
     param-latex: $c$
     number: '39056574893824'
-'1.41918':
+'1.419183':
   a:
     param-latex: $a$
     number: '44790692380548068359375'
@@ -1408,7 +1418,7 @@
   c:
     param-latex: $c$
     number: '3417344974020845417638395904'
-'1.41891':
+'1.418919':
   a:
     param-latex: $a$
     number: '49'
@@ -1418,7 +1428,7 @@
   c:
     param-latex: $c$
     number: '4294049841'
-'1.41823':
+'1.418233':
   a:
     param-latex: $a$
     number: '45487'
@@ -1428,7 +1438,7 @@
   c:
     param-latex: $c$
     number: '549755859375'
-'1.41763':
+'1.417633':
   a:
     param-latex: $a$
     number: '25140625'
@@ -1438,7 +1448,7 @@
   c:
     param-latex: $c$
     number: '5380214781841'
-'1.41679':
+'1.416793':
   a:
     param-latex: $a$
     number: '1564936281'
@@ -1448,7 +1458,7 @@
   c:
     param-latex: $c$
     number: '6499367670656'
-'1.41643':
+'1.416437':
   a:
     param-latex: $a$
     number: '95909154101'
@@ -1458,7 +1468,7 @@
   c:
     param-latex: $c$
     number: '475136000000000'
-'1.41627':
+'1.416276':
   a:
     param-latex: $a$
     number: '4838491612679'
@@ -1468,7 +1478,7 @@
   c:
     param-latex: $c$
     number: '4199142491612679'
-'1.41607':
+'1.416077':
   a:
     param-latex: $a$
     number: '237733901233676217'
@@ -1478,7 +1488,7 @@
   c:
     param-latex: $c$
     number: '1907586366713733676217'
-'1.41605':
+'1.416051':
   a:
     param-latex: $a$
     number: '1123125'
@@ -1488,7 +1498,7 @@
   c:
     param-latex: $c$
     number: '861421961216'
-'1.41582':
+'1.415829':
   a:
     param-latex: $a$
     number: '312785683886639043920000'
@@ -1498,7 +1508,7 @@
   c:
     param-latex: $c$
     number: '834295848097436322456573'
-'1.41575':
+'1.415758':
   a:
     param-latex: $a$
     number: '383472442626953125'
@@ -1508,7 +1518,7 @@
   c:
     param-latex: $c$
     number: '475313173691005554597'
-'1.41570':
+'1.415701':
   a:
     param-latex: $a$
     number: '3005846374259060721'
@@ -1518,7 +1528,7 @@
   c:
     param-latex: $c$
     number: '4926057427007907452420096'
-'1.41563':
+'1.415632':
   a:
     param-latex: $a$
     number: '1618481116086272'
@@ -1528,7 +1538,7 @@
   c:
     param-latex: $c$
     number: '49533172456888395647'
-'1.41556':
+'1.415561':
   a:
     param-latex: $a$
     number: '343'
@@ -1538,7 +1548,7 @@
   c:
     param-latex: $c$
     number: '220947265968'
-'1.41527':
+'1.415273':
   a:
     param-latex: $a$
     number: '839523'
@@ -1548,7 +1558,7 @@
   c:
     param-latex: $c$
     number: '37842636398'
-'1.41508':
+'1.415089':
   a:
     param-latex: $a$
     number: '12130039035706446400'
@@ -1558,7 +1568,7 @@
   c:
     param-latex: $c$
     number: '3248860133613975134881'
-'1.41495':
+'1.414957':
   a:
     param-latex: $a$
     number: '11745463940603527909'
@@ -1568,7 +1578,7 @@
   c:
     param-latex: $c$
     number: '1092734372744083406848000000'
-'1.41457':
+'1.414570':
   a:
     param-latex: $a$
     number: '8168354035667660710457'
@@ -1578,7 +1588,7 @@
   c:
     param-latex: $c$
     number: '201897910028962425473210457'
-'1.41450':
+'1.414502':
   a:
     param-latex: $a$
     number: '110716875'
@@ -1588,7 +1598,7 @@
   c:
     param-latex: $c$
     number: '643956736'
-'1.41435':
+'1.414351':
   a:
     param-latex: $a$
     number: '654071044921875'
@@ -1598,7 +1608,7 @@
   c:
     param-latex: $c$
     number: '273121848500836883'
-'1.41369':
+'1.413697':
   a:
     param-latex: $a$
     number: '43840'
@@ -1608,7 +1618,7 @@
   c:
     param-latex: $c$
     number: '4826809'
-'1.41327':
+'1.413279':
   a:
     param-latex: $a$
     number: '25'
@@ -1618,7 +1628,7 @@
   c:
     param-latex: $c$
     number: '4804864'
-'1.41316':
+'1.413166':
   a:
     param-latex: $a$
     number: '798386015151'
@@ -1628,7 +1638,7 @@
   c:
     param-latex: $c$
     number: '42224897228800'
-'1.41289':
+'1.412893':
   a:
     param-latex: $a$
     number: '9529'
@@ -1638,7 +1648,7 @@
   c:
     param-latex: $c$
     number: '343472006670843904'
-'1.41283':
+'1.412833':
   a:
     param-latex: $a$
     number: '226528683441437300000'
@@ -1648,7 +1658,7 @@
   c:
     param-latex: $c$
     number: '61206144099714429106045001'
-'1.41272':
+'1.412723':
   a:
     param-latex: $a$
     number: '273107879572591'
@@ -1658,7 +1668,7 @@
   c:
     param-latex: $c$
     number: '2737390021753264532730991'
-'1.41268':
+'1.412680':
   a:
     param-latex: $a$
     number: '5'
@@ -1668,7 +1678,7 @@
   c:
     param-latex: $c$
     number: '177152'
-'1.41257':
+'1.412579':
   a:
     param-latex: $a$
     number: '916042593694120132608'
@@ -1678,7 +1688,7 @@
   c:
     param-latex: $c$
     number: '179239667701039727501493179483'
-'1.41234':
+'1.412347':
   a:
     param-latex: $a$
     number: '3463816043689'
@@ -1688,7 +1698,7 @@
   c:
     param-latex: $c$
     number: '14552958405390625000000000'
-'1.41229':
+'1.412297':
   a:
     param-latex: $a$
     number: '99794037551104'
@@ -1698,7 +1708,7 @@
   c:
     param-latex: $c$
     number: '67077807099029541015625'
-'1.41227':
+'1.412275':
   a:
     param-latex: $a$
     number: '451653333125'
@@ -1708,7 +1718,7 @@
   c:
     param-latex: $c$
     number: '25357177677938688'
-'1.41209':
+'1.412090':
   a:
     param-latex: $a$
     number: '55204820542052128964537745408'
@@ -1718,7 +1728,7 @@
   c:
     param-latex: $c$
     number: '238841709663649705652770167283'
-'1.41185':
+'1.411854':
   a:
     param-latex: $a$
     number: '4345425424281887'
@@ -1728,7 +1738,7 @@
   c:
     param-latex: $c$
     number: '1029785942718162137375'
-'1.41168':
+'1.411682':
   a:
     param-latex: $a$
     number: '493039'
@@ -1738,7 +1748,7 @@
   c:
     param-latex: $c$
     number: '20842283008'
-'1.41166':
+'1.411663':
   a:
     param-latex: $a$
     number: '8395623084589056'
@@ -1748,7 +1758,7 @@
   c:
     param-latex: $c$
     number: '58051374798968425661281'
-'1.41161':
+'1.411614':
   a:
     param-latex: $a$
     number: '531843'
@@ -1758,7 +1768,7 @@
   c:
     param-latex: $c$
     number: '49470876424871299'
-'1.41143':
+'1.411435':
   a:
     param-latex: $a$
     number: '15094873017'
@@ -1768,7 +1778,7 @@
   c:
     param-latex: $c$
     number: '17075087834907018425'
-'1.41090':
+'1.410909':
   a:
     param-latex: $a$
     number: '6979321856'
@@ -1778,7 +1788,7 @@
   c:
     param-latex: $c$
     number: '950451754712481'
-'1.41082':
+'1.410829':
   a:
     param-latex: $a$
     number: '9194653'
@@ -1788,7 +1798,7 @@
   c:
     param-latex: $c$
     number: '110437379969440'
-'1.41068':
+'1.410682':
   a:
     param-latex: $a$
     number: '10769111'
@@ -1798,7 +1808,7 @@
   c:
     param-latex: $c$
     number: '1953125000000'
-'1.41032':
+'1.410323':
   a:
     param-latex: $a$
     number: '2148627732468125'
@@ -1808,7 +1818,7 @@
   c:
     param-latex: $c$
     number: '46927803590360591694957'
-'1.41022':
+'1.410220':
   a:
     param-latex: $a$
     number: '31117999167337103924704'
@@ -1818,7 +1828,7 @@
   c:
     param-latex: $c$
     number: '75960307119189544269610329'
-'1.41004':
+'1.410044':
   a:
     param-latex: $a$
     number: '17383783735296'
@@ -1828,7 +1838,7 @@
   c:
     param-latex: $c$
     number: '1621246337890625'
-'1.40974':
+'1.409742':
   a:
     param-latex: $a$
     number: '244140625'
@@ -1838,7 +1848,7 @@
   c:
     param-latex: $c$
     number: '4089424498688900917'
-'1.40944':
+'1.409448':
   a:
     param-latex: $a$
     number: '504423766399592448'
@@ -1848,7 +1858,7 @@
   c:
     param-latex: $c$
     number: '1462424714141845703125'
-'1.40908':
+'1.409086':
   a:
     param-latex: $a$
     number: '2753424041748046875'
@@ -1858,7 +1868,7 @@
   c:
     param-latex: $c$
     number: '30705232065367385909248'
-'1.40901':
+'1.409011':
   a:
     param-latex: $a$
     number: '828852072215803849'
@@ -1868,7 +1878,7 @@
   c:
     param-latex: $c$
     number: '22965916918198600000000'
-'1.40900':
+'1.409008':
   a:
     param-latex: $a$
     number: '2401'
@@ -1878,7 +1888,7 @@
   c:
     param-latex: $c$
     number: '5006485372272640000000'
-'1.40897':
+'1.408972':
   a:
     param-latex: $a$
     number: '49'
@@ -1888,7 +1898,7 @@
   c:
     param-latex: $c$
     number: '3939040692'
-'1.40886':
+'1.408866':
   a:
     param-latex: $a$
     number: '4096'
@@ -1898,7 +1908,7 @@
   c:
     param-latex: $c$
     number: '92280113398828765'
-'1.40857':
+'1.408577':
   a:
     param-latex: $a$
     number: '743328586'
@@ -1908,7 +1918,7 @@
   c:
     param-latex: $c$
     number: '3195854675137794609'
-'1.40778':
+'1.407786':
   a:
     param-latex: $a$
     number: '52'
@@ -1918,7 +1928,7 @@
   c:
     param-latex: $c$
     number: '7192700526735'
-'1.40770':
+'1.407707':
   a:
     param-latex: $a$
     number: '1025227'
@@ -1928,7 +1938,7 @@
   c:
     param-latex: $c$
     number: '191008735430507276016796875'
-'1.40758':
+'1.407583':
   a:
     param-latex: $a$
     number: '2228489292542918629'
@@ -1938,7 +1948,7 @@
   c:
     param-latex: $c$
     number: '158955482208251953125'
-'1.40740':
+'1.407404':
   a:
     param-latex: $a$
     number: '2097'
@@ -1948,7 +1958,7 @@
   c:
     param-latex: $c$
     number: '292300859801600'
-'1.40721':
+'1.407214':
   a:
     param-latex: $a$
     number: '5851561'
@@ -1958,7 +1968,7 @@
   c:
     param-latex: $c$
     number: '1152904782137474560000'
-'1.40720':
+'1.407208':
   a:
     param-latex: $a$
     number: '241'
@@ -1968,7 +1978,7 @@
   c:
     param-latex: $c$
     number: '6122304000241'
-'1.40714':
+'1.407149':
   a:
     param-latex: $a$
     number: '1843501145680799'
@@ -1978,7 +1988,7 @@
   c:
     param-latex: $c$
     number: '19025362944000000'
-'1.40705':
+'1.407050':
   a:
     param-latex: $a$
     number: '3208329'
@@ -1988,7 +1998,7 @@
   c:
     param-latex: $c$
     number: '244140625'
-'1.40680':
+'1.406808':
   a:
     param-latex: $a$
     number: '8102543229725283'
@@ -1998,7 +2008,7 @@
   c:
     param-latex: $c$
     number: '132868527752437760'
-'1.40652':
+'1.406524':
   a:
     param-latex: $a$
     number: '40353607'
@@ -2008,7 +2018,7 @@
   c:
     param-latex: $c$
     number: '1585119232'
-'1.40641':
+'1.406419':
   a:
     param-latex: $a$
     number: '25916008300544'
@@ -2018,7 +2028,7 @@
   c:
     param-latex: $c$
     number: '42259955314941169'
-'1.40630':
+'1.406306':
   a:
     param-latex: $a$
     number: '2162163712'
@@ -2028,7 +2038,7 @@
   c:
     param-latex: $c$
     number: '6779653505998981425'
-'1.40621':
+'1.406217':
   a:
     param-latex: $a$
     number: '38788923392'
@@ -2038,7 +2048,7 @@
   c:
     param-latex: $c$
     number: '18285725740956375'
-'1.40609':
+'1.406096':
   a:
     param-latex: $a$
     number: '190775296'
@@ -2048,7 +2058,7 @@
   c:
     param-latex: $c$
     number: '893871739'
-'1.40608':
+'1.406080':
   a:
     param-latex: $a$
     number: '2546698687'
@@ -2058,7 +2068,7 @@
   c:
     param-latex: $c$
     number: '536288131916177859333'
-'1.40607':
+'1.406078':
   a:
     param-latex: $a$
     number: '245'
@@ -2068,7 +2078,7 @@
   c:
     param-latex: $c$
     number: '13436928'
-'1.40578':
+'1.405784':
   a:
     param-latex: $a$
     number: '2197'
@@ -2078,7 +2088,7 @@
   c:
     param-latex: $c$
     number: '703125'
-'1.40544':
+'1.405443':
   a:
     param-latex: $a$
     number: '4076863488'
@@ -2088,7 +2098,7 @@
   c:
     param-latex: $c$
     number: '47173366583'
-'1.40533':
+'1.405335':
   a:
     param-latex: $a$
     number: '420707233300201'
@@ -2098,7 +2108,7 @@
   c:
     param-latex: $c$
     number: '2095497085538324516438016'
-'1.40510':
+'1.405106':
   a:
     param-latex: $a$
     number: '329354754172130421'
@@ -2108,7 +2118,7 @@
   c:
     param-latex: $c$
     number: '302465560833263927296'
-'1.40487':
+'1.404870':
   a:
     param-latex: $a$
     number: '254323883056640625'
@@ -2118,7 +2128,7 @@
   c:
     param-latex: $c$
     number: '34869964539846197248'
-'1.40479':
+'1.404796':
   a:
     param-latex: $a$
     number: '397140968153984375'
@@ -2128,7 +2138,7 @@
   c:
     param-latex: $c$
     number: '13416223289936707584'
-'1.40448':
+'1.404484':
   a:
     param-latex: $a$
     number: '631'
@@ -2138,7 +2148,7 @@
   c:
     param-latex: $c$
     number: '282192773751'
-'1.40444':
+'1.404448':
   a:
     param-latex: $a$
     number: '31541166080000'
@@ -2148,7 +2158,7 @@
   c:
     param-latex: $c$
     number: '1332406307037561775019'
-'1.40426':
+'1.404264':
   a:
     param-latex: $a$
     number: '1'
@@ -2158,7 +2168,7 @@
   c:
     param-latex: $c$
     number: '190000000'
-'1.40398':
+'1.403980':
   a:
     param-latex: $a$
     number: '55419921875'
@@ -2168,7 +2178,7 @@
   c:
     param-latex: $c$
     number: '36773477700493523'
-'1.40395':
+'1.403958':
   a:
     param-latex: $a$
     number: '2027349'
@@ -2178,7 +2188,7 @@
   c:
     param-latex: $c$
     number: '908673095703125'
-'1.40348':
+'1.403482':
   a:
     param-latex: $a$
     number: '351'
@@ -2188,7 +2198,7 @@
   c:
     param-latex: $c$
     number: '49433168575'
-'1.40308':
+'1.403083':
   a:
     param-latex: $a$
     number: '1411792877634228'
@@ -2198,7 +2208,7 @@
   c:
     param-latex: $c$
     number: '1718265536075168419471'
-'1.40286':
+'1.402863':
   a:
     param-latex: $a$
     number: '466157462602565'
@@ -2208,7 +2218,7 @@
   c:
     param-latex: $c$
     number: '1152555466316768784781686'
-'1.40273':
+'1.402737':
   a:
     param-latex: $a$
     number: '2809704591'
@@ -2218,7 +2228,7 @@
   c:
     param-latex: $c$
     number: '4969357133353544364175'
-'1.40244':
+'1.402441':
   a:
     param-latex: $a$
     number: '16135602594748416'
@@ -2228,7 +2238,7 @@
   c:
     param-latex: $c$
     number: '109813129627140858125'
-'1.40218':
+'1.402182':
   a:
     param-latex: $a$
     number: '8303765625'
@@ -2238,7 +2248,7 @@
   c:
     param-latex: $c$
     number: '47083581952'
-'1.40199':
+'1.401993':
   a:
     param-latex: $a$
     number: '3643798828125'
@@ -2248,7 +2258,7 @@
   c:
     param-latex: $c$
     number: '30667140235264'
-'1.40197':
+'1.401979':
   a:
     param-latex: $a$
     number: '42949672960'
@@ -2258,7 +2268,7 @@
   c:
     param-latex: $c$
     number: '215904183206899'
-'1.40189':
+'1.401895':
   a:
     param-latex: $a$
     number: '10888990400037112340748947'
@@ -2268,7 +2278,7 @@
   c:
     param-latex: $c$
     number: '324487812500000000000000000'
-'1.40171':
+'1.401717':
   a:
     param-latex: $a$
     number: '127647488'
@@ -2278,7 +2288,7 @@
   c:
     param-latex: $c$
     number: '265151944808424913113'
-'1.40168':
+'1.401684':
   a:
     param-latex: $a$
     number: '1235912557887'
@@ -2288,7 +2298,7 @@
   c:
     param-latex: $c$
     number: '1747540194147076000448512'
-'1.40141':
+'1.401418':
   a:
     param-latex: $a$
     number: '14799155625'
@@ -2298,7 +2308,7 @@
   c:
     param-latex: $c$
     number: '515932946432'
-'1.40129':
+'1.401291':
   a:
     param-latex: $a$
     number: '4194304'
@@ -2308,7 +2318,7 @@
   c:
     param-latex: $c$
     number: '86749592694375'
-'1.40127':
+'1.401270':
   a:
     param-latex: $a$
     number: '1152539369527'
@@ -2318,7 +2328,7 @@
   c:
     param-latex: $c$
     number: '11161247171148855'
-'1.40126':
+'1.401261':
   a:
     param-latex: $a$
     number: '534317814063'
@@ -2328,7 +2338,7 @@
   c:
     param-latex: $c$
     number: '9905112350720000'
-'1.40118':
+'1.401189':
   a:
     param-latex: $a$
     number: '1'
@@ -2338,7 +2348,7 @@
   c:
     param-latex: $c$
     number: '424808316456140800'
-'1.40115':
+'1.401155':
   a:
     param-latex: $a$
     number: '3758096384'
@@ -2348,7 +2358,7 @@
   c:
     param-latex: $c$
     number: '85723876953125'
-'1.40081':
+'1.400811':
   a:
     param-latex: $a$
     number: '1410678481'
@@ -2358,7 +2368,7 @@
   c:
     param-latex: $c$
     number: '834894013355600'
-'1.40058':
+'1.400588':
   a:
     param-latex: $a$
     number: '28561'
@@ -2368,7 +2378,7 @@
   c:
     param-latex: $c$
     number: '11175723008'
-'1.40031':
+'1.400316':
   a:
     param-latex: $a$
     number: '130606940160'
@@ -2378,7 +2388,7 @@
   c:
     param-latex: $c$
     number: '21120137468287'
-'1.40026':
+'1.400261':
   a:
     param-latex: $a$
     number: '24257659912109375'
@@ -2388,7 +2398,7 @@
   c:
     param-latex: $c$
     number: '61997341998883712'
-'1.40004':
+'1.400041':
   a:
     param-latex: $a$
     number: '83521'

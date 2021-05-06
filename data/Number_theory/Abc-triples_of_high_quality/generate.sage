@@ -13,7 +13,7 @@ from utils.utils import real_interval_to_sage_string
 path = 'data/Number_theory/Abc-triples_of_high_quality'
 
 prec10 = 100 #relative precision in base 10
-num_digits_q = 6
+num_digits_q = 7
 
 RIFprec = RealIntervalField(prec10 * 3.4 * 2)
 
