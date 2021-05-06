@@ -13,7 +13,7 @@ from utils.utils import real_interval_to_sage_string
 path = 'data/Number_theory/Abc-triples_of_high_merit'
 
 prec10 = 100 #relative precision in base 10
-num_digits_m = 5
+num_digits_m = 14
 
 RIFprec = RealIntervalField(prec10 * 3.4 * 2)
 
@@ -92,7 +92,6 @@ with open(os.path.join(path,abc_filename),"r") as fp:
 					raise
 				
 				#compute quality:
-				reliable_m = True
 				BIG = a*b*c
 				for p in ps:
 					BIG = BIG.prime_to_m_part(p)
@@ -104,10 +103,16 @@ with open(os.path.join(path,abc_filename),"r") as fp:
 				#if BIG.is_square():
 				#	BIG = ZZ(sqrt(BIG))
 				#assert(BIG.is_perfect_power())
-				if not BIG.is_prime():
-					print("BIG is not a prime")
-					#assert(BIG.is_squarefree())
-					reliable_m = False
+
+				reliable_m = False
+				try:
+					alarm(1)
+					BIG = BIG.radical()
+					reliable_m = True
+				except AlarmInterrupt:
+					pass
+				cancel_alarm()
+
 				#BIG = BIG.squarefree_part()
 				rad_abc = RIF(BIG * prod(ps))
 				q = RIF(log(c)/log(rad_abc))
@@ -128,6 +133,8 @@ for a,b,c,m,reliable_m in abcms:
 		RIFprec(m),
 		max_digits = num_digits_m,
 	).replace('?','')
+	if not reliable_m:
+		m_str += "*"
 
 	numbers_m = {}
 	numbers_m['a'] = {

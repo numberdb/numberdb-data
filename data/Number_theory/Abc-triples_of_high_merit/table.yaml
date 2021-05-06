@@ -69,8 +69,14 @@ Data properties:
   sources:
   - CITE{ABCatHomeHighM} and the references therein
   reliability: >
-    The merit $m$ is correct up to one ulp (unit of least precision); 
-    see HREF{https://www.numberdb.org/help#section-number-types}.
+    The given merit $m$ might not be reliable, 
+    in which case it is signified with an asterisk '*':
+    By definition, $m$ depends on the prime factorization of $abc$,
+    which might be out of reach.
+    If this is the case, the large remaining factor of $abc$ is
+    heuristically assumed to be square-free, 
+    such that a heuristic value for $r$ (and thus for $q$ and $m$) can be deduced.
+
 Display properties:
   number-header: value
 
