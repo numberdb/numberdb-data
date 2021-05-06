@@ -1,0 +1,62 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  $\cos(\pi x)$ for rational $x$
+
+Definition: >
+  The list contains the values of $\cos(\pi x)$
+  at certain rational numbers $0 \leq x \leq 1$.
+
+Parameters:
+  x:
+    type: Q
+    constraints: $0 \leq x \leq 1$
+   
+Comments:
+  comment-real-parts-of-roots-of-unity: >
+    For $x = 2k/n$, $\cos(\pi x)$ equals 
+    the real part of the 
+    $n$'th HREF{Roots_or_unity}[root of unity] $\exp(2\pi i k/n)$ CITE{WikiRootsOf1}.
+  comment-roots-of-Tn: >
+    For $x = (k-1/2)/n$ ($k = 1, \ldots, n$),
+    $\cos(\pi x)$ equals
+    the $k$'th root of the $n$'th Chebyshev polynomial of the first kind $T_n$ CITE{WikiChebyshevPoly}. 
+  comment-roots-of-Un: >
+    For $x = k/(n+1)$ ($k = 1, \ldots, n$),
+    $\cos(\pi x)$ equals
+    the $k$'th root of the $n$'th Chebyshev polynomial of the second kind $U_n$ CITE{WikiChebyshevPoly}. 
+  comment-extrema-of-Tn: >
+    For $x = k/n$ ($k = 0, \ldots, n$),
+    $\cos(\pi x)$ equals
+    the $k$'th extremum of $T_n$ CITE{WikiChebyshevPoly}. 
+    
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  WikiChebyshevPoly:
+    title: "Wikipedia: Chebyshev polynomials"
+    url: https://en.wikipedia.org/wiki/Chebyshev_polynomials
+  WikiRootsOf1:
+    title: "Wikipedia: Root of unity"
+    url: https://en.wikipedia.org/wiki/Root_of_unity
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- special values
+- algebraic
+
+Data properties:
+  type: R
+  complete: no
+
+Display properties:
+  number-header: $\cos(\pi x)$
+
+Numbers: INPUT{numbers.yaml}
