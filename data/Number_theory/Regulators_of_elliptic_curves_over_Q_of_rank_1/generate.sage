@@ -1,6 +1,6 @@
-#The abc data is taken from the ABC@HOME project of Bart de Smit:
+#The table of elliptic curves was taken from the LMFDB (originally computed by Cremona):
 #
-# https://www.math.leidenuniv.nl/~desmit/abc/
+# https://lmfdb.org
 #
 '''
 #To extract MW-bases from the LMFDB, we could run on LMFBD's server legendre
