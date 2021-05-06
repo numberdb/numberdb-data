@@ -101,6 +101,7 @@ print("len(abcqs):",len(abcqs))
 #Convert data to numberdb-format:
 
 numbers = {}
+q_strs = set()
 
 for a,b,c,q in abcqs:
 
@@ -108,6 +109,7 @@ for a,b,c,q in abcqs:
 		RIFprec(q),
 		max_digits = num_digits_q,
 	).replace('?','')
+	q_strs.add(q_str)
 
 	numbers_q = {}
 	numbers_q['a'] = {
@@ -125,6 +127,7 @@ for a,b,c,q in abcqs:
 
 	numbers[q_str] = numbers_q
 
+print('len(q_sts):',len(q_strs))
 
 filename = os.path.join(path, 'numbers.yaml')
 yaml.dump(numbers, stream = open(filename, 'w'), sort_keys = False)

@@ -126,6 +126,7 @@ print("len(abcms):",len(abcms))
 #Convert data to numberdb-format:
 
 numbers = {}
+m_strs = set()
 
 for a,b,c,m,reliable_m in abcms:
 
@@ -135,6 +136,7 @@ for a,b,c,m,reliable_m in abcms:
 	).replace('?','')
 	if not reliable_m:
 		m_str += "*"
+	m_strs.add(m_str)
 
 	numbers_m = {}
 	numbers_m['a'] = {
@@ -152,6 +154,7 @@ for a,b,c,m,reliable_m in abcms:
 
 	numbers[m_str] = numbers_m
 
+print('len(m_sts):',len(m_strs))
 
 filename = os.path.join(path, 'numbers.yaml')
 yaml.dump(numbers, stream = open(filename, 'w'), sort_keys = False)
