@@ -1,0 +1,80 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Regulators of elliptic curves over $\mathbb{Q}$ of rank $1$
+
+Definition: >
+  The regulator of an elliptic curve $E$ over $\mathbb{Q}$ is the 
+  determinant of the height pairing matrix for a
+  Mordell--Weil basis of $E(\mathbb{Q})$.
+  For elliptic curves of rank $1$, this is the same as the
+  Neron-Tate height of a Mordell-Weil generator of the free part 
+  of $E(\mathbb{Q})$.
+  This table lists regulators for elliptic curves over $\mathbb{Q}$ of
+  rank $1$ for the first few conductors.
+  
+Parameters:
+  N:
+    title: conductor
+    type: Z
+  c4:
+    display: $c_4$
+    #title: HREF{https://www.lmfdb.org/knowledge/show/ec.q.lmfdb_label}[LMFDB label]
+    title: $c_4$ invariant of a minimal model
+    type: Z
+
+  c6:
+    display: $c_6$
+    title: $c_6$ invariant of a minimal model
+    type: Z
+   
+Comments:
+  comment-redundancy-of-N: >
+    The conductor $N$ can be deduced from $c_4$ and $c_6$.
+    We display it for convenience.
+    
+Formulas:
+  formula-height-pairing-matrix: >
+    For an elliptic curve $E$ over a number field $K$, 
+    $\text{Reg}(E/K) = \det(\langle P_i, P_j\rangle)_{1\leq i, j \leq r}$, 
+    where $P_1, \ldots, P_r$ is a Mordell-Weil basis for $E(K)$ and
+    $\langle ., .\rangle$ denotes the Neron-Tate height pairing.
+
+Programs:
+  program-sage: 
+    language: Sage
+    code: |
+      numbers = [E.regulator() for E in cremona_curves([1..100])
+                               if E.rank() == 1]
+
+References:
+      
+Links:
+  LMFDB:
+    title: "LMFDB: Elliptic curves over Q"
+    url: https://www.lmfdb.org/EllipticCurve/Q/
+  Wiki:
+    title: "Wikipedia: Elliptic regulator"
+    url: https://en.wikipedia.org/wiki/N%C3%A9ron%E2%80%93Tate_height#The_elliptic_and_abelian_regulators
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- ellptic curves
+
+Data properties:
+  type: R
+  complete: unknown
+  sources:
+  - CITE{LMFDB}
+
+Display properties:
+  number-header: $\text{Reg}(E/\mathbb{Q})$
+  group parameters:
+  - [N]
+  - [c4, c6]
+
+Numbers: INPUT{numbers.yaml}
