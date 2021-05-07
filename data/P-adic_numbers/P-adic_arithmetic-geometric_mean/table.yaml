@@ -29,7 +29,7 @@ Parameters:
 Comments:
   comment-breaking-symmetry: >
     Due to the symmetry CITE{formula-symmetric} 
-    and trivial cases CITE{formula-diagonal}, CITE{formula-edge}, 
+    and trivial cases CITE{formula-diagonal}, 
     we only list values 
     for $a < b$.
   
@@ -38,8 +38,6 @@ Formulas:
     $\text{agm}_p(a,b) = \text{agm}_p(b,a)$
   formula-diagonal: >
     $\text{agm}_p(a,a) = a$
-  formula-edge: >
-    $\text{agm}_p(0,a) = 0$
 
 Programs: 
 
