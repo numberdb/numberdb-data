@@ -4,7 +4,8 @@ Title: >
   $abc$-triples of high quality
 
 Definition: >
-  The list contains all known $abc$-triples quality at least $1.4$.
+  The list contains all known $abc$-triples quality at least $1.4$,
+  as givin in CITE{ABCatHomeHighQ}.
   An $abc$-triple is a solution of the equation $a+b=c$ with coprime integers
   $0 < a \leq b < c$.
   The quality of an $abc$-triple is defined as
