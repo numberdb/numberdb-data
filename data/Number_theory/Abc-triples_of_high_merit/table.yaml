@@ -31,7 +31,7 @@ Comments:
     of quality $q > 1+\varepsilon$.
   comment-abc-merit-conjecture: >
     The refined $abc$-conjecture of Robert, Stewart and Tenenbaum CITE{RoStTe14}
-    states that $\limsup m = 48$.
+    implies that $\limsup m = 48$.
     
 Formulas: 
 
