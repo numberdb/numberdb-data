@@ -1,0 +1,90 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Real periods of elliptic curves over $\mathbb{Q}$ of rank $2$
+
+Definition: >
+  The real period $\omega_1$ of an elliptic curve over $\mathbb{Q}$
+  can be defined as $\Omega_E$ if $E(\mathbb{R})$ is connected and
+  $\Omega_E/2$ if $E(\mathbb{R})$ has two components, where
+  $\Omega_E = \int_{E(\mathbb{R})} |\omega|$,
+  $E(\mathbb{R})$ is the set of real points of $E$, 
+  and $\omega$ is the invariant differential $dx/(2y+a_1 x+a_3)$
+  of a globally minimal model of $E$.
+  This table lists $\omega_1$ for elliptic curves over $\mathbb{Q}$ of
+  rank $2$ for the first few conductors.
+  
+Parameters:
+  N:
+    title: conductor of $E$
+    type: Z
+  c4:
+    display: $c_4$
+    #title: HREF{https://www.lmfdb.org/knowledge/show/ec.q.lmfdb_label}[LMFDB label]
+    title: invariant $c_4$ of a minimal model of $E$
+    type: Z
+
+  c6:
+    display: $c_6$
+    title: invariant $c_6$ of a minimal model of $E$
+    type: Z
+   
+Comments:
+  comment-Omega: >
+    Note that some authors refer to $\Omega$ as the real period.
+  comment-period-lattice: >
+    The period lattice $\Lambda$ of $E$ is 
+    the lattice of periods of $\omega$.
+    In terms of $\Lambda$, $\omega_1$ is the smallest positive 
+    real number in $\Lambda$.
+  comment-BSD: >
+    The Birch and Swinnerton-Dyer conjecture CITE{WikiBSD} states that
+    $\frac{L^{(r)}(E,1)}{r!} = \frac{|\text{Sha}(E)|\Omega_E R_E \prod_{p|N} c_p}{|E_{\text{Tor}}|^2}$.
+  comment-redundancy-of-N: >
+    The conductor $N$ can be deduced from $c_4$ and $c_6$.
+    We display it for convenience.
+  comment-E-from-c4c6: >
+    A model of $E/\mathbb{Q}$ is given by $E: y^2 = x^3 - 27 c_4 x - 54 c_6$.
+    
+Formulas:
+
+Programs:
+  program-sage: 
+    language: Sage
+    code: |
+      numbers = [E.period_lattice().real_period() 
+                               for E in cremona_curves([1..1000])
+                               if E.rank() == 2]
+
+References:
+      
+Links:
+  LMFDB:
+    title: "LMFDB: Elliptic curves over Q"
+    url: https://www.lmfdb.org/EllipticCurve/Q/
+  WikiBSD:
+    title: "Wikipedia: Birch and Swinnerton-Dyer conjecture"
+    url: https://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- elliptic curves
+- period
+
+Data properties:
+  type: R
+  complete: no
+  sources:
+  - CITE{LMFDB} (list of curves with bounded conductor)
+
+Display properties:
+  number-header: $\omega_1$
+  group parameters:
+  - [N]
+  - [c4, c6]
+
+Numbers: INPUT{numbers.yaml}
