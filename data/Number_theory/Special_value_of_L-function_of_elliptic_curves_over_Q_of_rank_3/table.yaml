@@ -1,0 +1,88 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Special $L$-value of elliptic curves over $\mathbb{Q}$ of rank $3$
+
+Definition: >
+  The special $L$-value of an elliptic curve over $\mathbb{Q}$ 
+  of (algebraic) rank $r$ is 
+  the $r$'th derivative of 
+  its $L$-function $L(E,s)$ at $s=1$.
+  Here the arithmetic normalization of $L(E,s)$ is used CITE{LMFDB-special-L-value}.
+  This table lists $L^{(3)}(E,1)$ for elliptic curves over $\mathbb{Q}$ of
+  rank $3$ for the first few conductors.
+  
+Parameters:
+  N:
+    title: conductor of $E$
+    type: Z
+  c4:
+    display: $c_4$
+    #title: HREF{https://www.lmfdb.org/knowledge/show/ec.q.lmfdb_label}[LMFDB label]
+    title: invariant $c_4$ of a minimal model of $E$
+    type: Z
+
+  c6:
+    display: $c_6$
+    title: invariant $c_6$ of a minimal model of $E$
+    type: Z
+   
+Comments:
+  comment-optimal-curves-only: >
+    As $L(E,s)$ only depends on the $\mathbb{Q}$-isogeny class of $E$,
+    the table lists at most one representative of each isogeny class.
+  comment-BSD: >
+    The Birch and Swinnerton-Dyer conjecture CITE{WikiBSD} states that
+    $\frac{L^{(r)}(E,1)}{r!} = \frac{|\text{Sha}(E)|\Omega_E R_E \prod_{p|N} c_p}{|E_{\text{Tor}}|^2}$.
+  comment-redundancy-of-N: >
+    The conductor $N$ can be deduced from $c_4$ and $c_6$.
+    We display it for convenience.
+  comment-E-from-c4c6: >
+    A model of $E/\mathbb{Q}$ is given by $E: y^2 = x^3 - 27 c_4 x - 54 c_6$.
+    
+Formulas:
+
+Programs:
+  program-sage: 
+    language: Sage
+    code: |
+      numbers = [E.lseries().taylor_series(series_prec=4)[3] * factorial(3) 
+                               for E in cremona_curves([1..100000])
+                               if E.rank() == 3]
+
+References:
+      
+Links:
+  LMFDB:
+    title: "LMFDB: Elliptic curves over Q"
+    url: https://www.lmfdb.org/EllipticCurve/Q/
+  LMFDB-special-L-value:
+    title: "LMFDB: Special value of an elliptic curve L-function"
+    url: https://www.lmfdb.org/knowledge/show/ec.q.special_value?special_value
+  WikiBSD:
+    title: "Wikipedia: Birch and Swinnerton-Dyer conjecture"
+    url: https://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- elliptic curves
+- special values
+- L-function
+
+Data properties:
+  type: R
+  complete: no
+  sources:
+  - CITE{LMFDB}
+
+Display properties:
+  number-header: $L^{(3)}(s,1)$
+  group parameters:
+  - [N]
+  - [c4, c6]
+
+Numbers: INPUT{numbers.yaml}
