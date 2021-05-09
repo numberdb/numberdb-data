@@ -1,0 +1,225 @@
+ID: INPUT{id.yaml} 
+
+Title: Mass ratios
+
+Definition: >
+  This table lists ratios of rest masses of certain particles,
+  where
+  $m_\alpha$ is the alpha particle mass,
+  $m_{\rm u}$ the atomic mass constant,
+  $m_{\rm d}$ the deuteron mass,
+  $m_{\rm e}$ the electron mass (the atomic unit of mass),
+  $m_{\rm h}$ the helion mass,
+  $m_\mu$ the muon mass,
+  $m_{\rm n}$ the neutron mass,
+  $m_{\rm p}$ the proton mass,
+  $m_\tau$ the tau mass,
+  $m_{\rm t}$ the triton mass,
+  $m_{\rm W}$ the W boson mass,
+  and $m_{\rm Z}$ the Z boson mass.  
+  The measurements and their uncertainties are given in
+  the format of CITE{NISTuncertainty}.
+
+#  $m_{\rm P}$ the Planck mass,
+#  $\rm{u}$ the unified atomic mass unit,
+  
+Parameters:
+  m1:
+    display: $m_1$
+    title: mass in numerator
+    type: Symbolic
+    #show-in-parameter-list: no
+  m2:
+    display: $m_2$
+    title: mass in denominator
+    type: Symbolic
+    #show-in-parameter-list: no
+    
+Comments:
+  comment-relative-atomic-mass: >
+    The ratios of the mass of a sample by $m_{\rm u}$ 
+    is called the relative atomic mass of the given sample.
+  
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  NIST:
+    title: "The NIST Reference on Constants, Units, and Uncertainty" 
+    url: https://physics.nist.gov/cuu/Constants/index.html
+  NISTuncertainty:
+    title: "NIST Reference: Standard Uncertainty and Relative Standard Uncertainty"
+    url: https://physics.nist.gov/cgi-bin/cuu/Info/Constants/definitions.html
+
+Similar tables:
+  
+Keywords: 
+
+Tags:
+- physics
+- dimensionless
+
+Data properties:
+  type: R
+  sources:
+  - CITE{NIST} (based on CODATA 2018)
+  reliability: >
+    See CITE{NISTuncertainty}
+
+Display properties:
+  number-header: $m_1/m_2$
+
+Numbers:
+  m_alpha:
+    param-latex: $m_\alpha$
+    numbers:
+      m_u:
+        param-latex: $m_{\rm{u}}$
+        number: 4.001506179127(63)
+      m_e:
+        param-latex: $m_{\rm{e}}$
+        number: 7294.29954142(24)
+      m_p:
+        param-latex: $m_{\rm{p}}$
+        number: 3.97259969009(22)
+  m_d:
+    param-latex: $m_{\rm{d}}$
+    numbers:
+      m_u:
+        param-latex: $m_{\rm{u}}$
+        number: 2.013553212745(40)
+      m_e:
+        param-latex: $m_{\rm{e}}$
+        number: 3670.48296788(13)   
+      m_p:
+        param-latex: $m_{\rm{p}}$
+        number: 1.99900750139(11)
+  m_e:
+    param-latex: $m_{\rm{e}}$
+    numbers:
+      m_u:
+        param-latex: $m_{\rm{u}}$
+        number: 5.48579909065(16)e-4
+      m_d:
+        param-latex: $m_{\rm{d}}$
+        number: 2.724437107462(96)e-4
+      m_h:
+        param-latex: $m_{\rm{h}}$
+        number: 1.819543074573(79)e-4
+      m_mu:
+        param-latex: $m_\mu$
+        number: 4.83633169(11)e-3
+      m_n:
+        param-latex: $m_{\rm{n}}$
+        number: 5.4386734424(26)e-4
+      m_p:
+        param-latex: $m_{\rm{p}}$
+        number: 5.44617021487(33)e-4
+      m_tau:
+        param-latex: $m_\tau$
+        number: 2.87585(19)e-4
+      m_alpha:
+        param-latex: $m_\alpha$
+        number: 1.370933554787(45)e-4
+      m_t:
+        param-latex: $m_{\rm{t}}$
+        number: 1.819200062251(90)e-4
+  m_h:
+    param-latex: $m_{\rm{h}}$
+    numbers:
+      m_u:
+        param-latex: $m_{\rm{u}}$
+        number: 3.014932247175(97)
+      m_e:
+        param-latex: $m_{\rm{e}}$
+        number: 5495.88528007(24)
+      m_p:
+        param-latex: $m_{\rm{p}}$
+        number: 2.99315267167(13) 
+  m_mu:
+    param-latex: $m_\mu$
+    numbers:
+      m_e:
+        param-latex: $m_{\rm{e}}$
+        number: 206.7682830(46)
+      m_n:
+        param-latex: $m_{\rm{n}}$
+        number: 0.1124545170(25)
+      m_p:
+        param-latex: $m_{\rm{p}}$
+        number: 0.1126095264(25)
+      m_tau:
+        param-latex: $m_\tau$
+        number: 5.94635(40)e-2
+  m_n:
+    param-latex: $m_{\rm{n}}$
+    numbers:
+      m_u:
+        param-latex: $m_{\rm{u}}$
+        number: 1.00866491595(49)
+      m_e:
+        param-latex: $m_{\rm{e}}$
+        number: 1838.68366173(89)
+      m_mu:
+        param-latex: $m_\mu$
+        number: 8.89248406(20)
+      m_p:
+        param-latex: $m_{\rm{p}}$
+        number: 1.00137841931(49)
+      m_tau:
+        param-latex: $m_\tau$
+        number: 0.528779(36)
+  m_p:
+    param-latex: $m_{\rm{p}}$
+    numbers:
+      m_u:
+        param-latex: $m_{\rm{u}}$
+        number: 1.007276466621(53)
+      m_e:
+        param-latex: $m_{\rm{e}}$
+        number: 1836.15267343(11)
+      m_mu:
+        param-latex: $m_\mu$
+        number: 8.88024337(20)
+      m_n:
+        param-latex: $m_{\rm{n}}$
+        number: 0.99862347812(49)
+      m_tau:
+        param-latex: $m_\tau$
+        number: 0.528051(36)
+  m_tau:
+    param-latex: $m_\tau$
+    numbers:
+      m_e:
+        param-latex: $m_{\rm{e}}$
+        number: 3477.23(23)
+      m_mu:
+        param-latex: $m_\mu$
+        number: 16.8170(11)
+      m_n:
+        param-latex: $m_{\rm{n}}$
+        number: 1.89115(13)
+      m_p:
+        param-latex: $m_{\rm{p}}$
+        number: 1.89376(13)
+  m_t:
+    param-latex: $m_{\rm{t}}$
+    numbers:
+      m_u:
+        param-latex: $m_{\rm{u}}$
+        number: 3.01550071621(12)
+      m_e:
+        param-latex: $m_{\rm{e}}$
+        number: 5496.92153573(27)
+      m_p:
+        param-latex: $m_{\rm{p}}$
+        number: 2.99371703414(15)
+  m_W:
+    param-latex: $m_{\rm{W}}$
+    numbers:
+      m_Z:
+        param-latex: $m_{\rm{Z}}$
+        number: 0.88153(17)
