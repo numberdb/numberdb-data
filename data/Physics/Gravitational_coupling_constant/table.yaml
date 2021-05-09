@@ -1,0 +1,71 @@
+ID: INPUT{id.yaml} 
+
+Title: Gravitational coupling constant
+
+Definition: >
+  The gravitational coupling constant $\alpha_G$ 
+  is the dimensionless physical
+  constant defined as $\alpha_G = (m_e/m_P)^2$,
+  where
+  $m_e$ is the electron rest mass, 
+  and $m_P$ is the Planck mass.
+  
+Parameters:
+  expression:
+    title: Transformation of constant
+    type: Symbolic
+    show-in-parameter-list: no
+    
+Comments:
+  
+Formulas: 
+  formula-Gmehc: >
+    $\alpha_G = \frac{Gm_e^2}{\hbar c}$, where
+    $G$ is the gravitational constant,
+    $\hbar$ is the reduced Planck constant, 
+    and $c$ is the speed of light in vacuum.
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Gravitational coupling_constant"
+    url: https://en.wikipedia.org/wiki/Gravitational_coupling_constant
+  WikiME:
+    title: "Wikipedia: Elecron rest mass"
+    url: https://en.wikipedia.org/wiki/Electron_rest_mass
+  WikiMP:
+    title: "Wikipedia: Planck units"
+    url: https://en.wikipedia.org/wiki/Planck_units
+
+Similar tables:
+  
+Keywords: 
+- Sommerfeld constant
+
+Tags:
+- physics
+- dimensionless
+
+Data properties:
+  type: R
+  sources:
+  - CITE{WikiME}
+  - CITE{WikiMP}
+  reliability: >
+    $\alpha_G$ is computed as $(m_e/m_P)^2$,
+    where the $m_e$ and $m_P$ are taken as the real intervals
+    that contain the measurements in 
+    CITE{WikiME} and 
+    CITE{WikiMP}
+    up to five measurement uncertainties.
+
+Display properties:
+
+Numbers:
+  alphaG:
+    param-latex: $\alpha_G$
+    number: 1.751810e-45 +/- 1.94e-49
+
