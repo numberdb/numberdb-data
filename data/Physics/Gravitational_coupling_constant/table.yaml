@@ -30,11 +30,14 @@ Programs:
 References:
 
 Links:
+  NIST:
+    title: "The NIST Reference on Constants, Units, and Uncertainty" 
+    url: https://physics.nist.gov/cuu/Constants/index.html
   Wiki:
     title: "Wikipedia: Gravitational coupling_constant"
     url: https://en.wikipedia.org/wiki/Gravitational_coupling_constant
   WikiME:
-    title: "Wikipedia: Elecron rest mass"
+    title: "Wikipedia: Electron rest mass"
     url: https://en.wikipedia.org/wiki/Electron_rest_mass
   WikiMP:
     title: "Wikipedia: Planck units"
@@ -52,14 +55,12 @@ Tags:
 Data properties:
   type: R
   sources:
-  - CITE{WikiME}
-  - CITE{WikiMP}
+  - CITE{NIST} (based on CODATA 2018)
   reliability: >
     $\alpha_G$ is computed as $(m_e/m_P)^2$,
     where the $m_e$ and $m_P$ are taken as the real intervals
     that contain the measurements in 
-    CITE{WikiME} and 
-    CITE{WikiMP}
+    CITE{NIST}
     up to five measurement uncertainties.
 
 Display properties:

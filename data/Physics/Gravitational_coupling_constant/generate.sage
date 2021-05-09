@@ -1,5 +1,10 @@
 '''
 The following data is extracted from:
+
+  https://physics.nist.gov/cuu/Constants/index.html
+  which uses as source: CODATA 2018
+  
+See also:
 - m_e: https://en.wikipedia.org/wiki/Electron_rest_mass
 - m_P: https://en.wikipedia.org/wiki/Planck_units
 '''
