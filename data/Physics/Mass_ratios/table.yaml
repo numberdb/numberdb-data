@@ -60,6 +60,7 @@ Keywords:
 
 Tags:
 - physics
+- chemistry
 - dimensionless
 
 Data properties:
@@ -118,6 +119,7 @@ Numbers:
       m_p:
         param-latex: $m_{\rm{p}}$
         number: 5.44617021487(33)e-4
+        equals: HREF{Proton-to-electron_mass_ratio#mu_inv}
       m_tau:
         param-latex: $m_\tau$
         number: 2.87585(19)e-4
@@ -181,6 +183,7 @@ Numbers:
       m_e:
         param-latex: $m_{\rm{e}}$
         number: 1836.15267343(11)
+        equals: HREF{Proton-to-electron_mass_ratio#mu}
       m_mu:
         param-latex: $m_\mu$
         number: 8.88024337(20)
