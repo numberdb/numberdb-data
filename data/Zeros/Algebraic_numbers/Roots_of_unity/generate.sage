@@ -45,7 +45,6 @@ for n in n_range:
 		if number in [i,-i]:
 			numbers_n[str(k)] = {
 				'number': str(number).lower(),
-				'equals': 'HREF{One}',
 			}
 			continue
 
