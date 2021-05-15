@@ -1,6 +1,6 @@
 ID: INPUT{id.yaml} 
 
-Title: Mass ratios
+Title: Orders of sporadic finite simple groups
 
 Definition: >
   This table lists the orders of all sporadic finite simple groups.
@@ -38,6 +38,7 @@ Data properties:
   - [Wiki]
   reliability: >
     Finite simple groups have been completely classified.
+  complete: yes
 
 Display properties:
   number-header: $|G|$
@@ -113,37 +114,37 @@ Numbers:
     comment: McLaughlin group
   He:
     param-latex: $He$
-    number:	4030387200
+    number: 4030387200
     comment: Held group
   Ru:
     param-latex: $Ru$
-    number:	145926144000
+    number: 145926144000
     comment: Rudvalis group
   Suz:
     param-latex: $Suz$
-    number:	448345497600
+    number: 448345497600
     comment: Suzuki sporadic group
   ON:
     param-latex: $O'N$
-    number:	460815505920
+    number: 460815505920
     comment: O'Nan group
   HN:
     param-latex: $HN$
-    number:	273030912000000
+    number: 273030912000000
     comment: Harada-Norton group
   Ly:
     param-latex: $Ly$
-    number:	51765179004000000
+    number: 51765179004000000
     comment: Lyons group
   Th:
     param-latex: $Th$
-    number:	90745943887872000
+    number: 90745943887872000
     comment: Thompson group
   B:
     param-latex: $B$
-    number:	4154781481226426191177580544000000
+    number: 4154781481226426191177580544000000
     comment: Baby Monster group
   M:
     param-latex: $M$
-    number:	808017424794512875886459904961710757005754368000000000    
+    number: 808017424794512875886459904961710757005754368000000000    
     comment: Monster group
