@@ -7,7 +7,7 @@ Definition: >
   where
   $\mu_{\rm B}$ the Bohr magneton,
   $\mu_{\rm d}$ the deuteron magnetic moment,
-  $\mu_{\rm e-}$ the electron magnetic moment,
+  $\mu_{\rm e}$ the electron magnetic moment,
   $\mu_{\rm h}$ the helion magnetic moment,
   $\mu'_{\rm h}$ the shielded helion magnetic moment,
   $\mu_{\mu}$ the myon magnetic moment,
@@ -75,7 +75,7 @@ Numbers:
         param-latex: $\mu_{\rm{B}}$
         number: 4.669754570(12)e-4
       mu_e:
-        param-latex: $\mu_{\rm{e}-}$
+        param-latex: $\mu_{\rm{e}}$
         number: -4.664345551(12)e-4
       mu_N:
         param-latex: $\mu_{\rm{N}}$
@@ -88,7 +88,7 @@ Numbers:
         number: 0.30701220939(79)
 
   mu_e:
-    param-latex: $\mu_{\rm{e}-}$
+    param-latex: $\mu_{\rm{e}}$
     numbers:
       mu_B:
         param-latex: $\mu_{\rm{B}}$
@@ -158,7 +158,7 @@ Numbers:
     param-latex: $\mu_{\rm{n}}$
     numbers:
       mu_e:
-        param-latex: $\mu_{\rm{e}-}$
+        param-latex: $\mu_{\rm{e}}$
         number: 1.04066882(25)e-3
       mu_B:
         param-latex: $\mu_{\rm{B}}$
