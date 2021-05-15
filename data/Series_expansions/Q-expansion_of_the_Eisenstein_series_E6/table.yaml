@@ -1,0 +1,62 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  $q$-expansion of the Eisenstein series $E_6$.
+
+Definition: >
+  This list contains the coefficients of the 
+  Eisenstein series $E_6(\tau)$ CITE{Wiki}
+  in its $q$-expansion, 
+  $E_6 = \sum_{n=0}^{\infty} a_n q^n$,
+  where $q = e^{2\pi i\tau}$.
+  
+Parameters:
+  n:
+    type: Z
+    constraints: $n \geq 0$
+  
+Comments:
+  comment-normalization: >
+    Note that different authors use different normalizations for
+    Eisenstein series.
+    Here, we use the normalization that makes 
+    the constant coefficient $a_0 = 1$.
+
+Formulas:
+  formula-explicit-q-expansion: >
+    $E_4(\tau) = 1 - 504 \sum_{n=1}^\infty \frac{n^5q^n}{1-q^n}$.
+
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      numbers = {n: eisenstein_series_qexp(6,101,
+                        normalization='constant')[n] 
+                    for n in [0..100]}
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Eisenstein series"
+    url: https://en.wikipedia.org/wiki/Eisenstein_series
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- Taylor series
+- modular function
+- elliptic curves
+- number theory
+
+Data properties:
+  type: Z
+  complete: no
+  
+Display properties:
+  number-header: >
+    $a_n$
+
+Numbers: INPUT{numbers.yaml}
