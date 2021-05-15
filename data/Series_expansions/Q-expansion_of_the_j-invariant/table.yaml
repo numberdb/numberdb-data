@@ -1,0 +1,55 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  $q$-expansion of the $j$-invariant
+
+Definition: >
+  This list contains the coefficients of the $j$-invariant CITE{Wiki}
+  in its $q$-expansion, 
+  $j(\tau) = \sum_{n=-1}^{\infty} a_n q^n$,
+  where $q = e^{2\pi i\tau}$.
+  
+Parameters:
+  n:
+    type: Z
+    constraints: $n \geq -1$
+  
+Comments:
+
+Formulas:
+
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      numbers = {n: j_invariant_qexp(101)[n] for n in [-1..100]}
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: j-invariant"
+    url: https://en.wikipedia.org/wiki/J-invariant
+  WikiMoonshine:
+    title: "Wikipedia: j-invariant: The q-expansion and moonshine"
+    url: https://en.wikipedia.org/wiki/J-invariant#The_q-expansion_and_moonshine
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- Taylor series
+- modular function
+- elliptic curves
+- number theory
+
+Data properties:
+  type: Z
+  complete: no
+  
+Display properties:
+  number-header: >
+    $a_n$
+
+Numbers: INPUT{numbers.yaml}
