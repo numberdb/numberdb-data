@@ -23,6 +23,10 @@ In the end, numberdb.org should contain what users might search for.
 To create a new table, copy the folder of an existing table, remove id.yaml (as it will be automatically created), and modify the content accordingly. 
 Important: The folder name (just the top level, not the whole path) will also work as a url for that table, thus it needs to be unique and it should be named in an appropriate way; although it can be renamed later.
 
+### Suggesting new tables
+
+Ideas for new tables can be posted on https://github.com/numberdb/numberdb-data/issues, which we treat as a to-do list.
+Please add background information about the data, unless you plan to enter the table in yaml format yourself.
 
 ## For editors:
 
