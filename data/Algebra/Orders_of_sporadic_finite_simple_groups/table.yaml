@@ -1,0 +1,149 @@
+ID: INPUT{id.yaml} 
+
+Title: Mass ratios
+
+Definition: >
+  This table lists the orders of all sporadic finite simple groups.
+  
+Parameters:
+  G:
+    title: group
+    type: Symbolic
+    #show-in-parameter-list: no
+    
+Comments:
+  
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: List of finite simple groups"
+    url: https://en.wikipedia.org/wiki/List_of_finite_simple_groups
+
+Similar tables:
+  
+Keywords: 
+
+Tags:
+- algebra
+- groups
+
+Data properties:
+  type: Z
+  sources:
+  - [Wiki]
+  reliability: >
+    Finite simple groups have been completely classified.
+
+Display properties:
+  number-header: $|G|$
+
+Numbers:
+  M11:
+    param-latex: $M_{11}$
+    number: 7920
+    comment: Mathieu group
+  M12:
+    param-latex: $M_{12}$
+    number: 95040
+    comment: Mathieu group
+  M22:
+    param-latex: $M_{22}$
+    number: 443520
+    comment: Mathieu group
+  M23:
+    param-latex: $M_{23}$
+    number: 10200960
+    comment: Mathieu group
+  M24:
+    param-latex: $M_{24}$
+    number: 244823040
+    comment: Mathieu group
+  J1:
+    param-latex: $J_{1}$
+    number: 175560
+    comment: Janko group
+  J2:
+    param-latex: $J_{2}$
+    number: 604800
+    comment: Janko group
+  J3:
+    param-latex: $J_{3}$
+    number: 50232960
+    comment: Janko group
+  J4:
+    param-latex: $J_{4}$
+    number: 86775571046077562880
+    comment: Janko group
+  Co3:
+    param-latex: $Co_{3}$
+    number: 495766656000
+    comment: Conway group
+  Co2:
+    param-latex: $Co_{2}$
+    number: 42305421312000
+    comment: Conway group
+  Co1:
+    param-latex: $Co_{1}$
+    number: 4157776806543360000
+    comment: Conway group
+  Fi22:
+    param-latex: $Fi_{22}$
+    number: 64561751654400
+    comment: Fisher group
+  Fi23:
+    param-latex: $Fi_{23}$
+    number: 4089470473293004800
+    comment: Fisher group
+  Fi24:
+    param-latex: $Fi_{24}$
+    number: 1255205709190661721292800
+    comment: Fisher group
+  HS:
+    param-latex: $HS$
+    number: 44352000
+    comment: Higman-Sims group
+  McL:
+    param-latex: $McL$
+    number: 898128000
+    comment: McLaughlin group
+  He:
+    param-latex: $He$
+    number:	4030387200
+    comment: Held group
+  Ru:
+    param-latex: $Ru$
+    number:	145926144000
+    comment: Rudvalis group
+  Suz:
+    param-latex: $Suz$
+    number:	448345497600
+    comment: Suzuki sporadic group
+  ON:
+    param-latex: $O'N$
+    number:	460815505920
+    comment: O'Nan group
+  HN:
+    param-latex: $HN$
+    number:	273030912000000
+    comment: Harada-Norton group
+  Ly:
+    param-latex: $Ly$
+    number:	51765179004000000
+    comment: Lyons group
+  Th:
+    param-latex: $Th$
+    number:	90745943887872000
+    comment: Thompson group
+  B:
+    param-latex: $B$
+    number:	4154781481226426191177580544000000
+    comment: Baby Monster group
+  M:
+    param-latex: $M$
+    number:	808017424794512875886459904961710757005754368000000000    
+    comment: Monster group
