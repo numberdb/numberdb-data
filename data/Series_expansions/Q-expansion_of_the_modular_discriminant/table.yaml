@@ -1,0 +1,61 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  $q$-expansion of the modular discriminant $\Delta$
+
+Definition: >
+  This list contains the coefficients of the 
+  modular discrimiant $\Delta$ CITE{Wiki}
+  in its $q$-expansion, 
+  $\Delta = \sum_{n=0}^{\infty} \tau(n) q^n$.
+  The coefficients are the values of the Ramanujan tau-function.
+  
+Parameters:
+  n:
+    type: Z
+    constraints: $n \geq 0$
+  
+Comments:
+  comment-normalization: >
+    Note that different authors use different normalization factors for
+    $\Delta$ CITE{Wiki}, CITE{WikiTau}.
+    Here, we use the normalization that 
+    makes $\Delta$ a normalized cusp form (of weight 12 and level 1).
+
+Formulas:
+
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      numbers = {n: delta_qexp(101)[n] for n in [0..100]}
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Modular discriminant"
+    url: https://en.wikipedia.org/wiki/Weierstrass%27s_elliptic_functions#Modular_discriminant
+  WikiTau:
+    title: "Wikipedia: Ramanujan tau function"
+    url: https://en.wikipedia.org/wiki/Ramanujan_tau_function
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- Taylor series
+- modular function
+- elliptic curves
+- number theory
+
+Data properties:
+  type: Z
+  complete: no
+  
+Display properties:
+  number-header: >
+    $\tau(n)$
+
+Numbers: INPUT{numbers.yaml}
