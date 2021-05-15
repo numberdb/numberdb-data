@@ -1,0 +1,211 @@
+ID: INPUT{id.yaml} 
+
+Title: Magnetic moment ratios
+
+Definition: >
+  This table lists ratios of certain magnetic moments,
+  where
+  $\mu_{\rm B}$ the Bohr magneton,
+  $\mu_{\rm d}$ the deuteron magnetic moment,
+  $\mu_{\rm e-}$ the electron magnetic moment,
+  $\mu_{\rm h}$ the helion magnetic moment,
+  $\mu'_{\rm h}$ the shielded helion magnetic moment,
+  $\mu_{\mu}$ the myon magnetic moment,
+  $\mu_{\rm N}$ the nuclear magneton,
+  $\mu_{\rm n}$ the neutron magnetic moment,
+  $\mu_{\rm p}$ the proton magnetic moment,
+  $\mu'_{\rm p}$ the shielded photon magnetic moment,
+  and $\mu_{\rm t}$ the triton magnetic moment.
+
+  The measurements and their uncertainties are given in
+  the format of CITE{NISTuncertainty}.
+
+Parameters:
+  mu1:
+    display: $\mu_1$
+    title: magnetic moment in numerator
+    type: Symbolic
+    #show-in-parameter-list: no
+  mu2:
+    display: $\mu_2$
+    title: magnetic moment in denominator
+    type: Symbolic
+    #show-in-parameter-list: no
+    
+Comments:
+  
+Formulas: 
+
+Programs: 
+
+References:
+
+Links:
+  NIST:
+    title: "The NIST Reference on Constants, Units, and Uncertainty" 
+    url: https://physics.nist.gov/cuu/Constants/index.html
+  NISTuncertainty:
+    title: "NIST Reference: Standard Uncertainty and Relative Standard Uncertainty"
+    url: https://physics.nist.gov/cgi-bin/cuu/Info/Constants/definitions.html
+
+Similar tables:
+  
+Keywords: 
+
+Tags:
+- physics
+- chemistry
+- dimensionless
+
+Data properties:
+  type: R
+  sources:
+  - CITE{NIST} (based on CODATA 2018)
+  reliability: >
+    See CITE{NISTuncertainty}
+
+Display properties:
+  number-header: $\mu_1/\mu_2$
+
+Numbers:
+  mu_d:
+    param-latex: $\mu_{\rm{d}}$
+    numbers:
+      mu_B:
+        param-latex: $\mu_{\rm{B}}$
+        number: 4.669754570(12)e-4
+      mu_e:
+        param-latex: $\mu_{\rm{e}-}$
+        number: -4.664345551(12)e-4
+      mu_N:
+        param-latex: $\mu_{\rm{N}}$
+        number: 0.8574382338(22)
+      mu_n:
+        param-latex: $\mu_{\rm{n}}$
+        number: -0.44820653(11)
+      mu_p:
+        param-latex: $\mu_{\rm{p}}$
+        number: 0.30701220939(79)
+
+  mu_e:
+    param-latex: $\mu_{\rm{e}-}$
+    numbers:
+      mu_B:
+        param-latex: $\mu_{\rm{B}}$
+        number: -1.00115965218128(18)
+      mu_d:
+        param-latex: $\mu_{\rm{d}}$
+        number: -2143.9234915(56)
+      mu_h':
+        param-latex: $\mu'_{\rm{h}}$
+        number: 864.058257(10)
+      mu_mu:
+        param-latex: $\mu_{\mu}$
+        number: 206.7669883(46)
+      mu_N:
+        param-latex: $\mu_{\rm{N}}$
+        number: -1838.28197188(11)
+      mu_n:
+        param-latex: $\mu_{\rm{n}}$
+        number: 960.92050(23)
+      mu_p:
+        param-latex: $\mu_{\rm{p}}$
+        number: -658.21068789(20)
+      mu_p':
+        param-latex: $\mu'_{\rm{p}}$
+        number: -658.2275971(72)
+
+  mu_h:
+    param-latex: $\mu_{\rm{h}}$
+    numbers:
+      mu_B:
+        param-latex: $\mu_{\rm{B}}$
+        number: -1.158740958(14)e-3
+      mu_N:
+        param-latex: $\mu_{\rm{N}}$
+        number: -2.127625307(25)
+
+  mu_h':
+    param-latex: $\mu'_{\rm{h}}$
+    numbers:
+      mu_B:
+        param-latex: $\mu_{\rm{B}}$
+        number: -1.158671471(14)e-3
+      mu_N:
+        param-latex: $\mu_{\rm{N}}$
+        number: -2.127497719(25)
+      mu_p:
+        param-latex: $\mu_{\rm{p}}$
+        number: -0.7617665618(89)
+      mu_p':
+        param-latex: $\mu'_{\rm{p}}$
+        number: -0.7617861313(33)
+
+  mu_mu:
+    param-latex: $\mu_{\mu}$
+    numbers:
+      mu_B:
+        param-latex: $\mu_{\rm{B}}$
+        number: -4.84197047(11)e-3
+      mu_N:
+        param-latex: $\mu_{\rm{N}}$
+        number: -8.89059703(20)
+      mu_p:
+        param-latex: $\mu_{\rm{p}}$
+        number: -3.183345142(71)
+
+  mu_n:
+    param-latex: $\mu_{\rm{n}}$
+    numbers:
+      mu_e:
+        param-latex: $\mu_{\rm{e}-}$
+        number: 1.04066882(25)e-3
+      mu_B:
+        param-latex: $\mu_{\rm{B}}$
+        number: -1.04187563(25)e-3
+      mu_N:
+        param-latex: $\mu_{\rm{N}}$
+        number: -1.91304273(45)
+      mu_p:
+        param-latex: $\mu_{\rm{p}}$
+        number: -0.68497934(16)
+      mu_p':
+        param-latex: $\mu'_{\rm{p}}$
+        number: -0.68499694(16)
+
+  mu_p:
+    param-latex: $\mu_{\rm{p}}$
+    numbers:
+      mu_B:
+        param-latex: $\mu_{\rm{B}}$
+        number: 1.52103220230(46)e-3
+      mu_N:
+        param-latex: $\mu_{\rm{N}}$
+        number: 2.79284734463(82)
+      mu_n:
+        param-latex: $\mu_{\rm{n}}$
+        number: -1.45989805(34)
+
+  mu_p':
+    param-latex: $\mu'_{\rm{p}}$
+    numbers:
+      mu_B:
+        param-latex: $\mu_{\rm{B}}$
+        number: 1.520993128(17)e-3
+      mu_N:
+        param-latex: $\mu_{\rm{N}}$
+        number: 2.792775599(30)
+
+  mu_t:
+    param-latex: $\mu_{\rm{t}}$
+    numbers:
+      mu_B:
+        param-latex: $\mu_{\rm{B}}$
+        number: 1.6223936651(32)e-3
+      mu_N:
+        param-latex: $\mu_{\rm{N}}$
+        number: 2.9789624656(59)
+      mu_p:
+        param-latex: $\mu_{\rm{p}}$
+        number: 1.0666399191(21)
+
