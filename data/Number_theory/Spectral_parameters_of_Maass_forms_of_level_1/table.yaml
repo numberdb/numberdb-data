@@ -1,0 +1,73 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Spectral parameter of Maass forms of level 1
+
+Definition: >
+  A Maass form (of weight 0) of level 1 is a
+  smooth, square-integrable, automorphic eigenform 
+  of the Laplace-Beltrami operator $\Delta$
+  that is invariant under $SL(2,\mathbb{Z})$.
+  The Laplace eigenvalue of a Maass form has the form 
+  $\lambda = 1/4 + R^2$,
+  where $R > 0$ is called the spectral parameter.
+  
+Parameters:
+  R':
+    display: $R'$
+    title: spectral parameter (truncated)
+    type: Z
+   
+Comments:
+    
+Formulas:
+
+Programs:
+
+References:
+  BoStVe06:
+    bib: >
+      A. Booker, A. Strömbergsson, A. Venkatesh, 
+      "Effective Computation of Maass Cusp Forms".
+      IMRN 2006, Article ID 71281, 34 pages.
+      (HREF{http://www2.math.uu.se/~astrombe/emaass/emaass.html}[data files])
+    url: http://www2.math.uu.se/~astrombe/papers/bsv27april06.pdf
+  Str12:
+    bib: >
+      Strömberg, Fredrik,
+      "Maass waveforms on (Γ0(N),χ) (computational aspects)".
+      Hyperbolic geometry and applications in quantum chaos and cosmology, 187–228,
+      London Math. Soc. Lecture Note Ser., 397, Cambridge Univ. Press, 2012
+    mr: 2895234
+
+Links:
+  BoStVeData:
+    title: "A. Booker, A. Strömbergsson, A. Venkatesh: data files"
+    url: http://www2.math.uu.se/~astrombe/emaass/emaass.html
+  LMFDB:
+    title: "LMFDB: Maass forms of level 1"
+    url: https://www.lmfdb.org/ModularForm/GL2/Q/Maass/?level=1
+  WikiBSD:
+    title: "Wikipedia: Birch and Swinnerton-Dyer conjecture"
+    url: https://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- modular form
+- eigenvalue
+
+Data properties:
+  type: R
+  complete: no
+  sources:
+  - CITE{BoStVeData} (higher precision available, from Booker, Strömbergsson, Venkatesh CITE{BoStVe06})
+  - CITE{LMFDB} (computed by Fredrik Stroemberg CITE{Str12} and Holger Then)
+
+Display properties:
+  number-header: $R$
+
+Numbers: INPUT{numbers.yaml}
