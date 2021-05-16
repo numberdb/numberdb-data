@@ -1,0 +1,53 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Rational singular moduli
+
+Definition: >
+  Let $H$ be the upper half plane and $j$ the $j$-invariant.
+  A singular modulus is a number of the form $j(\tau)$ 
+  for an imaginary quadratic $\tau \in H$.
+  This list contains all rational singula moduli.
+  
+Parameters:
+  Delta:
+    display: $\Delta$
+    title: Discriminant
+    type: Z
+   
+Comments:
+  comment-discriminant: >
+    $\Delta$ is the associated discriminant of the 
+    complex multiplication order $O = \text{End}\langle\tau,1\rangle$.
+        
+Formulas:
+
+Programs:
+  program-sage: 
+    language: Sage
+    code: |
+      numbers = {d*f^2: j for d, f, j in cm_j_invariants_and_orders(QQ)}
+
+References:
+      
+Links:
+  Wiki:
+    title: "Wikipedia: Singular moduli"
+    url: https://en.wikipedia.org/wiki/Complex_multiplication#Singular_moduli
+        
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- elliptic curves
+
+Data properties:
+  type: Z
+  complete: yes
+
+Display properties:
+  number-header: $j$
+
+Numbers: INPUT{numbers.yaml}
