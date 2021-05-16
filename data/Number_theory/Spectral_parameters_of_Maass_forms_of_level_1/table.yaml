@@ -47,6 +47,9 @@ Links:
   LMFDB:
     title: "LMFDB: Maass forms of level 1"
     url: https://www.lmfdb.org/ModularForm/GL2/Q/Maass/?level=1
+  LMFDBreliability:
+    title: "LMFDB: Maass forms: Reliability"
+    url: https://www.lmfdb.org/ModularForm/GL2/Q/Maass/Reliability
   WikiBSD:
     title: "Wikipedia: Birch and Swinnerton-Dyer conjecture"
     url: https://en.wikipedia.org/wiki/Birch_and_Swinnerton-Dyer_conjecture
@@ -66,6 +69,8 @@ Data properties:
   sources:
   - CITE{BoStVeData} (higher precision available, from Booker, Strömbergsson, Venkatesh CITE{BoStVe06})
   - CITE{LMFDB} (computed by Fredrik Stroemberg CITE{Str12} and Holger Then)
+  reliability: >
+    For heuristics compare with CITE{BoStVeData} and CITE{LMFDBreliability}.
 
 Display properties:
   number-header: $R$
