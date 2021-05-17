@@ -18,7 +18,8 @@ Parameters:
 Comments:
   comment-discriminant: >
     $\Delta$ is the associated discriminant of the 
-    complex multiplication order $O = \text{End}\langle\tau,1\rangle$.
+    complex multiplication order 
+    $\mathcal{O} = \text{End}\langle\tau,1\rangle$.
         
 Formulas:
 
