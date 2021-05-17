@@ -1,0 +1,86 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Elliptic curves over $\mathbb{Q}$ with large Szpiro ratios
+
+Definition: >
+  The Szpiro ratio of an elliptic curve over $\mathbb{Q}$ is 
+  defined as $\sigma = \frac{\log |\Delta_E|}{\log N}$, 
+  where $\Delta_E$ is the minimal discriminant of $E$ and 
+  $N$ its conductor.
+  This table lists all known Szpiro ratios $\sigma > 8.5$. 
+  
+Parameters:
+  sigma:
+    display: $\sigma'$
+    title: Szpiro ratio (rounded)
+    type: R
+   
+Comments:
+  comment-Szpiro-conjecture: >
+    The Szpiro conjecture CITE{Wiki} states that $\limsup \sigma = 6$, that is,
+    for every $\varepsilon > 0$ there are only finitely many 
+    $\mathbb{Q}$-isomorphism classes of elliptic curves $E/\mathbb{Q}$
+    with Szpiro ratio $\sigma > 6 + \varepsilon$.
+    The lower bound $\limsup \sigma \geq 6$ was proved by Masser CITE{Mas88}.
+    
+#  comment-missing-curves: >
+#    Two curves from CITE{BenYaz12} could not be preproduced at the moment,
+#    see generate.sage.
+    
+Formulas: 
+
+Programs: 
+
+References:
+  BenYaz12:
+    bib: >
+      Michael A. Bennett, Soroosh Yazdani, 
+      "A Local Version of Szpiro’s Conjecture",
+      Experiment. Math. 21:2, 103-116 (2012).
+    url: https://sf-lib-app-008.serverfarm.cornell.edu/download/pdf_1/euclid.em/1338430824
+
+  Mas88:
+    bib: >
+      D. W. Masser. "Note on a conjecture of Szpiro.",
+      In Les pinceaux de courbes elliptiques, Semin., Paris/Fr. 1988, 
+      Asterisque 183, 19-23 (1990).
+
+  Nit98:
+    bib: >
+      A. Nitaj, 
+      "Détermination de courbes elliptiques pour la conjecture de Szpiro",
+      Acta Arith. 85, 351–376 (1998).
+
+Links:
+  LMFDB:
+    title: "LMFDB: Elliptic curves over Q"
+    url: https://www.lmfdb.org/EllipticCurve/Q/
+  M-ECDB:
+    title: "Matschke - Tables of elliptic curves"
+    url: https://github.com/bmatschke/s-unit-equations/tree/master/elliptic-curve-tables/*
+  Wiki:
+    title: "Wikipedia: Szpiro's conjecture"
+    url: https://en.wikipedia.org/wiki/Szpiro%27s_conjecture
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- elliptic curves
+- abc conjecture
+
+Data properties:
+  type: R
+  complete: unknown (presumably not)
+  sources:
+  - CITE{BenYaz12}
+  - CITE{LMFDB}
+  - CITE{M-ECDB}
+
+Display properties:
+  number-header: value
+
+Numbers: INPUT{numbers.yaml}
