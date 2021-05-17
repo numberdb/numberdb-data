@@ -1,0 +1,114 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Number of elliptic curves over $\mathbb{Q}$ with good redution outside $S$
+
+Definition: >
+  Let $S$ be a finite set of primes.
+  An elliptic curve $E/\mathbb{Q}$ is said to have 
+  good reduction outside $S$ if its minimal discriminant 
+  (equivalently, its conductor) is only divisible by primes in $S$.
+  This table lists the numbers of elliptic curves $E/\mathbb{Q}$
+  with good reduction outside $S$ counted in two different ways: 
+  up to $\mathbb{Q}$-isomorphism,
+  and up to $\overline{\mathbb{Q}}$-isomorphism.
+  
+Parameters:
+  S:
+    title: set of primes
+    type: Set
+  variable:
+    display: 
+    title: 
+    type: Symbolic
+    show-in-parameter-list: no
+   
+Comments:
+  comment-first-n-primes: >
+    Elliptic curves over $\mathbb{Q}$ with good reduction 
+    outside of the first $n$ have been computed by several authors:
+    $n=0$ by Tate (see CITE{Ogg}), 
+    $n=1$ by Ogg CITE{Ogg},
+    $n=2$ by Coghlan CITE{Cog} and Stephens CITE{Ste},
+    $n=3,4,5$ by von Känel and Matschke CITE{vKanMat} and 
+    Bennett, Gherga and Rechnitzer CITE{BeGhRe},
+    $n=6$ heuristically by Best and matschke CITE{BesMat},
+    $n=7,8,9^*$ by Matschke CITE{M-ECDB} ($n=9$ assumes GRH).
+    
+Formulas: 
+
+Programs: 
+
+References:
+  BeGhRe: 
+    bib: >
+      Michael A. Bennett, Adela Gherga, and Andrew Rechnitzer,
+      "Computing elliptic curves over Q".
+      Math. Comp., 88(317):1341–1390, 2019.
+  BesMat:
+    bib: >
+      A. Best, B. Matschke,
+      "Elliptic curves with good reduction outside of the first six primes".
+      2020
+    arxiv: 2007.10535
+    github: https://github.com/elliptic-curve-data/ec-data-S6
+  Cog:
+    bib: >
+      Francis Coghlan, "Elliptic Curves with Conductor $2^m 3^n$".
+      Ph.D. thesis, Manchester, England, 1967.
+  vKanMat: 
+    bib: > 
+      R. von Känel, B. Matschke,
+      "Solving S-unit, Mordell, Thue, Thue-Mahler and generalized 
+      Ramanujan-Nagell equations via Shimura-Taniyama conjecture".
+      2016  
+    arxiv: 1605.06079
+    github: https://github.com/bmatschke/solving-classical-diophantine-equations
+  Kou:
+    bib: >
+      Angelos Koutsianas, "Computing all elliptic curves over 
+      an arbitrary number field with prescribed primes of bad reduction".
+      Exp. Math., 28(1):1–15, 2019.
+    arXiv: 1511.05108
+    github: https://github.com/akoutsianas/ERGOS
+  Ogg:
+    bib: >
+      Andrew P. Ogg,
+      "Abelian curves of 2-power conductor".
+      Math. Proc. Camb. Philos. Soc., 62(2):143–148, 1966.
+  Ste: 
+    bib: >
+      Nelson M. Stephens,
+      "The Birch Swinnerton-Dyer Conjecture for 
+      Selmer curves of positive rank".
+      Ph.D. Thesis, Manchester, 1965.  
+    
+Links:
+  M-ECDB:
+    title: "Matschke - Tables of elliptic curves"
+    url: https://github.com/bmatschke/s-unit-equations/tree/master/elliptic-curve-tables/
+  Wiki:
+    title: "Wikipedia: Elliptic curves over the rational numbers"
+    url: https://en.wikipedia.org/wiki/Elliptic_curve#Elliptic_curves_over_the_rational_numbers
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- elliptic curves
+
+Data properties:
+  type: R
+  complete: no
+  sources:
+  - CITE{M-ECDB}
+  reliability: >
+    Assumes GRH if $23\in S$. 
+    Needs to be recomputed to be provably correct (see readme.md in CITE{M-ECDB}).
+
+Display properties:
+  number-header: count
+
+Numbers: INPUT{numbers.yaml}
