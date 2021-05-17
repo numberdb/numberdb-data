@@ -15,6 +15,11 @@ Parameters:
     display: $\sigma'$
     title: Szpiro ratio (rounded)
     type: R
+  variable:
+    display: 
+    title: variable
+    type: Symbolic
+    show-in-parameter-list: no
    
 Comments:
   comment-Szpiro-conjecture: >
