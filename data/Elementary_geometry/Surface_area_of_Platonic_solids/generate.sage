@@ -77,14 +77,16 @@ for unit in ['a','r',r'\rho','R','V']:
 
 	numbers_unit = {}
 	for solid, formulas in solids.items():
-		number = RIFprec(formulas['A']) / RIFprec(formulas[unit])^RIFprec(dimension['V']/dimension[unit])
-		#number = formulas['V'] / formulas[unit]^(dimension['V']/dimension[unit])
+		number = RIFprec(formulas['A']) / RIFprec(formulas[unit])^RIFprec(dimension['A']/dimension[unit])
+		#number = formulas['A'] / formulas[unit]^(dimension['A']/dimension[unit])
 		#number = RIFprec(number)
 		
-		if solid == 'cube' and unit == 'a':
-		    number = 3
+		if solid == 'cube' and unit == r'\rho':
+		    number = 12
+		elif solid == 'cube' and unit == 'R':
+		    number = 8
 		elif solid == 'cube' and unit == 'V':
-		    number = 3
+		    number = 6
 		
 		
 		print('number:',number)
