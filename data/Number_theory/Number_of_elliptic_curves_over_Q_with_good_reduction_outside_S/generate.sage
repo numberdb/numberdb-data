@@ -20,7 +20,6 @@ RIFprec = RealIntervalField(prec10 * 3.4 * 2)
 #For testing, take:
 #data = load("https://github.com/bmatschke/s-unit-equations/raw/master/elliptic-curve-tables/good-reduction-away-from-first-primes/K_deg_1/js_K_1.1.1.1_S_2_3_5.sobj")
 
-'''
 data = load("https://github.com/bmatschke/s-unit-equations/raw/master/elliptic-curve-tables/good-reduction-away-from-first-primes/K_deg_1/js_K_1.1.1.1_S_2_3_5_7_11_13_17_19.sobj")
 
 S = [prod(ZZ(p) for p in fp) for fp in data[1][0][1]]
@@ -83,7 +82,7 @@ for radN in radNs:
 
 
 print('count_curves_sum:',count_curves_sum)
-'''
+
 #Convert data to numberdb-format:
 
 numbers = {}
