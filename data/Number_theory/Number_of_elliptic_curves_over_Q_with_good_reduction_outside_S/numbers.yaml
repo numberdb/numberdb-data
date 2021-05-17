@@ -1,5 +1,5 @@
 '1':
-  param_latex: $\{\}$
+  param-latex: $\{\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -8,7 +8,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '0'
 '2':
-  param_latex: $\{2\}$
+  param-latex: $\{2\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -17,7 +17,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '5'
 '3':
-  param_latex: $\{3\}$
+  param-latex: $\{3\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -26,7 +26,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2'
 '6':
-  param_latex: $\{2, 3\}$
+  param-latex: $\{2, 3\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -35,7 +35,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '83'
 '5':
-  param_latex: $\{5\}$
+  param-latex: $\{5\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -44,7 +44,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '0'
 '10':
-  param_latex: $\{2, 5\}$
+  param-latex: $\{2, 5\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -53,7 +53,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '32'
 '15':
-  param_latex: $\{3, 5\}$
+  param-latex: $\{3, 5\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -62,7 +62,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '29'
 '30':
-  param_latex: $\{2, 3, 5\}$
+  param-latex: $\{2, 3, 5\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -71,7 +71,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '442'
 '7':
-  param_latex: $\{7\}$
+  param-latex: $\{7\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -80,7 +80,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2'
 '14':
-  param_latex: $\{2, 7\}$
+  param-latex: $\{2, 7\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -89,7 +89,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '33'
 '21':
-  param_latex: $\{3, 7\}$
+  param-latex: $\{3, 7\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -98,7 +98,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '29'
 '42':
-  param_latex: $\{2, 3, 7\}$
+  param-latex: $\{2, 3, 7\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -107,7 +107,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '415'
 '35':
-  param_latex: $\{5, 7\}$
+  param-latex: $\{5, 7\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -116,7 +116,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '10'
 '70':
-  param_latex: $\{2, 5, 7\}$
+  param-latex: $\{2, 5, 7\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -125,7 +125,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '186'
 '105':
-  param_latex: $\{3, 5, 7\}$
+  param-latex: $\{3, 5, 7\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -134,7 +134,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '109'
 '210':
-  param_latex: $\{2, 3, 5, 7\}$
+  param-latex: $\{2, 3, 5, 7\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -143,7 +143,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2140'
 '11':
-  param_latex: $\{11\}$
+  param-latex: $\{11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -152,7 +152,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '6'
 '22':
-  param_latex: $\{2, 11\}$
+  param-latex: $\{2, 11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -161,7 +161,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '26'
 '33':
-  param_latex: $\{3, 11\}$
+  param-latex: $\{3, 11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -170,7 +170,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '25'
 '66':
-  param_latex: $\{2, 3, 11\}$
+  param-latex: $\{2, 3, 11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -179,7 +179,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '382'
 '55':
-  param_latex: $\{5, 11\}$
+  param-latex: $\{5, 11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -188,7 +188,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '11'
 '110':
-  param_latex: $\{2, 5, 11\}$
+  param-latex: $\{2, 5, 11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -197,7 +197,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '175'
 '165':
-  param_latex: $\{3, 5, 11\}$
+  param-latex: $\{3, 5, 11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -206,7 +206,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '95'
 '330':
-  param_latex: $\{2, 3, 5, 11\}$
+  param-latex: $\{2, 3, 5, 11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -215,7 +215,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1910'
 '77':
-  param_latex: $\{7, 11\}$
+  param-latex: $\{7, 11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -224,7 +224,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '14'
 '154':
-  param_latex: $\{2, 7, 11\}$
+  param-latex: $\{2, 7, 11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -233,7 +233,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '159'
 '231':
-  param_latex: $\{3, 7, 11\}$
+  param-latex: $\{3, 7, 11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -242,7 +242,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '110'
 '462':
-  param_latex: $\{2, 3, 7, 11\}$
+  param-latex: $\{2, 3, 7, 11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -251,7 +251,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1760'
 '385':
-  param_latex: $\{5, 7, 11\}$
+  param-latex: $\{5, 7, 11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -260,7 +260,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '53'
 '770':
-  param_latex: $\{2, 5, 7, 11\}$
+  param-latex: $\{2, 5, 7, 11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -269,7 +269,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '822'
 '1155':
-  param_latex: $\{3, 5, 7, 11\}$
+  param-latex: $\{3, 5, 7, 11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -278,7 +278,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '545'
 '2310':
-  param_latex: $\{2, 3, 5, 7, 11\}$
+  param-latex: $\{2, 3, 5, 7, 11\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -287,7 +287,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '8980'
 '13':
-  param_latex: $\{13\}$
+  param-latex: $\{13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -296,7 +296,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '0'
 '26':
-  param_latex: $\{2, 13\}$
+  param-latex: $\{2, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -305,7 +305,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '39'
 '39':
-  param_latex: $\{3, 13\}$
+  param-latex: $\{3, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -314,7 +314,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '16'
 '78':
-  param_latex: $\{2, 3, 13\}$
+  param-latex: $\{2, 3, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -323,7 +323,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '354'
 '65':
-  param_latex: $\{5, 13\}$
+  param-latex: $\{5, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -332,7 +332,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '11'
 '130':
-  param_latex: $\{2, 5, 13\}$
+  param-latex: $\{2, 5, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -341,7 +341,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '173'
 '195':
-  param_latex: $\{3, 5, 13\}$
+  param-latex: $\{3, 5, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -350,7 +350,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '130'
 '390':
-  param_latex: $\{2, 3, 5, 13\}$
+  param-latex: $\{2, 3, 5, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -359,7 +359,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1871'
 '91':
-  param_latex: $\{7, 13\}$
+  param-latex: $\{7, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -368,7 +368,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '10'
 '182':
-  param_latex: $\{2, 7, 13\}$
+  param-latex: $\{2, 7, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -377,7 +377,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '175'
 '273':
-  param_latex: $\{3, 7, 13\}$
+  param-latex: $\{3, 7, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -386,7 +386,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '87'
 '546':
-  param_latex: $\{2, 3, 7, 13\}$
+  param-latex: $\{2, 3, 7, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -395,7 +395,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1688'
 '455':
-  param_latex: $\{5, 7, 13\}$
+  param-latex: $\{5, 7, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -404,7 +404,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '50'
 '910':
-  param_latex: $\{2, 5, 7, 13\}$
+  param-latex: $\{2, 5, 7, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -413,7 +413,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '762'
 '1365':
-  param_latex: $\{3, 5, 7, 13\}$
+  param-latex: $\{3, 5, 7, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -422,7 +422,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '541'
 '2730':
-  param_latex: $\{2, 3, 5, 7, 13\}$
+  param-latex: $\{2, 3, 5, 7, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -431,7 +431,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '8716'
 '143':
-  param_latex: $\{11, 13\}$
+  param-latex: $\{11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -440,7 +440,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '8'
 '286':
-  param_latex: $\{2, 11, 13\}$
+  param-latex: $\{2, 11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -449,7 +449,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '161'
 '429':
-  param_latex: $\{3, 11, 13\}$
+  param-latex: $\{3, 11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -458,7 +458,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '96'
 '858':
-  param_latex: $\{2, 3, 11, 13\}$
+  param-latex: $\{2, 3, 11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -467,7 +467,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1551'
 '715':
-  param_latex: $\{5, 11, 13\}$
+  param-latex: $\{5, 11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -476,7 +476,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '35'
 '1430':
-  param_latex: $\{2, 5, 11, 13\}$
+  param-latex: $\{2, 5, 11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -485,7 +485,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '689'
 '2145':
-  param_latex: $\{3, 5, 11, 13\}$
+  param-latex: $\{3, 5, 11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -494,7 +494,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '429'
 '4290':
-  param_latex: $\{2, 3, 5, 11, 13\}$
+  param-latex: $\{2, 3, 5, 11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -503,7 +503,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '7650'
 '1001':
-  param_latex: $\{7, 11, 13\}$
+  param-latex: $\{7, 11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -512,7 +512,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '48'
 '2002':
-  param_latex: $\{2, 7, 11, 13\}$
+  param-latex: $\{2, 7, 11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -521,7 +521,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '632'
 '3003':
-  param_latex: $\{3, 7, 11, 13\}$
+  param-latex: $\{3, 7, 11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -530,7 +530,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '450'
 '6006':
-  param_latex: $\{2, 3, 7, 11, 13\}$
+  param-latex: $\{2, 3, 7, 11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -539,7 +539,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '7062'
 '5005':
-  param_latex: $\{5, 7, 11, 13\}$
+  param-latex: $\{5, 7, 11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -548,7 +548,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '204'
 '10010':
-  param_latex: $\{2, 5, 7, 11, 13\}$
+  param-latex: $\{2, 5, 7, 11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -557,7 +557,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '3185'
 '15015':
-  param_latex: $\{3, 5, 7, 11, 13\}$
+  param-latex: $\{3, 5, 7, 11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -566,7 +566,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2294'
 '30030':
-  param_latex: $\{2, 3, 5, 7, 11, 13\}$
+  param-latex: $\{2, 3, 5, 7, 11, 13\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -575,7 +575,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '34960'
 '17':
-  param_latex: $\{17\}$
+  param-latex: $\{17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -584,7 +584,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '4'
 '34':
-  param_latex: $\{2, 17\}$
+  param-latex: $\{2, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -593,7 +593,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '29'
 '51':
-  param_latex: $\{3, 17\}$
+  param-latex: $\{3, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -602,7 +602,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '22'
 '102':
-  param_latex: $\{2, 3, 17\}$
+  param-latex: $\{2, 3, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -611,7 +611,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '347'
 '85':
-  param_latex: $\{5, 17\}$
+  param-latex: $\{5, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -620,7 +620,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '10'
 '170':
-  param_latex: $\{2, 5, 17\}$
+  param-latex: $\{2, 5, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -629,7 +629,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '161'
 '255':
-  param_latex: $\{3, 5, 17\}$
+  param-latex: $\{3, 5, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -638,7 +638,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '95'
 '510':
-  param_latex: $\{2, 3, 5, 17\}$
+  param-latex: $\{2, 3, 5, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -647,7 +647,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1784'
 '119':
-  param_latex: $\{7, 17\}$
+  param-latex: $\{7, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -656,7 +656,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '7'
 '238':
-  param_latex: $\{2, 7, 17\}$
+  param-latex: $\{2, 7, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -665,7 +665,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '142'
 '357':
-  param_latex: $\{3, 7, 17\}$
+  param-latex: $\{3, 7, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -674,7 +674,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '100'
 '714':
-  param_latex: $\{2, 3, 7, 17\}$
+  param-latex: $\{2, 3, 7, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -683,7 +683,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1624'
 '595':
-  param_latex: $\{5, 7, 17\}$
+  param-latex: $\{5, 7, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -692,7 +692,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '48'
 '1190':
-  param_latex: $\{2, 5, 7, 17\}$
+  param-latex: $\{2, 5, 7, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -701,7 +701,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '698'
 '1785':
-  param_latex: $\{3, 5, 7, 17\}$
+  param-latex: $\{3, 5, 7, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -710,7 +710,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '541'
 '3570':
-  param_latex: $\{2, 3, 5, 7, 17\}$
+  param-latex: $\{2, 3, 5, 7, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -719,7 +719,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '8108'
 '187':
-  param_latex: $\{11, 17\}$
+  param-latex: $\{11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -728,7 +728,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '16'
 '374':
-  param_latex: $\{2, 11, 17\}$
+  param-latex: $\{2, 11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -737,7 +737,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '113'
 '561':
-  param_latex: $\{3, 11, 17\}$
+  param-latex: $\{3, 11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -746,7 +746,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '99'
 '1122':
-  param_latex: $\{2, 3, 11, 17\}$
+  param-latex: $\{2, 3, 11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -755,7 +755,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1464'
 '935':
-  param_latex: $\{5, 11, 17\}$
+  param-latex: $\{5, 11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -764,7 +764,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '50'
 '1870':
-  param_latex: $\{2, 5, 11, 17\}$
+  param-latex: $\{2, 5, 11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -773,7 +773,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '654'
 '2805':
-  param_latex: $\{3, 5, 11, 17\}$
+  param-latex: $\{3, 5, 11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -782,7 +782,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '417'
 '5610':
-  param_latex: $\{2, 3, 5, 11, 17\}$
+  param-latex: $\{2, 3, 5, 11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -791,7 +791,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '7367'
 '1309':
-  param_latex: $\{7, 11, 17\}$
+  param-latex: $\{7, 11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -800,7 +800,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '40'
 '2618':
-  param_latex: $\{2, 7, 11, 17\}$
+  param-latex: $\{2, 7, 11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -809,7 +809,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '607'
 '3927':
-  param_latex: $\{3, 7, 11, 17\}$
+  param-latex: $\{3, 7, 11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -818,7 +818,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '369'
 '7854':
-  param_latex: $\{2, 3, 7, 11, 17\}$
+  param-latex: $\{2, 3, 7, 11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -827,7 +827,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '6460'
 '6545':
-  param_latex: $\{5, 7, 11, 17\}$
+  param-latex: $\{5, 7, 11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -836,7 +836,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '221'
 '13090':
-  param_latex: $\{2, 5, 7, 11, 17\}$
+  param-latex: $\{2, 5, 7, 11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -845,7 +845,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2966'
 '19635':
-  param_latex: $\{3, 5, 7, 11, 17\}$
+  param-latex: $\{3, 5, 7, 11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -854,7 +854,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2115'
 '39270':
-  param_latex: $\{2, 3, 5, 7, 11, 17\}$
+  param-latex: $\{2, 3, 5, 7, 11, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -863,7 +863,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '32670'
 '221':
-  param_latex: $\{13, 17\}$
+  param-latex: $\{13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -872,7 +872,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '10'
 '442':
-  param_latex: $\{2, 13, 17\}$
+  param-latex: $\{2, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -881,7 +881,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '122'
 '663':
-  param_latex: $\{3, 13, 17\}$
+  param-latex: $\{3, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -890,7 +890,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '99'
 '1326':
-  param_latex: $\{2, 3, 13, 17\}$
+  param-latex: $\{2, 3, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -899,7 +899,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1318'
 '1105':
-  param_latex: $\{5, 13, 17\}$
+  param-latex: $\{5, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -908,7 +908,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '36'
 '2210':
-  param_latex: $\{2, 5, 13, 17\}$
+  param-latex: $\{2, 5, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -917,7 +917,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '577'
 '3315':
-  param_latex: $\{3, 5, 13, 17\}$
+  param-latex: $\{3, 5, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -926,7 +926,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '414'
 '6630':
-  param_latex: $\{2, 3, 5, 13, 17\}$
+  param-latex: $\{2, 3, 5, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -935,7 +935,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '6872'
 '1547':
-  param_latex: $\{7, 13, 17\}$
+  param-latex: $\{7, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -944,7 +944,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '28'
 '3094':
-  param_latex: $\{2, 7, 13, 17\}$
+  param-latex: $\{2, 7, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -953,7 +953,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '620'
 '4641':
-  param_latex: $\{3, 7, 13, 17\}$
+  param-latex: $\{3, 7, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -962,7 +962,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '346'
 '9282':
-  param_latex: $\{2, 3, 7, 13, 17\}$
+  param-latex: $\{2, 3, 7, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -971,7 +971,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '6080'
 '7735':
-  param_latex: $\{5, 7, 13, 17\}$
+  param-latex: $\{5, 7, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -980,7 +980,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '194'
 '15470':
-  param_latex: $\{2, 5, 7, 13, 17\}$
+  param-latex: $\{2, 5, 7, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -989,7 +989,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2810'
 '23205':
-  param_latex: $\{3, 5, 7, 13, 17\}$
+  param-latex: $\{3, 5, 7, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -998,7 +998,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2040'
 '46410':
-  param_latex: $\{2, 3, 5, 7, 13, 17\}$
+  param-latex: $\{2, 3, 5, 7, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1007,7 +1007,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '31458'
 '2431':
-  param_latex: $\{11, 13, 17\}$
+  param-latex: $\{11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1016,7 +1016,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '43'
 '4862':
-  param_latex: $\{2, 11, 13, 17\}$
+  param-latex: $\{2, 11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1025,7 +1025,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '460'
 '7293':
-  param_latex: $\{3, 11, 13, 17\}$
+  param-latex: $\{3, 11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1034,7 +1034,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '385'
 '14586':
-  param_latex: $\{2, 3, 11, 13, 17\}$
+  param-latex: $\{2, 3, 11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1043,7 +1043,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '5082'
 '12155':
-  param_latex: $\{5, 11, 13, 17\}$
+  param-latex: $\{5, 11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1052,7 +1052,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '154'
 '24310':
-  param_latex: $\{2, 5, 11, 13, 17\}$
+  param-latex: $\{2, 5, 11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1061,7 +1061,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2566'
 '36465':
-  param_latex: $\{3, 5, 11, 13, 17\}$
+  param-latex: $\{3, 5, 11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1070,7 +1070,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1752'
 '72930':
-  param_latex: $\{2, 3, 5, 11, 13, 17\}$
+  param-latex: $\{2, 3, 5, 11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1079,7 +1079,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '27537'
 '17017':
-  param_latex: $\{7, 11, 13, 17\}$
+  param-latex: $\{7, 11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1088,7 +1088,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '139'
 '34034':
-  param_latex: $\{2, 7, 11, 13, 17\}$
+  param-latex: $\{2, 7, 11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1097,7 +1097,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2121'
 '51051':
-  param_latex: $\{3, 7, 11, 13, 17\}$
+  param-latex: $\{3, 7, 11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1106,7 +1106,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1527'
 '102102':
-  param_latex: $\{2, 3, 7, 11, 13, 17\}$
+  param-latex: $\{2, 3, 7, 11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1115,7 +1115,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '24293'
 '85085':
-  param_latex: $\{5, 7, 11, 13, 17\}$
+  param-latex: $\{5, 7, 11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1124,7 +1124,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '761'
 '170170':
-  param_latex: $\{2, 5, 7, 11, 13, 17\}$
+  param-latex: $\{2, 5, 7, 11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1133,7 +1133,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '11493'
 '255255':
-  param_latex: $\{3, 5, 7, 11, 13, 17\}$
+  param-latex: $\{3, 5, 7, 11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1142,7 +1142,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '8107'
 '510510':
-  param_latex: $\{2, 3, 5, 7, 11, 13, 17\}$
+  param-latex: $\{2, 3, 5, 7, 11, 13, 17\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1151,7 +1151,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '124124'
 '19':
-  param_latex: $\{19\}$
+  param-latex: $\{19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1160,7 +1160,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '4'
 '38':
-  param_latex: $\{2, 19\}$
+  param-latex: $\{2, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1169,7 +1169,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '39'
 '57':
-  param_latex: $\{3, 19\}$
+  param-latex: $\{3, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1178,7 +1178,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '27'
 '114':
-  param_latex: $\{2, 3, 19\}$
+  param-latex: $\{2, 3, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1187,7 +1187,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '338'
 '95':
-  param_latex: $\{5, 19\}$
+  param-latex: $\{5, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1196,7 +1196,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '10'
 '190':
-  param_latex: $\{2, 5, 19\}$
+  param-latex: $\{2, 5, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1205,7 +1205,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '137'
 '285':
-  param_latex: $\{3, 5, 19\}$
+  param-latex: $\{3, 5, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1214,7 +1214,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '111'
 '570':
-  param_latex: $\{2, 3, 5, 19\}$
+  param-latex: $\{2, 3, 5, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1223,7 +1223,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1728'
 '133':
-  param_latex: $\{7, 19\}$
+  param-latex: $\{7, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1232,7 +1232,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '8'
 '266':
-  param_latex: $\{2, 7, 19\}$
+  param-latex: $\{2, 7, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1241,7 +1241,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '112'
 '399':
-  param_latex: $\{3, 7, 19\}$
+  param-latex: $\{3, 7, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1250,7 +1250,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '102'
 '798':
-  param_latex: $\{2, 3, 7, 19\}$
+  param-latex: $\{2, 3, 7, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1259,7 +1259,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1585'
 '665':
-  param_latex: $\{5, 7, 19\}$
+  param-latex: $\{5, 7, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1268,7 +1268,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '51'
 '1330':
-  param_latex: $\{2, 5, 7, 19\}$
+  param-latex: $\{2, 5, 7, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1277,7 +1277,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '754'
 '1995':
-  param_latex: $\{3, 5, 7, 19\}$
+  param-latex: $\{3, 5, 7, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1286,7 +1286,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '468'
 '3990':
-  param_latex: $\{2, 3, 5, 7, 19\}$
+  param-latex: $\{2, 3, 5, 7, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1295,7 +1295,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '7908'
 '209':
-  param_latex: $\{11, 19\}$
+  param-latex: $\{11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1304,7 +1304,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '14'
 '418':
-  param_latex: $\{2, 11, 19\}$
+  param-latex: $\{2, 11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1313,7 +1313,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '154'
 '627':
-  param_latex: $\{3, 11, 19\}$
+  param-latex: $\{3, 11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1322,7 +1322,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '92'
 '1254':
-  param_latex: $\{2, 3, 11, 19\}$
+  param-latex: $\{2, 3, 11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1331,7 +1331,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1446'
 '1045':
-  param_latex: $\{5, 11, 19\}$
+  param-latex: $\{5, 11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1340,7 +1340,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '35'
 '2090':
-  param_latex: $\{2, 5, 11, 19\}$
+  param-latex: $\{2, 5, 11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1349,7 +1349,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '637'
 '3135':
-  param_latex: $\{3, 5, 11, 19\}$
+  param-latex: $\{3, 5, 11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1358,7 +1358,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '432'
 '6270':
-  param_latex: $\{2, 3, 5, 11, 19\}$
+  param-latex: $\{2, 3, 5, 11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1367,7 +1367,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '6939'
 '1463':
-  param_latex: $\{7, 11, 19\}$
+  param-latex: $\{7, 11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1376,7 +1376,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '37'
 '2926':
-  param_latex: $\{2, 7, 11, 19\}$
+  param-latex: $\{2, 7, 11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1385,7 +1385,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '552'
 '4389':
-  param_latex: $\{3, 7, 11, 19\}$
+  param-latex: $\{3, 7, 11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1394,7 +1394,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '396'
 '8778':
-  param_latex: $\{2, 3, 7, 11, 19\}$
+  param-latex: $\{2, 3, 7, 11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1403,7 +1403,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '6340'
 '7315':
-  param_latex: $\{5, 7, 11, 19\}$
+  param-latex: $\{5, 7, 11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1412,7 +1412,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '177'
 '14630':
-  param_latex: $\{2, 5, 7, 11, 19\}$
+  param-latex: $\{2, 5, 7, 11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1421,7 +1421,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2967'
 '21945':
-  param_latex: $\{3, 5, 7, 11, 19\}$
+  param-latex: $\{3, 5, 7, 11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1430,7 +1430,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2062'
 '43890':
-  param_latex: $\{2, 3, 5, 7, 11, 19\}$
+  param-latex: $\{2, 3, 5, 7, 11, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1439,7 +1439,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '32287'
 '247':
-  param_latex: $\{13, 19\}$
+  param-latex: $\{13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1448,7 +1448,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '4'
 '494':
-  param_latex: $\{2, 13, 19\}$
+  param-latex: $\{2, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1457,7 +1457,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '130'
 '741':
-  param_latex: $\{3, 13, 19\}$
+  param-latex: $\{3, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1466,7 +1466,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '80'
 '1482':
-  param_latex: $\{2, 3, 13, 19\}$
+  param-latex: $\{2, 3, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1475,7 +1475,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1304'
 '1235':
-  param_latex: $\{5, 13, 19\}$
+  param-latex: $\{5, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1484,7 +1484,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '36'
 '2470':
-  param_latex: $\{2, 5, 13, 19\}$
+  param-latex: $\{2, 5, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1493,7 +1493,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '673'
 '3705':
-  param_latex: $\{3, 5, 13, 19\}$
+  param-latex: $\{3, 5, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1502,7 +1502,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '405'
 '7410':
-  param_latex: $\{2, 3, 5, 13, 19\}$
+  param-latex: $\{2, 3, 5, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1511,7 +1511,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '6737'
 '1729':
-  param_latex: $\{7, 13, 19\}$
+  param-latex: $\{7, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1520,7 +1520,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '30'
 '3458':
-  param_latex: $\{2, 7, 13, 19\}$
+  param-latex: $\{2, 7, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1529,7 +1529,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '537'
 '5187':
-  param_latex: $\{3, 7, 13, 19\}$
+  param-latex: $\{3, 7, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1538,7 +1538,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '390'
 '10374':
-  param_latex: $\{2, 3, 7, 13, 19\}$
+  param-latex: $\{2, 3, 7, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1547,7 +1547,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '5971'
 '8645':
-  param_latex: $\{5, 7, 13, 19\}$
+  param-latex: $\{5, 7, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1556,7 +1556,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '178'
 '17290':
-  param_latex: $\{2, 5, 7, 13, 19\}$
+  param-latex: $\{2, 5, 7, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1565,7 +1565,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2782'
 '25935':
-  param_latex: $\{3, 5, 7, 13, 19\}$
+  param-latex: $\{3, 5, 7, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1574,7 +1574,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1956'
 '51870':
-  param_latex: $\{2, 3, 5, 7, 13, 19\}$
+  param-latex: $\{2, 3, 5, 7, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1583,7 +1583,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '31018'
 '2717':
-  param_latex: $\{11, 13, 19\}$
+  param-latex: $\{11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1592,7 +1592,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '29'
 '5434':
-  param_latex: $\{2, 11, 13, 19\}$
+  param-latex: $\{2, 11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1601,7 +1601,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '519'
 '8151':
-  param_latex: $\{3, 11, 13, 19\}$
+  param-latex: $\{3, 11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1610,7 +1610,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '325'
 '16302':
-  param_latex: $\{2, 3, 11, 13, 19\}$
+  param-latex: $\{2, 3, 11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1619,7 +1619,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '5170'
 '13585':
-  param_latex: $\{5, 11, 13, 19\}$
+  param-latex: $\{5, 11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1628,7 +1628,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '143'
 '27170':
-  param_latex: $\{2, 5, 11, 13, 19\}$
+  param-latex: $\{2, 5, 11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1637,7 +1637,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2559'
 '40755':
-  param_latex: $\{3, 5, 11, 13, 19\}$
+  param-latex: $\{3, 5, 11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1646,7 +1646,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1764'
 '81510':
-  param_latex: $\{2, 3, 5, 11, 13, 19\}$
+  param-latex: $\{2, 3, 5, 11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1655,7 +1655,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '27055'
 '19019':
-  param_latex: $\{7, 11, 13, 19\}$
+  param-latex: $\{7, 11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1664,7 +1664,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '141'
 '38038':
-  param_latex: $\{2, 7, 11, 13, 19\}$
+  param-latex: $\{2, 7, 11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1673,7 +1673,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2091'
 '57057':
-  param_latex: $\{3, 7, 11, 13, 19\}$
+  param-latex: $\{3, 7, 11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1682,7 +1682,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1603'
 '114114':
-  param_latex: $\{2, 3, 7, 11, 13, 19\}$
+  param-latex: $\{2, 3, 7, 11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1691,7 +1691,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '23808'
 '95095':
-  param_latex: $\{5, 7, 11, 13, 19\}$
+  param-latex: $\{5, 7, 11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1700,7 +1700,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '693'
 '190190':
-  param_latex: $\{2, 5, 7, 11, 13, 19\}$
+  param-latex: $\{2, 5, 7, 11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1709,7 +1709,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '11036'
 '285285':
-  param_latex: $\{3, 5, 7, 11, 13, 19\}$
+  param-latex: $\{3, 5, 7, 11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1718,7 +1718,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '7947'
 '570570':
-  param_latex: $\{2, 3, 5, 7, 11, 13, 19\}$
+  param-latex: $\{2, 3, 5, 7, 11, 13, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1727,7 +1727,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '120695'
 '323':
-  param_latex: $\{17, 19\}$
+  param-latex: $\{17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1736,7 +1736,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '13'
 '646':
-  param_latex: $\{2, 17, 19\}$
+  param-latex: $\{2, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1745,7 +1745,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '123'
 '969':
-  param_latex: $\{3, 17, 19\}$
+  param-latex: $\{3, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1754,7 +1754,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '84'
 '1938':
-  param_latex: $\{2, 3, 17, 19\}$
+  param-latex: $\{2, 3, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1763,7 +1763,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1265'
 '1615':
-  param_latex: $\{5, 17, 19\}$
+  param-latex: $\{5, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1772,7 +1772,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '42'
 '3230':
-  param_latex: $\{2, 5, 17, 19\}$
+  param-latex: $\{2, 5, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1781,7 +1781,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '626'
 '4845':
-  param_latex: $\{3, 5, 17, 19\}$
+  param-latex: $\{3, 5, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1790,7 +1790,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '399'
 '9690':
-  param_latex: $\{2, 3, 5, 17, 19\}$
+  param-latex: $\{2, 3, 5, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1799,7 +1799,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '6249'
 '2261':
-  param_latex: $\{7, 17, 19\}$
+  param-latex: $\{7, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1808,7 +1808,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '38'
 '4522':
-  param_latex: $\{2, 7, 17, 19\}$
+  param-latex: $\{2, 7, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1817,7 +1817,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '551'
 '6783':
-  param_latex: $\{3, 7, 17, 19\}$
+  param-latex: $\{3, 7, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1826,7 +1826,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '365'
 '13566':
-  param_latex: $\{2, 3, 7, 17, 19\}$
+  param-latex: $\{2, 3, 7, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1835,7 +1835,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '5663'
 '11305':
-  param_latex: $\{5, 7, 17, 19\}$
+  param-latex: $\{5, 7, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1844,7 +1844,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '209'
 '22610':
-  param_latex: $\{2, 5, 7, 17, 19\}$
+  param-latex: $\{2, 5, 7, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1853,7 +1853,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2750'
 '33915':
-  param_latex: $\{3, 5, 7, 17, 19\}$
+  param-latex: $\{3, 5, 7, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1862,7 +1862,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1936'
 '67830':
-  param_latex: $\{2, 3, 5, 7, 17, 19\}$
+  param-latex: $\{2, 3, 5, 7, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1871,7 +1871,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '28285'
 '3553':
-  param_latex: $\{11, 17, 19\}$
+  param-latex: $\{11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1880,7 +1880,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '49'
 '7106':
-  param_latex: $\{2, 11, 17, 19\}$
+  param-latex: $\{2, 11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1889,7 +1889,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '468'
 '10659':
-  param_latex: $\{3, 11, 17, 19\}$
+  param-latex: $\{3, 11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1898,7 +1898,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '378'
 '21318':
-  param_latex: $\{2, 3, 11, 17, 19\}$
+  param-latex: $\{2, 3, 11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1907,7 +1907,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '5233'
 '17765':
-  param_latex: $\{5, 11, 17, 19\}$
+  param-latex: $\{5, 11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1916,7 +1916,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '165'
 '35530':
-  param_latex: $\{2, 5, 11, 17, 19\}$
+  param-latex: $\{2, 5, 11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1925,7 +1925,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2299'
 '53295':
-  param_latex: $\{3, 5, 11, 17, 19\}$
+  param-latex: $\{3, 5, 11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1934,7 +1934,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1653'
 '106590':
-  param_latex: $\{2, 3, 5, 11, 17, 19\}$
+  param-latex: $\{2, 3, 5, 11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1943,7 +1943,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '25012'
 '24871':
-  param_latex: $\{7, 11, 17, 19\}$
+  param-latex: $\{7, 11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1952,7 +1952,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '150'
 '49742':
-  param_latex: $\{2, 7, 11, 17, 19\}$
+  param-latex: $\{2, 7, 11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1961,7 +1961,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2128'
 '74613':
-  param_latex: $\{3, 7, 11, 17, 19\}$
+  param-latex: $\{3, 7, 11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1970,7 +1970,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1555'
 '149226':
-  param_latex: $\{2, 3, 7, 11, 17, 19\}$
+  param-latex: $\{2, 3, 7, 11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1979,7 +1979,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '22239'
 '124355':
-  param_latex: $\{5, 7, 11, 17, 19\}$
+  param-latex: $\{5, 7, 11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1988,7 +1988,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '736'
 '248710':
-  param_latex: $\{2, 5, 7, 11, 17, 19\}$
+  param-latex: $\{2, 5, 7, 11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -1997,7 +1997,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '10457'
 '373065':
-  param_latex: $\{3, 5, 7, 11, 17, 19\}$
+  param-latex: $\{3, 5, 7, 11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2006,7 +2006,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '7533'
 '746130':
-  param_latex: $\{2, 3, 5, 7, 11, 17, 19\}$
+  param-latex: $\{2, 3, 5, 7, 11, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2015,7 +2015,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '112361'
 '4199':
-  param_latex: $\{13, 17, 19\}$
+  param-latex: $\{13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2024,7 +2024,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '26'
 '8398':
-  param_latex: $\{2, 13, 17, 19\}$
+  param-latex: $\{2, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2033,7 +2033,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '416'
 '12597':
-  param_latex: $\{3, 13, 17, 19\}$
+  param-latex: $\{3, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2042,7 +2042,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '298'
 '25194':
-  param_latex: $\{2, 3, 13, 17, 19\}$
+  param-latex: $\{2, 3, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2051,7 +2051,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '4927'
 '20995':
-  param_latex: $\{5, 13, 17, 19\}$
+  param-latex: $\{5, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2060,7 +2060,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '130'
 '41990':
-  param_latex: $\{2, 5, 13, 17, 19\}$
+  param-latex: $\{2, 5, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2069,7 +2069,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2265'
 '62985':
-  param_latex: $\{3, 5, 13, 17, 19\}$
+  param-latex: $\{3, 5, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2078,7 +2078,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1441'
 '125970':
-  param_latex: $\{2, 3, 5, 13, 17, 19\}$
+  param-latex: $\{2, 3, 5, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2087,7 +2087,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '23809'
 '29393':
-  param_latex: $\{7, 13, 17, 19\}$
+  param-latex: $\{7, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2096,7 +2096,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '116'
 '58786':
-  param_latex: $\{2, 7, 13, 17, 19\}$
+  param-latex: $\{2, 7, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2105,7 +2105,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1996'
 '88179':
-  param_latex: $\{3, 7, 13, 17, 19\}$
+  param-latex: $\{3, 7, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2114,7 +2114,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1346'
 '176358':
-  param_latex: $\{2, 3, 7, 13, 17, 19\}$
+  param-latex: $\{2, 3, 7, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2123,7 +2123,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '21111'
 '146965':
-  param_latex: $\{5, 7, 13, 17, 19\}$
+  param-latex: $\{5, 7, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2132,7 +2132,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '705'
 '293930':
-  param_latex: $\{2, 5, 7, 13, 17, 19\}$
+  param-latex: $\{2, 5, 7, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2141,7 +2141,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '10038'
 '440895':
-  param_latex: $\{3, 5, 7, 13, 17, 19\}$
+  param-latex: $\{3, 5, 7, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2150,7 +2150,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '7034'
 '881790':
-  param_latex: $\{2, 3, 5, 7, 13, 17, 19\}$
+  param-latex: $\{2, 3, 5, 7, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2159,7 +2159,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '107612'
 '46189':
-  param_latex: $\{11, 13, 17, 19\}$
+  param-latex: $\{11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2168,7 +2168,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '122'
 '92378':
-  param_latex: $\{2, 11, 13, 17, 19\}$
+  param-latex: $\{2, 11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2177,7 +2177,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1715'
 '138567':
-  param_latex: $\{3, 11, 13, 17, 19\}$
+  param-latex: $\{3, 11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2186,7 +2186,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '1281'
 '277134':
-  param_latex: $\{2, 3, 11, 13, 17, 19\}$
+  param-latex: $\{2, 3, 11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2195,7 +2195,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '18719'
 '230945':
-  param_latex: $\{5, 11, 13, 17, 19\}$
+  param-latex: $\{5, 11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2204,7 +2204,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '529'
 '461890':
-  param_latex: $\{2, 5, 11, 13, 17, 19\}$
+  param-latex: $\{2, 5, 11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2213,7 +2213,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '8777'
 '692835':
-  param_latex: $\{3, 5, 11, 13, 17, 19\}$
+  param-latex: $\{3, 5, 11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2222,7 +2222,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '6193'
 '1385670':
-  param_latex: $\{2, 3, 5, 11, 13, 17, 19\}$
+  param-latex: $\{2, 3, 5, 11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2231,7 +2231,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '93964'
 '323323':
-  param_latex: $\{7, 11, 13, 17, 19\}$
+  param-latex: $\{7, 11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2240,7 +2240,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '536'
 '646646':
-  param_latex: $\{2, 7, 11, 13, 17, 19\}$
+  param-latex: $\{2, 7, 11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2249,7 +2249,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '7924'
 '969969':
-  param_latex: $\{3, 7, 11, 13, 17, 19\}$
+  param-latex: $\{3, 7, 11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2258,7 +2258,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '5792'
 '1939938':
-  param_latex: $\{2, 3, 7, 11, 13, 17, 19\}$
+  param-latex: $\{2, 3, 7, 11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2267,7 +2267,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '84331'
 '1616615':
-  param_latex: $\{5, 7, 11, 13, 17, 19\}$
+  param-latex: $\{5, 7, 11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2276,7 +2276,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '2621'
 '3233230':
-  param_latex: $\{2, 5, 7, 11, 13, 17, 19\}$
+  param-latex: $\{2, 5, 7, 11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2285,7 +2285,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '38967'
 '4849845':
-  param_latex: $\{3, 5, 7, 11, 13, 17, 19\}$
+  param-latex: $\{3, 5, 7, 11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
@@ -2294,7 +2294,7 @@
       param-latex: $\overline{\mathbb{Q}}$
       number: '27792'
 '9699690':
-  param_latex: $\{2, 3, 5, 7, 11, 13, 17, 19\}$
+  param-latex: $\{2, 3, 5, 7, 11, 13, 17, 19\}$
   numbers:
     Q:
       param-latex: $\mathbb{Q}$
