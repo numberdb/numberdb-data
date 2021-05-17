@@ -70,7 +70,7 @@ Data properties:
   - CITE{BoStVeData} (higher precision available, from Booker, Strömbergsson, Venkatesh CITE{BoStVe06})
   - CITE{LMFDB} (computed by Fredrik Stroemberg CITE{Str12} and Holger Then)
   reliability: >
-    For heuristics compare with CITE{BoStVeData} and CITE{LMFDBreliability}.
+    For heuristics see CITE{BoStVeData} and CITE{LMFDBreliability}.
 
 Display properties:
   number-header: $R$

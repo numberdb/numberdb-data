@@ -1,0 +1,61 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Volume of the Platonic solids
+
+Definition: >
+  This table lists the volumes of the Platonic solids CITE{Wiki}
+  given that either
+  the edge length $a$ equals $1$,
+  the inner radius $r$ equals $1$,
+  the midradius $\rho$ equals $1$,
+  the outer radius $R$ equals $1$,
+  or the surface area $A$ equals $1$.
+  
+Parameters:
+  expression:
+    display: constraint
+    title: length that is constrained to be $1$
+    type: Symbolic
+#    show-in-parameter-list: no
+
+  solid:
+    display: solid
+    title: Platonic solid
+    type: Symbolic
+  
+Comments:
+  comment-algebraic: >
+    All numbers in this table are algebraic numbers.
+  
+Formulas:
+
+Programs: 
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Platonic solid"
+    url: https://en.wikipedia.org/wiki/Platonic_solid
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- elementary geometry
+- algebraic
+- volume
+- trigonometry
+- discrete geometry
+
+Data properties:
+  type: R
+  complete: yes
+  
+Display properties:
+  number-header: >
+    Volume
+
+Numbers: INPUT{numbers.yaml}
