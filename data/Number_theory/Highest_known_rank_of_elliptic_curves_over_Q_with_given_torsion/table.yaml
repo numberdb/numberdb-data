@@ -13,7 +13,7 @@ Definition: >
   
 Parameters:
   T:
-    title: torsion subgroup of $E$
+    title: torsion subgroup of $E(\mathbb{Q})$
     type: Symbolic
    
 Comments:
