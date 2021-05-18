@@ -1,0 +1,131 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Highest known ranks of elliptic curves over $\mathbb{Q}$ with prescribed torsion subgroup
+Definition: >
+  The Mordell-Weil group $E(\mathbb{Q})$ of an elliptic curve
+  is a finitely generated Abelian group, that is,
+  of the form $\mathbb{Z}^r \oplus T$, 
+  where $r \geq 0$ is the rank of $E(\mathbb{Q})$, 
+  and $T$ a finite torsion subgroup.
+  This table contains the highest known ranks of an elliptic curves/$\mathbb{Q}$
+  with given torsion subgroup $T$, for all possible $T$.
+  
+Parameters:
+  T:
+    title: torsion subgroup of $E$
+    type: Symbolic
+    constraints: $r \geq 0$
+   
+Comments:
+  comment-reference: >
+    For the long list of references leading to this table,
+    see CITE{DujTorsion}.
+    
+Formulas:
+    
+Programs: 
+
+References:
+  Elk07:
+    bib: >
+      Noam D. Elkies,
+      "Three lectures on elliptic surfaces and curves of high rank"
+    arXiv: 0709.2908 
+  ElkKla20:
+    bib: > 
+      Noam D. Elkies, Zev Klagsbrun,
+      "New Rank Records For Elliptic Curves Having Rational Torsion"
+    arXiv: 2003.00077
+    
+Links:
+  DujTorsion:
+    title: "Dujella: High rank elliptic curves with prescribed torsion"
+    url: https://web.math.pmf.unizg.hr/~duje/tors/tors.html
+  WikiMW:
+    title: "Wikipedia: Mordell-Weil group"
+    url: https://en.wikipedia.org/wiki/Mordell%E2%80%93Weil_group
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- elliptic curves
+- rank
+
+Data properties:
+  type: Z
+  complete: yes
+  sources:
+  - >
+    For the long list of references leading to this table,
+    see CITE{DujTorsion}.
+  reliability: >
+    It is unknown whether examples of higher rank exist.
+    
+Display properties:
+  number-header: $r$
+
+Numbers:
+  0:
+    param-latex: $0$
+    number: 28
+    comments: Elkies 2006 #CITE{Elk06}
+  Z2:
+    param-latex: $\mathbb{Z}/2\mathbb{Z}$
+    number: 20
+    comment: Elkies-Klagsbrun 2020 #CITE{ElkKla20}
+  Z3:
+    param-latex: $\mathbb{Z}/3\mathbb{Z}$
+    number: 15
+    comment: Elkies-Klagsbrun 2020 #CITE{ElkKla20}
+  Z4:
+    param-latex: $\mathbb{Z}/4\mathbb{Z}$
+    number: 13
+    comment: Elkies-Klagsbrun 2020 #CITE{ElkKla20}
+  Z5:
+    param-latex: $\mathbb{Z}/5\mathbb{Z}$
+    number: 9
+    comment: Klagsbrun 2020 #(see CITE{DujTorsion})
+  Z6:
+    param-latex: $\mathbb{Z}/6\mathbb{Z}$
+    number: 9
+    comment: Elkies-Klagsbrun 2020 #CITE{ElkKla20}
+  Z7:
+    param-latex: $\mathbb{Z}/7\mathbb{Z}$
+    number: 6
+    comment: Elkies-Klagsbrun 2020 #CITE{ElkKla20}
+  Z8:
+    param-latex: $\mathbb{Z}/8\mathbb{Z}$
+    number: 6
+    comment: Elkies 2006 #CITE{Elk06}
+  Z9:
+    param-latex: $\mathbb{Z}/9\mathbb{Z}$
+    number: 4
+    comment: Fisher 2009 #CITE{Fis09}
+  Z10:
+    param-latex: $\mathbb{Z}/10\mathbb{Z}$
+    number: 4
+    comment: Dujella 2005 #CITE{Duj05}
+  Z12:
+    param-latex: $\mathbb{Z}/12\mathbb{Z}$
+    number: 4
+    comment: Fisher 2008 #CITE{Fis08}
+  Z2xZ2:
+    param-latex: $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$
+    number: 15
+    comment: Elkies 2009 #CITE{Elk09}
+  Z2xZ4:
+    param-latex: $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/4\mathbb{Z}$
+    number: 9
+    comment: Dujella-Peral 2012 #CITE{DujPer12}
+  Z2xZ6:
+    param-latex: $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/6\mathbb{Z}$
+    number: 6
+    comment: Elkies 2006 #CITE{Elk06}
+  Z2xZ8:
+    param-latex: $\mathbb{Z}/2\mathbb{Z} \times \mathbb{Z}/8\mathbb{Z}$
+    number: 3
+    comment: Connell 2000, Dujella 2000 #(see CITE{DujTorsion}), CITE{Duj00}
