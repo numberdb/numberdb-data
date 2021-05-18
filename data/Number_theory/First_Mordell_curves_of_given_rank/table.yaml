@@ -1,0 +1,175 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  First known Mordell curves of given rank
+
+Definition: >
+  A Mordell curve is an elliptic curve with model $E_k: y^2 = x^3 + k$,
+  for a non-zero integer $k$.
+  Given $r \geq 0$, 
+  this table list the smallest positive known $k$ 
+  and the largest negative known $k$ 
+  for which $E_k$ has Mordell-Weil rank $r$.
+  
+Parameters:
+  r:
+    title: rank of $E_k$
+    type: Z
+    constraints: $r \geq 0$
+  sign-of-k:
+    display: $\rm{sgn}(k)$ 
+    title: sign of $k$
+    type: Symbolic
+    show-in-parameter-list: no
+   
+Comments:
+  comment-j-0: >
+    Up to $\mathbb{Q}$-isomorphism, Mordell curves are exactly 
+    the ellpitic curves/$\mathbb{Q}$ with $j=0$.
+    
+Formulas:
+    
+Programs: 
+
+References:
+  GPZ:
+    bib: >
+      J. Gebel, A. Petho, H.G. Zimmer, "On Mordell’s Equation",
+      Compositio Mathematica 110 (1998), 335-367.
+  LloQue:
+    bib: >
+      P. Llorente, J. Quer, 
+      "On the 3-Sylow subgroup of the class group of quadratic fields",
+      Math. Comp. 50 (1988), 321-333.
+  Que: 
+    bib: > 
+      J. Quer, 
+      "Corps quadratiques de 3-rang 6 et courbes elliptiques de rang 12",
+      C.R. Acad Sc. Paris I 305 (1987), 215-218.
+  Wom:
+    bib: >
+      Thomas Womack, "Explicit Descent on Elliptic Curves",
+      PhD thesis, University of Nottingham, 2003.
+    
+Links:
+  Wiki:
+    title: "Wikipedia: Mordell curve"
+    url: https://en.wikipedia.org/wiki/Mordell_curve
+    
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- rank
+
+Data properties:
+  type: Z
+  complete: no
+  sources:
+  - CITE{Wom}
+  - CITE{GPZ}
+  - CITE{LloQue}
+  - CITE{Que}
+  - Elkies
+  reliability: >
+    For $r \leq 6$, the given $k$ are proved to be the smallest positive
+    and largest negative $k$ with $\rm{rank}(E_k) = r$ CITE{Wom}.
+    For $r \geq 7$, this is unknown.
+    
+Display properties:
+  number-header: $k$
+
+Numbers:
+  0:
+    pos:
+      param-latex: $k > 0$
+      number: 1
+    neg:
+      param-latex: $k < 0$
+      number: -1
+  1:
+    pos:
+      param-latex: $k > 0$
+      number: 2
+    neg:
+      param-latex: $k < 0$
+      number: -2
+  2:
+    pos:
+      param-latex: $k > 0$
+      number: 15
+    neg:
+      param-latex: $k < 0$
+      number: -11
+  3:
+    pos:
+      param-latex: $k > 0$
+      number: 113
+    neg:
+      param-latex: $k < 0$
+      number: -174
+  4:
+    pos:
+      param-latex: $k > 0$
+      number: 2089
+    neg:
+      param-latex: $k < 0$
+      number: -2351
+  5:
+    pos:
+      param-latex: $k > 0$
+      number: 66265
+    neg:
+      param-latex: $k < 0$
+      number: -28279 
+  6:
+    pos:
+      param-latex: $k > 0$
+      number: 1358556
+    neg:
+      param-latex: $k < 0$
+      number: -975379
+  7:
+    pos:
+      param-latex: $k > 0$
+      number: 47550317
+    neg:
+      param-latex: $k < 0$
+      number: -56877643
+  8:
+    pos:
+      param-latex: $k > 0$
+      number: 1632201497
+    neg:
+      param-latex: $k < 0$
+      number: -2520963512
+  9:
+    pos:
+      param-latex: $k > 0$
+      number: 185418133372
+    neg:
+      param-latex: $k < 0$
+      number: -463066403167
+  10:
+    pos:
+      param-latex: $k > 0$
+      number: 68513487607153
+    neg:
+      param-latex: $k < 0$
+      number: -56736325657288
+  11:
+    pos:
+      param-latex: $k > 0$
+      number: 35470887868736225
+    neg:
+      param-latex: $k < 0$
+      number: -46111487743732324
+  12:
+    pos:
+      param-latex: $k > 0$
+      number: 176415071705787247056
+    neg:
+      param-latex: $k < 0$
+      number: -6533891544658786928
