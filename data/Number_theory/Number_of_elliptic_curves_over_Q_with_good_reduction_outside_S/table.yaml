@@ -84,6 +84,9 @@ References:
       Ph.D. Thesis, Manchester, 1965.  
     
 Links:
+  vKaMaNumber:
+    title: "von Känel, Matschke - Numbers of curves (with good reduction outside S)"
+    url: https://bmatschke.github.io/solving-classical-diophantine-equations/elliptic-curve-database/numberOfCurves.txt
   M-ECDB:
     title: "Matschke - Tables of elliptic curves"
     url: https://github.com/bmatschke/s-unit-equations/tree/master/elliptic-curve-tables/
