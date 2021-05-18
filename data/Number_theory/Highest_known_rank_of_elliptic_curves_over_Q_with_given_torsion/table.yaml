@@ -15,7 +15,6 @@ Parameters:
   T:
     title: torsion subgroup of $E$
     type: Symbolic
-    constraints: $r \geq 0$
    
 Comments:
   comment-reference: >
