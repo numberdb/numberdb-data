@@ -1,0 +1,65 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Values of the Barnes $G$-function at rational numbers
+
+Definition: >
+  The list contains values of the Barnes $G$-function 
+  at rational number $s = a/b$.
+  
+  For a complex number $s$, $G(s)$ can be defined via the Weierstrass product
+  $G(s+1) = (2\pi)^{s/2} \exp\big(-\frac{s+s^2(1+\gamma)}{2}\big)
+  \prod_{k=1}^\infty (1+\frac{s}{k})^k \exp\big(\frac{s^2}{2k}-s\big)$,
+  where $\gamma$ is the Euler-Mascheroni constant.
+
+Parameters:
+  s:
+    type: Q
+         
+Comments:
+  
+Formulas: 
+  formula-functional-equation: >
+    Functional equation: 
+    $G(s+1) = \Gamma(s)G(s)$ 
+    for all $s\in\mathbb{C} \backslash \mathbb{Z}_{\leq 0}$,
+    where $\Gamma(s)$ is the Gamma function.
+  formula-factorial: >
+    $G(n) = 0$ for integers $n \leq 0$,
+    and $G(n) = \prod_{k=0}^{n-2} k!$ for integers $n\geq 1$.
+  formula-Kinkelin-reflection: >
+    Kinkelin's reflection formula:
+    $\log G(1-s) = \log G(1+s) - s\log 2\pi + \int_0^s \pi x \cot \pi x \, dx$.
+  formula_G_at_1_over_2: >
+    $G(1/2) = 2^{1/24} \exp(\frac{3}{2}\zeta'(-1)) \pi^{-1/4}$.
+  
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      numbers = {a/b: mpmath.barnesg(RIF(a/b)) 
+                      for b,a in cartesian_product(([1..30],[-30..30])) 
+                      if gcd(a,b) == 1}
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Barnes G-function"
+    url: https://en.wikipedia.org/wiki/Barnes_G-function
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- special values
+
+Data properties:
+  type: R
+  complete: no
+  
+Display properties:
+  number-header: $G(s)$
+
+Numbers: INPUT{numbers.yaml}
