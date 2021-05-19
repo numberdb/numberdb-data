@@ -19,7 +19,7 @@ Comments:
     $\sum_{n=0}^\infty n^{-s}, \Re(s) > 1$.
   
   comment-pole: >
-    At $s=0$, $\zeta$ has a simple pole.
+    At $s=1$, $\zeta$ has a simple pole.
   
 Formulas:
   formula-values-at-non-positive-integers: >
