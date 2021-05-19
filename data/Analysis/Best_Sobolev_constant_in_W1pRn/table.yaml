@@ -1,0 +1,89 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Best Sobolev constant for $W^{1,p}(\mathbb{R}^n)$
+
+Definition: >
+  Let $1 \leq p < n$ for some integer $n$, 
+  and let $q = np(n-p)$. 
+  The Sobolev inequality for $W^{1,p}(\mathbb{R}^n)$ states that 
+  $S_{n,p} ||u||_{L^q} \leq ||\nabla u||_{L^p}$
+  for any $u \in W^{1,p}(\mathbb{R}^n)$,
+  where $S_{n,p}$ are the constants given in 
+  CITE{formula-Snp} and CITE{formula-Sn1},
+  which are best possible.
+  This table lists these constants $S_{n,p}$ 
+  for certain choices of $n$ and $p$.
+  
+  
+Parameters:
+  n:
+    display: $n$
+    type: Z
+    constraints: $n > p$
+
+  p:
+    display: $p$
+    type: R
+    constraints: $p \geq 1$
+    
+  q:
+    display: $q$
+    type: R
+    constraints: $q = \frac{np}{n-p}$
+   
+Comments:
+  
+Formulas: 
+  formula-Snp: >
+    For $p > 1$, 
+    $S_{n,p} = \pi^{1/2} n^{1/p} \big(\frac{n-p}{p-1}\big)^{1-1/p}
+    \big(\frac{\Gamma(n/p)\Gamma(n+1-n/p)}{\Gamma(n)\Gamma(1+n/2)}\big)^{1/n}$.
+    CITE{Aub}, CITE{Tal}
+  formula-Sn1: >
+    For $p = 1$,
+    $S_{n,1} = \pi^{1/2} \frac{n}{\Gamma(1+n/2)^{1/n}}$.
+    CITE{FedFle}, CITE{Maz}
+    
+Programs: 
+
+References:
+  Aub:
+    bib: >
+      Aubin, T., "Problèmes isopérimétriques et espaces de Sobolev",
+      J. Differ. Geom. 11 (1976), 573–598.
+  FedFle:
+    bib: >
+      Federer, H., Fleming, W., "Normal and integral currents", 
+      Ann. of Math. (2) 72 (1960), 458–520.
+  Maz:
+    bib: >
+      Maz'ya, V.G., 
+      "Classes of domains and imbedding theorems for function spaces",
+      Soviet Math. Dokl. 1 (1960), 882–885.
+  Tal:
+    bib: >
+      Talenti, G., "Best constant in Sobolev inequality", 
+      Ann. Mat. Pura Appl. 110 (1976), 353–372.
+Links:
+  Wiki:
+    title: "Wikipedia: Sobolev inequality"
+    url: https://en.wikipedia.org/wiki/Sobolev_inequality
+
+Similar tables:
+  
+Keywords:
+- Sobolev inequality
+  
+Tags:
+- functional analysis
+- inequality
+
+Data properties:
+  type: R
+  complete: no
+
+Display properties:
+  number-header: $S_{n,p}$
+
+Numbers: INPUT{numbers.yaml}
