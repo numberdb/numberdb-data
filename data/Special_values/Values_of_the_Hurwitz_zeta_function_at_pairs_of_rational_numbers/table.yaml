@@ -1,0 +1,60 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Values of the Hurwitz zeta function at pairs of rational numbers
+
+Definition: >
+  The list contains values $\zeta(s,x)$ of the Riemann zeta function
+  at rational numbers $s$ and $x$.
+
+Parameters:
+  x:
+    type: Q
+    constraints: $x > 0$
+  s:
+    type: Q
+    constraints: $s \neq 1$
+   
+Comments:
+  comment-Hurwitz-zeta-definition: >
+    The Hurwitz zeta function $\zeta(s,x)$
+    is the meromorphic continuation (with respect to $s$) of the series 
+    $\sum_{n=0}^\infty (n+x)^{-s}$, $\Re(s) > 1$, $\Re(x) > 0$.
+  comment-pole: >
+    At $s=1$, $\zeta(s,x)$ has a simple pole (for any fixed $x$).
+  comment-Riemann-zeta: >
+    $\zeta(s,1)$ is the Riemann zeta function.
+  
+Formulas:
+
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      numbers = {(c/d, a/b): hurwitz_zeta(a/b, c/d) 
+                      for b,a,d,c in cartesian_product(([1..5],[-5..5],[1..5],[1..5])) 
+                      if gcd(a,b) == 1 and a/b != 1 and gcd(c,d) == 1}
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Hurwitz zeta function"
+    url: https://en.wikipedia.org/wiki/Hurwitz_zeta_function
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- special values
+- L-function
+
+Data properties:
+  type: R
+  complete: no
+  
+Display properties:
+  number-header: $\zeta(s,x)$
+
+Numbers: INPUT{numbers.yaml}
