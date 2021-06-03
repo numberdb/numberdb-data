@@ -6,6 +6,9 @@
 # - Matschke's elliptic curve tables:
 #   https://github.com/bmatschke/s-unit-equations/tree/master/elliptic-curve-tables/bounded-rad2N/K_1.1.1.1*
 
+#Need to install Cremona's db to run script below:
+#sage -i database_cremona_ellcurve
+
 import yaml
 import os
 import mpmath
@@ -44,7 +47,7 @@ cremona_labels = ['1290h1',
 
 for label in cremona_labels:
 	E = EllipticCurve(label).minimal_model()
-	#Es.append(E)
+	Es.append(E)
 
 #Curves from [Bennett-Yazdani]:
 	
@@ -110,11 +113,14 @@ Es.append(E22p(2^10*5^2*7^15, 3^18*23*2269).quadratic_twist(-7))
 
 Es.append(EllipticCurve([1,0,1,-42413566018206735,-437446811311705073280446]))
 
-
+c4c6s = set()
 Nc4c6sigmas = []
 
 for E0 in Es:
 	E = E0.minimal_model()
+	if (E.c4(),E.c6()) in c4c6s:
+		continue
+	c4c6s.add((E.c4(),E.c6()))
 	Nc4c6sigmas.append((
 		E.conductor(),
 		E.c4(),
@@ -128,7 +134,6 @@ for E0 in Es:
 	
 
 Nc4c6sigmas.sort(key = lambda x: -x[-1])
-
 
 #Convert data to numberdb-format:
 
