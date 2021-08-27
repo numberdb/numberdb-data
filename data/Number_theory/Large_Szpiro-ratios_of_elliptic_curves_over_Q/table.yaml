@@ -81,6 +81,7 @@ Data properties:
   type: R
   complete: unknown (presumably not)
   sources:
+  - CITE{Nit98}
   - CITE{BenYaz12}
   - CITE{LMFDB}
   - CITE{M-ECDB}

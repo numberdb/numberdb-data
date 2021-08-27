@@ -35,7 +35,7 @@ Tags:
 Data properties:
   type: Z
   sources:
-  - HREF{Wiki}
+  - CITE{Wiki}
   reliability: >
     Finite simple groups have been completely classified.
   complete: yes

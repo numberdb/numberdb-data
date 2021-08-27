@@ -21,7 +21,7 @@ Comments:
 Formulas: 
   formula-cosh: >
     $\sum_{n=0}^\infty \frac{B_nt^n}{n!} = 
-    \frac{t}{2}\left(\coth \frac{t}{2}-1)\right)$.
+    \frac{t}{2}\left(\coth \frac{t}{2}-1\right)$.
   formula-zeta: >
     $B_n = (-1)^{n+1} n \zeta(1-n)$ for $n\geq 1$, 
     where $\zeta$ is the Riemann zeta function.
