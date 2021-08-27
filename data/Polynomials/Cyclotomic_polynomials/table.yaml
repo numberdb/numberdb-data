@@ -1,0 +1,48 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Cyclotomic polynomials
+  
+Definition: >
+  The $n$'th cyclotomic polynomial $\Phi_n(x)$ is the monic polynomial
+  whose roots are the primitive $n$'th roots of unity. 
+
+Parameters:
+  n:
+    type: Z
+    constraints: $n \geq 1$ 
+         
+Comments:
+  
+Formulas: 
+  formula-via-roots: >
+    $\Phi_n(x) = \prod_{1\leq k \leq n: \gcd(n,k)=1} (x-\exp(2\pi ik/n)$.
+  
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      polynomials = {n: cyclotomic_polynomial(n) for n in [1..100]}
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Cyclotomic polynomial"
+    url: https://en.wikipedia.org/wiki/Cyclotomic_polynomial
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- Polynomial
+
+Data properties:
+  type: Z[x]
+  complete: no
+  
+Display properties:
+  number-header: $\Phi_n(x)$
+
+Data: INPUT{polynomials.yaml}
