@@ -39,7 +39,7 @@ Tags:
 - Polynomial
 
 Data properties:
-  type: Z[x]
+  type: Z[]
   complete: no
   
 Display properties:
