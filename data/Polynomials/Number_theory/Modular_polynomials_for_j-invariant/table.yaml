@@ -1,0 +1,65 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Modular polynomials for the $j$-invariant
+
+Definition: >
+  This table contains the first few classical modular polynomials
+  $\psi_n(x,y) \in \ZZ[x,y]$, 
+  which vanish on the points $(j(n\tau),j(\tau))$, where $j$ denotes
+  the $j$-invariant.
+  
+Parameters:
+  n:
+    display: $n$
+    type: Z
+    constraints: $n \geq 1$
+   
+Comments:
+  
+Formulas: 
+
+Programs: 
+
+References:
+  BrLaSu:
+    bib: >
+      Reinier Broker, Kristin Lauter, Andrew V. Sutherland,
+      "Modular polynomials via isogeny volcanoes",
+      Mathematics of Computation 81 (2012), 1201-1231.
+    arXiv: 1001.0402
+  BrOnSu:
+    bib: >
+      Jan Hendrik Bruinier, Ken Ono, Andrew V. Sutherland,
+      "Class polynomials for nonholomorphic modular functions",
+      Journal of Number Theory 161 (2016) 204-229.
+    arXiv: 1301.5672
+
+Links:
+  Suth:
+    title: "A. V. Sutherland: Modular polynomials" 
+    url: https://math.mit.edu/~drew/ClassicalModPolys.html
+  Wiki:
+    title: "Classical modular curve"
+    url: https://en.wikipedia.org/wiki/Classical_modular_curve
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- elliptic curves
+
+Data properties:
+  type: ZZ[]
+  complete: no
+  sources:
+  - CITE{Suth}
+  - CITE{BrLaSu}
+  - CITE{BrOnSu}
+ 
+Display properties:
+  number-header: $\psi_n(x,y)$
+
+Numbers: INPUT{polynomials.yaml}
