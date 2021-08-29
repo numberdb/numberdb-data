@@ -5,7 +5,7 @@ Title: >
 
 Definition: >
   This table contains the first few classical modular polynomials
-  $\psi_n(x,y) \in \ZZ[x,y]$, 
+  $\phi_n(x,y) \in \mathbb{Z}[x,y]$, 
   which vanish on the points $(j(n\tau),j(\tau))$, where $j$ denotes
   the $j$-invariant.
   
@@ -40,7 +40,7 @@ Links:
     title: "A. V. Sutherland: Modular polynomials" 
     url: https://math.mit.edu/~drew/ClassicalModPolys.html
   Wiki:
-    title: "Classical modular curve"
+    title: "Wikipedia: Classical modular curve"
     url: https://en.wikipedia.org/wiki/Classical_modular_curve
 
 Similar tables:
@@ -52,7 +52,7 @@ Tags:
 - elliptic curves
 
 Data properties:
-  type: ZZ[]
+  type: Z[]
   complete: no
   sources:
   - CITE{Suth}
@@ -60,6 +60,6 @@ Data properties:
   - CITE{BrOnSu}
  
 Display properties:
-  number-header: $\psi_n(x,y)$
+  number-header: $\phi_n(x,y)$
 
 Numbers: INPUT{polynomials.yaml}
