@@ -16,7 +16,7 @@ Comments:
   
 Formulas: 
   formula-via-roots: >
-    $\Phi_n(x) = \prod_{1\leq k \leq n: \gcd(n,k)=1} (x-\exp(2\pi ik/n)$.
+    $\Phi_n(x) = \prod_{1\leq k \leq n: \gcd(n,k)=1} (x-\exp(2\pi ik/n))$.
   
 Programs: 
   program-sage:
