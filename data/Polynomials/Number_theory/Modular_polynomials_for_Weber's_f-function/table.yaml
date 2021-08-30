@@ -1,0 +1,70 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Modular polynomials for Weber's $f$-function
+
+Definition: >
+  This table contains the modular polynomials
+  $\phi_\ell(x,y) \in \mathbb{Z}[x,y]$ for some small primes $\ell \geq 5$, 
+  which vanish on the points $(f(\ell\tau),f(\tau))$, where $f$ denotes
+  the Weber $f$-function.
+  
+Parameters:
+  ell:
+    display: $\ell$
+    type: Z
+    constraints: $\ell \geq 5$ (prime)
+   
+Comments:
+  comment-relation-to-j: >
+    Weber's $f$-function is related to the $j$-invariant via
+    $j = (f^{24}-16)^3/f^{24}$.
+  comment-more-data: >
+    More complete data is available at CITE{Suth}.
+  
+Formulas: 
+
+Programs: 
+
+References:
+  BrLaSu:
+    bib: >
+      Reinier Broker, Kristin Lauter, Andrew V. Sutherland,
+      "Modular polynomials via isogeny volcanoes",
+      Mathematics of Computation 81 (2012), 1201-1231.
+    arXiv: 1001.0402
+  BrOnSu:
+    bib: >
+      Jan Hendrik Bruinier, Ken Ono, Andrew V. Sutherland,
+      "Class polynomials for nonholomorphic modular functions",
+      Journal of Number Theory 161 (2016) 204-229.
+    arXiv: 1301.5672
+
+Links:
+  Suth:
+    title: "A. V. Sutherland: Modular polynomials for Weber's f-function" 
+    url: https://math.mit.edu/~drew/WeberModPolys.html
+  Wiki:
+    title: "Wikipedia: Weber modular function"
+    url: https://en.wikipedia.org/wiki/Weber_modular_function
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- elliptic curves
+
+Data properties:
+  type: Z[]
+  complete: no
+  sources:
+  - CITE{Suth}
+  - CITE{BrLaSu}
+  - CITE{BrOnSu}
+ 
+Display properties:
+  number-header: $\phi_\ell(x,y)$
+
+Numbers: INPUT{polynomials.yaml}
