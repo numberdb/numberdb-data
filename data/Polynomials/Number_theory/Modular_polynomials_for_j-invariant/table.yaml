@@ -16,6 +16,8 @@ Parameters:
     constraints: $n \geq 1$
    
 Comments:
+  comment-more-data: >
+    More complete data is available at CITE{Suth}.
   
 Formulas: 
 
