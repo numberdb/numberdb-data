@@ -1,0 +1,52 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Chebyshev polynomials of the second kind $U_n$
+  
+Definition: >
+  The Chebyshev polynomials of the second kind $U_n$, $n\geq 0$, 
+  can be defined via $U_n(\cos \alpha)\sin\alpha  = \sin((n+1)\alpha)$.
+
+Parameters:
+  n:
+    type: Z
+    constraints: $n \geq 0$ 
+         
+Comments:
+  
+Formulas: 
+  formula-recurrence: >
+    $U_0(x) = 1$, 
+    $U_1(x) = 2x$, 
+    and $U_{n+1}(x) = 2x U_n(x)-U_{n-1}(x)$ for $n\geq 1$ (recurrence).
+  forumla-generating-function: >
+    $\sum_{n=0}^\infty U_n(x)t^n = \frac{1}{1-2tx+t^2}$ (generating function).
+    
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      polynomials = {n: chebyshev_U(n,x) for n in [0..100]}
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Chebyshev polynomials"
+    url: https://en.wikipedia.org/wiki/Chebyshev_polynomials
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- Polynomial
+
+Data properties:
+  type: Z[]
+  complete: no
+  
+Display properties:
+  number-header: $U_n(x)$
+
+Data: INPUT{polynomials.yaml}
