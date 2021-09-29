@@ -1,0 +1,52 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Chebyshev polynomials of the first kind $T_n$
+  
+Definition: >
+  The Chebyshev polynomials of the first kind $T_n$, $n\geq 0$, 
+  can be defined via $T_n(\cos \alpha) = \cos(n\alpha)$.
+
+Parameters:
+  n:
+    type: Z
+    constraints: $n \geq 0$ 
+         
+Comments:
+  
+Formulas: 
+  formula-recurrence: >
+    $T_0(x) = 1$, 
+    $T_1(x) = x$, 
+    and $T_{n+1}(x) = 2x T_n(x)-T_{n-1}(x)$ for $n\geq 1$ (recurrence).
+  forumla-generating-function: >
+    $\sum_{n=0}^\infty T_n(x)t^n = \frac{1-tx}{1-2tx+t^2}$ (generating function).
+    
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      polynomials = {n: chebyshev_T(n,x) for n in [0..100]}
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Chebyshev polynomials"
+    url: https://en.wikipedia.org/wiki/Chebyshev_polynomials
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- Polynomial
+
+Data properties:
+  type: Z[]
+  complete: no
+  
+Display properties:
+  number-header: $T_n(x)$
+
+Data: INPUT{polynomials.yaml}
