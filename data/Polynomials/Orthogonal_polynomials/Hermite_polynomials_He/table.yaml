@@ -1,0 +1,68 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Hermite polynomials in probabilist's convention
+  
+Definition: >
+  The Hermite polynomials $He_n$, $n\geq 0$, 
+  in the probabilist's convention,
+  can be defined as 
+  $He_n(x) = (-1)^n e^{x^2/2} \frac{d^n}{dx^n} e^{-x^2/2}$.
+  
+Parameters:
+  n:
+    type: Z
+    constraints: $n \geq 0$ 
+         
+Comments:
+  comment-orthogonal: >
+    The $He_n$ are orthogonal with respect to the inner product
+    $\langle f,g\rangle = \int_{-\infty}^{\infty} f(x)g(x) e^{-x^2/2} dx$.
+  comment-standardization: > 
+    $He_n$ relates to the 
+    HREF{Hermite_polynomials_H}[Hermite polynomials in physicist's convention]
+    $H_n$ 
+    via $He_n(x) = 2^{-n/2} H_n(x/\sqrt{2})$.
+  
+Formulas: 
+  formula-recurrence: >
+    $He_0(x) = 1$, 
+    $He_1(x) = x$, 
+    and $He_{n+1}(x) = x He_n(x) - He_{n}'(x)$ 
+    for $n\geq 1$ (recurrence formula).
+  formula-closed-form: >
+    $He_n(x) = n!\sum_{k=0}^{[n/2]} \frac{(-1)^k}{k!(n-2k)!2^k} x^{n-2k}$
+    (closed form).
+  forumla-generating-function: >
+    $\sum_{n=0}^\infty He_n(x)\frac{t^n}{n!} = e^{xt-t^2/2}$ 
+    (exponential generating function).
+    
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      polynomials = {n: (2^(-n/2)*hermite(n,x/sqrt(2))).expand() for n in [0..100]}
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Hermite polynomials"
+    url: https://en.wikipedia.org/wiki/Hermite_polynomials
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- polynomial
+- orthogonal polynomials
+
+Data properties:
+  type: Z[]
+  complete: no
+  
+Display properties:
+  number-header: $He_n(x)$
+
+Data: INPUT{polynomials.yaml}
