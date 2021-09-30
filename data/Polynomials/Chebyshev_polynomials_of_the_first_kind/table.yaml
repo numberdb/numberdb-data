@@ -13,6 +13,9 @@ Parameters:
     constraints: $n \geq 0$ 
          
 Comments:
+  comment-orthogonal: >
+    The $T_n$ are orthogonal with respect to the inner product
+    $\langle f,g\rangle = \int_{-1}^1 f(x)g(x)(1-x^2)^{-1/2} dx$.
   
 Formulas: 
   formula-recurrence: >
