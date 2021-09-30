@@ -23,7 +23,7 @@ Formulas:
   formula-recurrence: >
     $L_0(x) = 1$, 
     $L_1(x) = 1-x$, 
-    and $(n+1)P_{n+1}(x) = (2n+1-x) P_n(x) - n P_{n-1}(x)$ 
+    and $(n+1)L_{n+1}(x) = (2n+1-x) L_n(x) - n L_{n-1}(x)$ 
     for $n\geq 1$ (recurrence formula).
   formula-closed-form: >
     $L_n(x) = \sum_{k=0}^n \binom{n}{k} \frac{(-1)^k}{k!} x^k$
