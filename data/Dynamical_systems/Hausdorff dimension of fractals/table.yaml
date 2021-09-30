@@ -1,0 +1,86 @@
+ID: INPUT{id.yaml} 
+
+Title: Hausdorff dimension of some fractals
+
+Definition: >
+  This table lists the Hausdorff dimension $\text{dim}_H(F)$ CITE{Wiki}
+  of certain fractals $F$.
+  
+Parameters:
+  F:
+    title: fractal
+    type: Symbolic
+    
+Comments:
+  comment-help-needed: >
+    Readers are welcome to add more interesting examples.
+  
+Formulas: 
+
+Programs: 
+
+References:
+  McMullen:
+    bib: >
+      Curtis T. McMullen, 
+      "Hausdorff dimension and conformal dynamics III: Computation of dimension",
+      1997.
+    url: >
+      http://abel.math.harvard.edu/~ctm/papers/home/text/papers/dimIII/dimIII.pdf},
+  
+Links:
+  Wiki:
+    title: "Wikipedia: Hausdorff dimension"
+    url: https://en.wikipedia.org/wiki/Hausdorff_dimension
+  WikiList:
+    title: "Wikipedia: List of fractals by Hausdorff dimension"
+    url: https://en.wikipedia.org/wiki/List_of_fractals_by_Hausdorff_dimension
+
+Similar tables:
+  
+Keywords: 
+- chaos theory
+
+Tags:
+- dynamical systems
+
+Data properties:
+  type: R
+
+Display properties:
+  number-header: $\text{dim}_H(F)$
+
+Numbers:
+  apollonian-gasket:
+    param-latex: Apollonian gasket
+    number: 1.305688
+    comment: >
+      Value is only a heuristic estimate CITE{McMullen},
+      HREF{https://en.wikipedia.org/wiki/Apollonian_gasket}
+  dragon-curve-boundary:
+    param-latex: Dragon curve's boundary
+    number: 1.523627086202492106277683935954216627284936383401193478138690909457921662895884106892664227464713942
+    comment: >
+      Exact value: $2\log_2\lambda$, 
+      where $\lambda$ is the real solution of $\lambda^3-\lambda^2-2 = 0$.
+      HREF{https://en.wikipedia.org/wiki/Dragon_curve}
+  feigenbaum-attractor:
+    param-latex: Feigenbaum attractor
+    number: 3.5699456718709449018420051513864989367638369115148323781079755299213628875001367775263210342163
+    comment: >
+      HREF{https://oeis.org/A098587},
+      HREF{https://en.wikipedia.org/wiki/Logistic_map}
+  koch-curve:
+    param-latex: Koch curve
+    number: 1.261859507142914874199054228685521708599171280263760855741309887677370402761829610122345377098903491
+    comment: >
+      Exact value: $\log_3(4)$,
+      HREF{https://en.wikipedia.org/wiki/Koch_curve}
+  sierpinski-triangle:
+    param-latex: Sierpiński triangle
+    number: 1.584962500721156181453738943947816508759814407692481060455752654541098227794358562522280474918088242
+    comment: >
+      Exact value: $\log_2(3)$,
+      HREF{https://en.wikipedia.org/wiki/Sierpi%C5%84ski_triangle}
+
+      
