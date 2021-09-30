@@ -7,7 +7,7 @@ Definition: >
   The Hermite polynomials $H_n$, $n\geq 0$, 
   in the physicist's convention,
   can be defined as 
-  $H_n(x) = (-1)^n e^{x^2/2} \frac{d^n}{dx^n} e^{-x^2/2}$.
+  $H_n(x) = (-1)^n e^{x^2} \frac{d^n}{dx^n} e^{-x^2}$.
   
 Parameters:
   n:
