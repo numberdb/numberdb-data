@@ -51,7 +51,7 @@ Tags:
 - orthogonal polynomials
 
 Data properties:
-  type: Z[]
+  type: Q[]
   complete: no
   
 Display properties:
