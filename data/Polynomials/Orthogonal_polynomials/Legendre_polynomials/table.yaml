@@ -1,0 +1,60 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Legendre polynomials
+  
+Definition: >
+  The Legendre polynomials $P_n$, $n\geq 0$, 
+  can be defined as the system of orthogonal polynomials 
+  with respect to the inner product CITE{comment-orthogonal}
+  such that $\deg P_n=n$ and $P_n(1)=1$.
+  
+Parameters:
+  n:
+    type: Z
+    constraints: $n \geq 0$ 
+         
+Comments:
+  comment-orthogonal: >
+    The $P_n$ are orthogonal with respect to the inner product
+    $\langle f,g\rangle = \int_{-1}^1 f(x)g(x) dx$.
+  
+Formulas: 
+  formula-recurrence: >
+    $P_0(x) = 1$, 
+    $P_1(x) = x$, 
+    and $(n+1)P_{n+1}(x) = (2n+1)_x P_n(x) - n P_{n-1}(x)$ 
+    for $n\geq 1$ (Bonnet's recursion formula).
+  forumla-generating-function: >
+    $\sum_{n=0}^\infty P_n(x)t^n = \frac{1}{\sqrt{1-2tx+t^2}}$ 
+    (generating function).
+    
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      polynomials = {n: legendre_P(n,x) for n in [0..100]}
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Legendre polynomials"
+    url: https://en.wikipedia.org/wiki/Legendre_polynomials
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- polynomial
+- orthogonal polynomials
+
+Data properties:
+  type: Z[]
+  complete: no
+  
+Display properties:
+  number-header: $P_n(x)$
+
+Data: INPUT{polynomials.yaml}
