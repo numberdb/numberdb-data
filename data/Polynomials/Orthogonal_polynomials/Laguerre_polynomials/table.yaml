@@ -1,0 +1,66 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Laguerre polynomials
+  
+Definition: >
+  The Laguerre polynomials $L_n$, $n\geq 0$, 
+  can be defined as the system of orthogonal polynomials 
+  with respect to the inner product CITE{comment-orthogonal}
+  such that $\deg L_n=n$ and $L_n(0)=1$.
+  
+Parameters:
+  n:
+    type: Z
+    constraints: $n \geq 0$ 
+         
+Comments:
+  comment-orthogonal: >
+    The $L_n$ are orthogonal with respect to the inner product
+    $\langle f,g\rangle = \int_{0}^{\infty} f(x)g(x) e^{-x} dx$.
+  
+Formulas: 
+  formula-recurrence: >
+    $L_0(x) = 1$, 
+    $L_1(x) = 1-x$, 
+    and $(n+1)P_{n+1}(x) = (2n+1-x) P_n(x) - n P_{n-1}(x)$ 
+    for $n\geq 1$ (recurrence formula).
+  formula-closed-form: >
+    $L_n(x) = \sum_{k=0}^n \binom{n}{k} \frac{(-1)^k}{k!} x^k$
+    (closed form).
+  forumla-generating-function: >
+    $\sum_{n=0}^\infty L_n(x)t^n = \frac{1}{1-t} e^{-tx/(1-t)}$ 
+    (generating function)..
+  formula-differential-equation: >
+    $L_n$ is a solution of Laguerre's equation
+    $xy'' + (1-x)y' + ny = 0$.
+    
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      polynomials = {n: laguerre(n,x) for n in [0..100]}
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Laguerre polynomials"
+    url: https://en.wikipedia.org/wiki/Laguerre_polynomials
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- polynomial
+- orthogonal polynomials
+
+Data properties:
+  type: Q[]
+  complete: no
+  
+Display properties:
+  number-header: $L_n(x)$
+
+Data: INPUT{polynomials.yaml}
