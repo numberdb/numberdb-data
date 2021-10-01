@@ -1,0 +1,68 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Gegenbauer polynomials
+  
+Definition: >
+  The Gegenbauer polynomials $C_n^{\alpha}$, $n\geq 0$, 
+  can be defined via the recurrence formula CITE{formula-recurrence}.
+  
+Parameters:
+  alpha:
+    display: $\alpha$
+    type: R
+  n:
+    type: Z
+    constraints: $n \geq 0$ 
+         
+Comments:
+  comment-orthogonal: >
+    The $C_n^{\alpha}$ are orthogonal with respect to the inner product
+    $\langle f,g\rangle = \int_{-1}^1 f(x)g(x) (1-x^2)^{\alpha-1/2} dx$.
+  
+Formulas: 
+  formula-recurrence: >
+    $C_0^{\alpha}(x) = 1$, 
+    $C_1^{\alpha}(x) = 2\alpha x$, 
+    and $(n+1)C_{n+1}^{\alpha}(x) = 
+     2x(n+\alpha) C_n^{\alpha}(x) - (n+2\alpha-1) C_{n-1}^{\alpha}(x)$ 
+    for $n\geq 1$ (recurrence formula).
+  forumla-generating-function: >
+    $\sum_{n=0}^\infty C_n^{\alpha}(x)t^n = \frac{1}{(1-2tx+t^2)^\alpha}$ 
+    (generating function).
+    
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      polynomials = {alpha: 
+        {n: gegenbauer(n,alpha,x) for n in [0..10]}
+        for alpha in [-1/2,0,1/2,1]
+      }
+
+References:
+
+Links:
+  MathWorld:
+    title: "MathWorld: Gegenbauer polynomials"
+    url: https://mathworld.wolfram.com/GegenbauerPolynomial.html
+  Wiki:
+    title: "Wikipedia: Gegenbauer polynomials"
+    url: https://en.wikipedia.org/wiki/Gegenbauer_polynomials
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- polynomial
+- orthogonal polynomials
+
+Data properties:
+  type: Q[]
+  complete: no
+  
+Display properties:
+  number-header: $C_n^{\alpha}(x)$
+
+Data: INPUT{polynomials.yaml}
