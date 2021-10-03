@@ -1,6 +1,6 @@
 a:
   a:
-    equals: HREF{Gebenbauer_polynomials}
+    equals: HREF{Gegenbauer_polynomials}
   b:
     '0': '1'
     '1': 1/2*a*x + 1/2*b*x + 1/2*a - 1/2*b + x

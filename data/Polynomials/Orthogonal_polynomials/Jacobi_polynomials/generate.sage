@@ -18,7 +18,7 @@ for alpha in alphas[:-1]: #skip the last one
 
     if alpha == a:
          numbers[i_alpha][i_alpha] = {
-          'equals': 'HREF{Gebenbauer_polynomials}',
+          'equals': 'HREF{Gegenbauer_polynomials}',
           #'comment': '...',
         }
 
