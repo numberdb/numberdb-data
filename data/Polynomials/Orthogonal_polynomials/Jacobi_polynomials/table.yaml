@@ -1,0 +1,88 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Jacobi polynomials
+  
+Definition: >
+  The Jacobi polynomials $P_n^{(\alpha,\beta)}$, $n\geq 0$, 
+  can be defined as the system of orthogonal polynomials 
+  with respect to the inner product CITE{comment-orthogonal}
+  such that $\deg P_n^{(\alpha,\beta)}=n$ and 
+  $P_n^{(\alpha,\beta)}(1) = \binom{n+\alpha}{n}$.
+  Due to CITE{comment-Gegenbauer} and CITE{formula-symmetry}
+  we restrict to $\alpha < \beta$.
+  
+Parameters:
+  alpha:
+    display: $\alpha$
+    type: R
+    constraints: $\alpha > -1$ 
+  beta:
+    display: $\beta$
+    type: R
+    constraints: $\beta > -1$ 
+  n:
+    type: Z
+    constraints: $n \geq 0$ 
+         
+Comments:
+  comment-orthogonal: >
+    The $P_n^{(\alpha,\beta)}$ 
+    are orthogonal with respect to the inner product
+    $\langle f,g\rangle = \int_{-1}^1 f(x)g(x) (1-x)^{\alpha}(1+x)^{\beta} dx$.
+  comment-Gegenbauer: >
+    The polynomials with $\alpha=\beta$ are called
+    HREF{Gegenbauer_polynomials}[Gegenbauer polynomials]
+    (with parameter $\alpha+1/2$).
+  comment-Chebyshev: >
+    The polynomials with $\alpha=\beta=\pm 1/2$ are called
+    HREF{Chebyshev_polynomials_of_the_second_kind}[Chebyshev polynomials of the second kind] and
+    HREF{Chebyshev_polynomials_of_the_first_kind}[Chebyshev polynomials of the first kind],
+    respectively.    
+  comment-Legendre: >
+    The polynomials with $\alpha=\beta=0$ are called
+    HREF{Legendre_polynomials}[Legendre polynomials].
+  
+Formulas: 
+  forumla-generating-function: >
+    $\sum_{n=0}^\infty P_n^{(\alpha,\beta)}(x)t^n 
+    = \frac{2^{\alpha+\beta}}{R(1-t+R)^\alpha (1+t+R)^\beta}$,
+    where $R = (1-2zt+t)^{1/2}$, 
+    defined via the standard branch of the square root
+    (generating function).
+  formula-symmetry: >
+    $P_n^{(\alpha,\beta)}(-x) = (-1)^n P_n^{(\beta,\alpha)}(x)$ 
+    (symmetry).
+    
+Programs: 
+  program-sage:
+    language: Sage
+    code: |
+      polynomials = {(alpha,beta):
+        {n: jacobi_P(n,alpha,beta,x) for n in [0..10]}
+        for alpha, beta in cartesian_product([[0..2],[0..2]])
+      }
+
+References:
+
+Links:
+  Wiki:
+    title: "Wikipedia: Jacobi polynomials"
+    url: https://en.wikipedia.org/wiki/Jacobi_polynomials
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- polynomial
+- orthogonal polynomials
+
+Data properties:
+  type: Q[]
+  complete: no
+  
+Display properties:
+  number-header: $P_n^{(\alpha,\beta)}(x)$
+
+Data: INPUT{polynomials.yaml}
