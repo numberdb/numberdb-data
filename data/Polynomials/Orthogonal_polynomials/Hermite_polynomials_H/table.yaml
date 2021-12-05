@@ -17,7 +17,7 @@ Parameters:
 Comments:
   comment-orthogonal: >
     The $H_n$ are orthogonal with respect to the inner product
-    $\langle f,g\rangle = \int_{-\infty}^{\infty} f(x)g(x) e^{-x^2/2} dx$.
+    $\langle f,g\rangle = \int_{-\infty}^{\infty} f(x)g(x) e^{-x^2} dx$.
   comment-standardization: > 
     $H_n$ relates to the 
     HREF{Hermite_polynomials_He}[Hermite polynomials in probabilist's convention]
