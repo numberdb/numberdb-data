@@ -1,0 +1,78 @@
+ID: INPUT{id.yaml}
+
+Title: >
+  Equations satisfied by Igusa Invariants of split Jacobians
+
+Definition: >
+  This table contains equations satisfied by the 
+  Igusa Invariants of genus $2$ curves with $(n,n)$ split Jacobians.
+  More precisely, 
+  let $C$ be a genus $2$ curve, 
+  $Y^2 = f(X)$ a model thereof, 
+  $[I_2:I_4:I_6:I_8:I_{10}]$ be the Igusa invariants of this curve,
+  and $(i_1,i_2,i_3)=(144 I_4/I_2^2,-1728(I_2 I_4-3 I_6)/I_2^3,486 I_{10}/I_2^5)$ 
+  the absolute invariants.
+  If $\text{Jac}(C)$ is optimally $(n,n)$-split then its absolute invariants 
+  satisfy the equation $\phi_n=0$ with $\phi_n$ in this table.
+  
+Parameters:
+  n:
+    display: $n$
+    type: Z
+    constraints: $n \geq 2$
+   
+Comments:
+  comment-more-data: >
+    More complete data is available at CITE{BrDoWeb}.
+  
+  comment-sources: >
+    The case $n=2$ is classical, 
+    $n=3$ due to Kuhn CITE{Kuhn}, and
+    $n=4$ due to Bruin and Doerksen CITE{BrDo}.
+  
+Formulas: 
+
+Programs: 
+
+References:
+  Bol:
+    bib: >
+      Oskar Bolza, "Ueber die Reduction hyperelliptischer Integrale erster Ordnung und erster Gattung auf elliptische durch eine Transformation vierten Grades", 
+      Math. Ann. 28 (1887), no. 3, 447-456. 
+  BrDo:
+    bib: >
+      Nils Bruin, Kevin Doerksen, 
+      "The arithmetic of genus two curves with (4,4)-split Jacobians",
+      Canad. J. Math. 63 (2011), 992-1021.
+    arXiv: 0902.3480
+  Kuhn:
+    bib: >
+      R. M. Kuhn, "Curves of genus 2 with split Jacobian".
+      Trans. Amer. Math. Soc. 307(1988), no. 1, 41-49.
+
+Links:
+  BrDoWeb:
+    title: "N. Bruin, K. Doerksen: Equations satisfied by Igusa Invariants of split Jacobians" 
+    url: http://www.cecm.sfu.ca/~nbruin/splitigusa/
+  LMFDB-Igusa:
+    title: "LMFDB knowledge: Igusa invariants of a genus 2 curve"
+    url: https://www.lmfdb.org/knowledge/show/g2c.igusa_invariants
+
+Similar tables:
+  
+Keywords:
+  
+Tags:
+- number theory
+- curves
+
+Data properties:
+  type: Z[]
+  complete: no
+  sources:
+  - CITE{BrDoWeb}
+ 
+Display properties:
+  number-header: $\phi_n$
+
+Numbers: INPUT{polynomials.yaml}
