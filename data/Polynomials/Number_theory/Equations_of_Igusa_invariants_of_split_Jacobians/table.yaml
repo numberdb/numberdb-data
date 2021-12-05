@@ -1,7 +1,7 @@
 ID: INPUT{id.yaml}
 
 Title: >
-  Equations satisfied by Igusa Invariants of split Jacobians
+  Equations satisfied by Igusa invariants of split Jacobians
 
 Definition: >
   This table contains equations satisfied by the 
@@ -75,4 +75,4 @@ Data properties:
 Display properties:
   number-header: $\phi_n$
 
-Numbers: INPUT{polynomials.yaml}
+Data: INPUT{polynomials.yaml}
