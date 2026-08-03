@@ -85,4 +85,4 @@ Data properties:
 Display properties:
   number-header: $P_n^{(\alpha,\beta)}(x)$
 
-Data: INPUT{polynomials.yaml}
+Numbers: INPUT{polynomials.yaml}

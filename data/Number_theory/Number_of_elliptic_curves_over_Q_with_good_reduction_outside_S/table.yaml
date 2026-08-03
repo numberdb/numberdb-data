@@ -50,7 +50,7 @@ References:
       A. Best, B. Matschke,
       "Elliptic curves with good reduction outside of the first six primes".
       2020
-    arxiv: 2007.10535
+    arXiv: 2007.10535
     github: https://github.com/elliptic-curve-data/ec-data-S6
   Cog:
     bib: >
@@ -62,7 +62,7 @@ References:
       "Solving S-unit, Mordell, Thue, Thue-Mahler and generalized 
       Ramanujan-Nagell equations via Shimura-Taniyama conjecture".
       2016  
-    arxiv: 1605.06079
+    arXiv: 1605.06079
     github: https://github.com/bmatschke/solving-classical-diophantine-equations
   Kou:
     bib: >

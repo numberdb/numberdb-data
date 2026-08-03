@@ -75,4 +75,4 @@ Data properties:
 Display properties:
   number-header: $\phi_n$
 
-Data: INPUT{polynomials.yaml}
+Numbers: INPUT{polynomials.yaml}

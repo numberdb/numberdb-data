@@ -65,4 +65,4 @@ Data properties:
 Display properties:
   number-header: $C_n^{\alpha}(x)$
 
-Data: INPUT{polynomials.yaml}
+Numbers: INPUT{polynomials.yaml}

@@ -51,7 +51,8 @@ Tags:
 
 Data properties:
   type: C
-  complete: yes, assuming GRH
+  complete: yes
+  complete-note: assuming GRH
   sources:
   - CITE{SUE}
 

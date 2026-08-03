@@ -79,7 +79,8 @@ Tags:
 
 Data properties:
   type: R
-  complete: unknown (presumably not)
+  complete: unknown
+  complete-note: presumably not
   sources:
   - CITE{Nit98}
   - CITE{BenYaz12}

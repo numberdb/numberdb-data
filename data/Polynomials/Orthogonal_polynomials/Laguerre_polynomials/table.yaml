@@ -63,4 +63,4 @@ Data properties:
 Display properties:
   number-header: $L_n(x)$
 
-Data: INPUT{polynomials.yaml}
+Numbers: INPUT{polynomials.yaml}

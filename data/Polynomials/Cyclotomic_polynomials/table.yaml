@@ -45,4 +45,4 @@ Data properties:
 Display properties:
   number-header: $\Phi_n(x)$
 
-Data: INPUT{polynomials.yaml}
+Numbers: INPUT{polynomials.yaml}
