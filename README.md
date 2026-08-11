@@ -1,5 +1,21 @@
 # numberdb-data
 
+> [!IMPORTANT]
+> **This repository is no longer where tables are edited.**
+>
+> Tables are now edited on [numberdb.org](https://numberdb.org) itself — sign in
+> and use the **edit** link under any table's title. Numbers computed by a
+> program are sent with the
+> [`numberdb` package](https://pypi.org/project/numberdb/) for Python and
+> SageMath, or through the [web API](https://numberdb.org/api/docs) directly.
+> See [how to contribute](https://numberdb.org/help#section-how-to-contribute).
+>
+> The contents here are a **mirror** of what the site holds, kept so that the
+> corpus can be read, cited and forked in bulk. A pull request against this
+> repository will not appear on numberdb.org, so please do not spend the effort:
+> the edit button on the table is the shorter road, and the only one that
+> arrives.
+
 The raw data for [numberdb.org](https://numberdb.org) is contained in this repository, more specifically, in the folder [data](https://github.com/numberdb/numberdb-data/tree/main/data/).
 
 ## For authors/contributors:
